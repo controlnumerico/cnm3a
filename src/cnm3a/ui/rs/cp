@@ -1,0 +1,5 @@
+/usr/local/lib/python3.11/dist-packages/cnm/ui/rs
+
+cp * /home/cnc/.iMG/ 
+sudo cp -r *.TTF /usr/local/share/fonts
+sudo cp -r *.otf /usr/local/share/fonts
