@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>886</width>
-    <height>625</height>
+    <width>1768</width>
+    <height>1364</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,6 +61,9 @@
         </item>
         <item>
          <widget class="RecentFileComboBox" name="recentfilecombobox"/>
+        </item>
+        <item>
+         <widget class="StatusLabel" name="statuslabel"/>
         </item>
         <item>
          <widget class="GcodeTextEdit" name="gcodetextedit"/>
@@ -154,6 +157,11 @@
    <class>ActionButton</class>
    <extends>QPushButton</extends>
    <header>qtpyvcp.widgets.button_widgets.action_button</header>
+  </customwidget>
+  <customwidget>
+   <class>StatusLabel</class>
+   <extends>QLabel</extends>
+   <header>qtpyvcp.widgets.display_widgets.status_label</header>
   </customwidget>
   <customwidget>
    <class>VTKBackPlot</class>
