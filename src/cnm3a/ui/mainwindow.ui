@@ -63,9 +63,6 @@
          <widget class="RecentFileComboBox" name="recentfilecombobox"/>
         </item>
         <item>
-         <widget class="StatusLabel" name="statuslabel"/>
-        </item>
-        <item>
          <widget class="GcodeTextEdit" name="gcodetextedit"/>
         </item>
         <item>
@@ -157,11 +154,6 @@
    <class>ActionButton</class>
    <extends>QPushButton</extends>
    <header>qtpyvcp.widgets.button_widgets.action_button</header>
-  </customwidget>
-  <customwidget>
-   <class>StatusLabel</class>
-   <extends>QLabel</extends>
-   <header>qtpyvcp.widgets.display_widgets.status_label</header>
   </customwidget>
   <customwidget>
    <class>VTKBackPlot</class>
