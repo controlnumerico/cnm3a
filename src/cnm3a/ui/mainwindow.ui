@@ -2447,21 +2447,6 @@ image: url(/home/cnc/.iMG/dial.png);
                   <string/>
                  </property>
                 </widget>
-                <widget class="QDial" name="dial">
-                 <property name="geometry">
-                  <rect>
-                   <x>670</x>
-                   <y>480</y>
-                   <width>111</width>
-                   <height>91</height>
-                  </rect>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">background-color: rgba(134, 94, 60, 20);
-
- </string>
-                 </property>
-                </widget>
                 <widget class="ActionButton" name="btn_rotate">
                  <property name="geometry">
                   <rect>
@@ -2567,7 +2552,6 @@ image: url(/home/cnc/.iMG/dial.png);
                 <zorder>btn_set50</zorder>
                 <zorder>label_2</zorder>
                 <zorder>actiondial</zorder>
-                <zorder>dial</zorder>
                 <zorder>btn_rotate</zorder>
                 <zorder>actionbutton_3</zorder>
                </widget>
