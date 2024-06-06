@@ -6673,6 +6673,38 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
          <string/>
         </property>
        </widget>
+       <widget class="StatusLED" name="statusled_8">
+        <property name="geometry">
+         <rect>
+          <x>895</x>
+          <y>1415</y>
+          <width>170</width>
+          <height>170</height>
+         </rect>
+        </property>
+        <property name="diameter">
+         <number>170</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>245</red>
+          <green>194</green>
+          <blue>17</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashing">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>400</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;name&quot;: &quot;New Rule&quot;, &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}]}]</string>
+        </property>
+       </widget>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
        <zorder>Ref_x_LED</zorder>
@@ -6701,7 +6733,6 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <zorder>Feed</zorder>
        <zorder>Stop</zorder>
        <zorder>Start</zorder>
-       <zorder>EStoper</zorder>
        <zorder>frame_5</zorder>
        <zorder>mode_mdi</zorder>
        <zorder>mode_auto</zorder>
@@ -6718,6 +6749,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <zorder>settings_pushbutton_7</zorder>
        <zorder>statuslabel_24</zorder>
        <zorder>statuslabel_26</zorder>
+       <zorder>statusled_8</zorder>
+       <zorder>EStoper</zorder>
       </widget>
      </widget>
     </item>
