@@ -6676,14 +6676,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="StatusLED" name="statusled_8">
         <property name="geometry">
          <rect>
-          <x>893</x>
-          <y>1413</y>
-          <width>175</width>
-          <height>175</height>
+          <x>895</x>
+          <y>1416</y>
+          <width>170</width>
+          <height>170</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>175</number>
+         <number>170</number>
         </property>
         <property name="color">
          <color>
