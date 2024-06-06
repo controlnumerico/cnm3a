@@ -16,6 +16,12 @@
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
+  <property name="font">
+   <font>
+    <family>DejaVu Sans</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>CnC</string>
   </property>
@@ -5898,7 +5904,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
           <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
          </property>
         </widget>
-        <widget class="StatusLED" name="statusled_4">
+        <widget class="StatusLED" name="Led_AUTO">
          <property name="geometry">
           <rect>
            <x>15</x>
@@ -5933,7 +5939,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
           <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Auto'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'Auto'&quot;, &quot;name&quot;: &quot;blink&quot;}]</string>
          </property>
         </widget>
-        <widget class="StatusLED" name="statusled_6">
+        <widget class="StatusLED" name="Led_MANUAL">
          <property name="geometry">
           <rect>
            <x>145</x>
@@ -5968,7 +5974,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
           <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Manual'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'Manual'&quot;, &quot;name&quot;: &quot;blink&quot;}]</string>
          </property>
         </widget>
-        <widget class="StatusLED" name="statusled_5">
+        <widget class="StatusLED" name="Led_MDI">
          <property name="geometry">
           <rect>
            <x>80</x>
@@ -6006,7 +6012,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
         <widget class="StatusLabel" name="statuslabel_2">
          <property name="geometry">
           <rect>
-           <x>510</x>
+           <x>570</x>
            <y>30</y>
            <width>301</width>
            <height>21</height>
@@ -6038,9 +6044,9 @@ background-color: rgb(136, 138, 133,0);</string>
          </property>
         </widget>
         <zorder>statusled_7</zorder>
-        <zorder>statusled_4</zorder>
-        <zorder>statusled_6</zorder>
-        <zorder>statusled_5</zorder>
+        <zorder>Led_AUTO</zorder>
+        <zorder>Led_MANUAL</zorder>
+        <zorder>Led_MDI</zorder>
         <zorder>label_6</zorder>
         <zorder>label_22</zorder>
         <zorder>label_26</zorder>
