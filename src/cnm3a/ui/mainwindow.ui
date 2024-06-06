@@ -4342,10 +4342,10 @@ background-color: transparent;
         </property>
         <property name="geometry">
          <rect>
-          <x>940</x>
-          <y>17</y>
-          <width>125</width>
-          <height>40</height>
+          <x>917</x>
+          <y>13</y>
+          <width>155</width>
+          <height>48</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -4356,14 +4356,14 @@ background-color: transparent;
         </property>
         <property name="minimumSize">
          <size>
-          <width>120</width>
-          <height>37</height>
+          <width>155</width>
+          <height>48</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>125</width>
-          <height>40</height>
+          <width>145</width>
+          <height>48</height>
          </size>
         </property>
         <property name="baseSize">
@@ -4378,12 +4378,12 @@ background-color: transparent;
         <property name="styleSheet">
          <string notr="true">ActionCheckBox::indicator:checked {
 
-image: url(/home/cnc/.iMG/CNC_on_toggle.png);
+image: url(/home/cnc/.iMG/CNC_on_toggle2.png);
 
 }
 
 ActionCheckBox::indicator:unchecked {
-image: url(/home/cnc/.iMG/CNC_off_toggle.png);
+image: url(/home/cnc/.iMG/CNC_off_toggle2.png);
 }
 
 
