@@ -5340,8 +5340,8 @@ image: url(/home/cnc/.iMG/btn_jog.png);
          <rect>
           <x>620</x>
           <y>1430</y>
-          <width>181</width>
-          <height>52</height>
+          <width>265</width>
+          <height>172</height>
          </rect>
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout_84">
@@ -6676,14 +6676,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="StatusLED" name="statusled_8">
         <property name="geometry">
          <rect>
-          <x>760</x>
-          <y>1415</y>
-          <width>170</width>
-          <height>170</height>
+          <x>893</x>
+          <y>1412</y>
+          <width>30</width>
+          <height>30</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>170</number>
+         <number>30</number>
         </property>
         <property name="color">
          <color>
@@ -6699,7 +6699,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
          <bool>false</bool>
         </property>
         <property name="flashRate">
-         <number>400</number>
+         <number>600</number>
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;name&quot;: &quot;New Rule&quot;, &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}]}]</string>
@@ -6749,8 +6749,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <zorder>settings_pushbutton_7</zorder>
        <zorder>statuslabel_24</zorder>
        <zorder>statuslabel_26</zorder>
-       <zorder>statusled_8</zorder>
        <zorder>EStoper</zorder>
+       <zorder>statusled_8</zorder>
       </widget>
      </widget>
     </item>
