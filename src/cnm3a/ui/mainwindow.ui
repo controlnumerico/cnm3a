@@ -5338,7 +5338,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="QWidget" name="layoutWidget_2">
         <property name="geometry">
          <rect>
-          <x>620</x>
+          <x>600</x>
           <y>1430</y>
           <width>265</width>
           <height>172</height>
@@ -6676,14 +6676,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="StatusLED" name="statusled_8">
         <property name="geometry">
          <rect>
-          <x>891</x>
-          <y>1411</y>
-          <width>180</width>
-          <height>180</height>
+          <x>893</x>
+          <y>1413</y>
+          <width>175</width>
+          <height>175</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>180</number>
+         <number>175</number>
         </property>
         <property name="color">
          <color>
@@ -6699,7 +6699,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
          <bool>false</bool>
         </property>
         <property name="flashRate">
-         <number>600</number>
+         <number>800</number>
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;name&quot;: &quot;New Rule&quot;, &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}]}]</string>
