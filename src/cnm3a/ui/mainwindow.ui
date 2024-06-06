@@ -6699,7 +6699,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
          <bool>false</bool>
         </property>
         <property name="flashRate">
-         <number>800</number>
+         <number>300</number>
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;name&quot;: &quot;New Rule&quot;, &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}]}]</string>
