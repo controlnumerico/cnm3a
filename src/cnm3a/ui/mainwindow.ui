@@ -4387,14 +4387,14 @@ image: url(/home/cnc/.iMG/CNC_off_toggle.png);
        <widget class="HalLedIndicator" name="Ref_x_LED">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>290</y>
-          <width>18</width>
-          <height>18</height>
+          <x>27</x>
+          <y>280</y>
+          <width>22</width>
+          <height>22</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>18</number>
+         <number>22</number>
         </property>
         <property name="color">
          <color>
@@ -4416,14 +4416,14 @@ image: url(/home/cnc/.iMG/CNC_off_toggle.png);
        <widget class="HalLedIndicator" name="Ref_z_LED">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>400</y>
-          <width>18</width>
-          <height>18</height>
+          <x>27</x>
+          <y>385</y>
+          <width>22</width>
+          <height>22</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>18</number>
+         <number>22</number>
         </property>
         <property name="color">
          <color>
@@ -4445,9 +4445,9 @@ image: url(/home/cnc/.iMG/CNC_off_toggle.png);
        <widget class="QLabel" name="label_16">
         <property name="geometry">
          <rect>
-          <x>10</x>
-          <y>260</y>
-          <width>61</width>
+          <x>35</x>
+          <y>250</y>
+          <width>21</width>
           <height>31</height>
          </rect>
         </property>
@@ -4477,44 +4477,7 @@ background-color: rgb(136, 138, 133,0);
  </string>
         </property>
         <property name="text">
-         <string>REF X</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_18">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>370</y>
-          <width>61</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Liberation Mono</family>
-          <pointsize>11</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- </string>
-        </property>
-        <property name="text">
-         <string>REF Z</string>
+         <string>X</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_19">
@@ -6695,13 +6658,126 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Flashing&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}, {&quot;name&quot;: &quot;New Rule&quot;, &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'E-Stop'&quot;, &quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}]}]</string>
         </property>
        </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>232</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Liberation Mono</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>HOME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>334</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Liberation Mono</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>HOME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>35</x>
+          <y>353</y>
+          <width>21</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Liberation Mono</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Z</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
        <zorder>Ref_x_LED</zorder>
        <zorder>Ref_z_LED</zorder>
        <zorder>label_16</zorder>
-       <zorder>label_18</zorder>
        <zorder>label_19</zorder>
        <zorder>label_20</zorder>
        <zorder>ref_all_button_6</zorder>
@@ -6741,6 +6817,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <zorder>statuslabel_24</zorder>
        <zorder>statuslabel_26</zorder>
        <zorder>EStoper</zorder>
+       <zorder>label_18</zorder>
+       <zorder>label_28</zorder>
+       <zorder>label_27</zorder>
       </widget>
      </widget>
     </item>
