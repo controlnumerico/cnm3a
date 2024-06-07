@@ -1260,9 +1260,9 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="MDIEntry" name="mdiEntry">
                  <property name="geometry">
                   <rect>
-                   <x>519</x>
+                   <x>479</x>
                    <y>1021</y>
-                   <width>361</width>
+                   <width>401</width>
                    <height>50</height>
                   </rect>
                  </property>
@@ -1775,8 +1775,8 @@ color: rgb(237, 51, 59);</string>
                 <widget class="QLabel" name="label_17">
                  <property name="geometry">
                   <rect>
-                   <x>260</x>
-                   <y>390</y>
+                   <x>580</x>
+                   <y>475</y>
                    <width>81</width>
                    <height>101</height>
                   </rect>
@@ -1807,8 +1807,8 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_21">
                  <property name="geometry">
                   <rect>
-                   <x>364</x>
-                   <y>400</y>
+                   <x>684</x>
+                   <y>485</y>
                    <width>51</width>
                    <height>31</height>
                   </rect>
@@ -1839,8 +1839,8 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="StatusLabel" name="statuslabel_17">
                  <property name="geometry">
                   <rect>
-                   <x>420</x>
-                   <y>395</y>
+                   <x>740</x>
+                   <y>480</y>
                    <width>110</width>
                    <height>45</height>
                   </rect>
@@ -1888,8 +1888,8 @@ color: rgb(56, 54, 57);
                 <widget class="StatusLabel" name="statuslabel_14">
                  <property name="geometry">
                   <rect>
-                   <x>420</x>
-                   <y>432</y>
+                   <x>740</x>
+                   <y>517</y>
                    <width>110</width>
                    <height>45</height>
                   </rect>
@@ -1937,8 +1937,8 @@ color: rgb(56, 54, 57);
                 <widget class="QLabel" name="label_24">
                  <property name="geometry">
                   <rect>
-                   <x>364</x>
-                   <y>440</y>
+                   <x>684</x>
+                   <y>525</y>
                    <width>51</width>
                    <height>31</height>
                   </rect>
@@ -1969,8 +1969,8 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_44">
                  <property name="geometry">
                   <rect>
-                   <x>20</x>
-                   <y>390</y>
+                   <x>580</x>
+                   <y>560</y>
                    <width>81</width>
                    <height>101</height>
                   </rect>
@@ -2002,9 +2002,9 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>0</x>
-                   <y>730</y>
+                   <y>650</y>
                    <width>881</width>
-                   <height>341</height>
+                   <height>421</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
@@ -2347,8 +2347,8 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>0</x>
-                   <y>480</y>
-                   <width>881</width>
+                   <y>395</y>
+                   <width>531</width>
                    <height>251</height>
                   </rect>
                  </property>
@@ -2427,8 +2427,8 @@ color: rgb(56, 54, 57);
                 <widget class="QLabel" name="label_13">
                  <property name="geometry">
                   <rect>
-                   <x>770</x>
-                   <y>490</y>
+                   <x>420</x>
+                   <y>400</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
@@ -5837,7 +5837,7 @@ border-radius: 4px;
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1210</y>
+          <y>1220</y>
           <width>125</width>
           <height>91</height>
          </rect>
