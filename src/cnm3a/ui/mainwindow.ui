@@ -120,7 +120,7 @@ image: url(/home/cnc/.iMG/CNC_Main_3_fw.png);
           <x>61</x>
           <y>130</y>
           <width>878</width>
-          <height>1171</height>
+          <height>1272</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -325,7 +325,7 @@ image: url(/home/cnc/.iMG/CNC_Main_3_fw.png);
                <x>-5</x>
                <y>0</y>
                <width>990</width>
-               <height>1071</height>
+               <height>1181</height>
               </rect>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout">
@@ -1711,7 +1711,7 @@ color: rgb(237, 51, 59);</string>
                  <property name="geometry">
                   <rect>
                    <x>0</x>
-                   <y>1000</y>
+                   <y>1110</y>
                    <width>131</width>
                    <height>71</height>
                   </rect>
@@ -2116,8 +2116,8 @@ background-color: rgb(136, 138, 133,0);
                   <rect>
                    <x>0</x>
                    <y>570</y>
-                   <width>300</width>
-                   <height>300</height>
+                   <width>371</width>
+                   <height>331</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
@@ -2463,48 +2463,6 @@ image: url(/home/cnc/.iMG/dial.png);
                   <string>[]</string>
                  </property>
                 </widget>
-                <widget class="ActionButton" name="actionbutton_3">
-                 <property name="geometry">
-                  <rect>
-                   <x>-50</x>
-                   <y>880</y>
-                   <width>91</width>
-                   <height>52</height>
-                  </rect>
-                 </property>
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>52</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>52</height>
-                  </size>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">QPushButton {
-   	font: 17pt &quot;Bebas Kai&quot;;
-}</string>
-                 </property>
-                 <property name="text">
-                  <string>CYCLE START</string>
-                 </property>
-                 <property name="actionName" stdset="0">
-                  <string>program.run</string>
-                 </property>
-                </widget>
                 <zorder>dro_entry_main_x_3</zorder>
                 <zorder>dro_entry_main_z_3</zorder>
                 <zorder>label</zorder>
@@ -2553,7 +2511,6 @@ image: url(/home/cnc/.iMG/dial.png);
                 <zorder>label_2</zorder>
                 <zorder>actiondial</zorder>
                 <zorder>btn_rotate</zorder>
-                <zorder>actionbutton_3</zorder>
                </widget>
               </item>
              </layout>
@@ -2938,6 +2895,245 @@ QHeaderView {
              </property>
              <property name="focusPolicy">
               <enum>Qt::NoFocus</enum>
+             </property>
+            </widget>
+            <widget class="StatusLabel" name="statuslabel_26">
+             <property name="geometry">
+              <rect>
+               <x>480</x>
+               <y>670</y>
+               <width>300</width>
+               <height>111</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>300</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>lcd phone</family>
+               <pointsize>24</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="indent">
+              <number>0</number>
+             </property>
+             <property name="rules" stdset="0">
+              <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mcodes?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;active_m_codes&quot;}]</string>
+             </property>
+             <property name="statusItem" stdset="0">
+              <string/>
+             </property>
+            </widget>
+            <widget class="StatusLabel" name="statuslabel_24">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>720</y>
+               <width>291</width>
+               <height>171</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>300</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>lcd phone</family>
+               <pointsize>24</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="indent">
+              <number>0</number>
+             </property>
+             <property name="rules" stdset="0">
+              <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:gcodes?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;active_g_codes&quot;}]</string>
+             </property>
+             <property name="statusItem" stdset="0">
+              <string/>
+             </property>
+            </widget>
+            <widget class="JogIncrementWidget" name="jogincrement">
+             <property name="geometry">
+              <rect>
+               <x>350</x>
+               <y>990</y>
+               <width>281</width>
+               <height>42</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+   	font: 15pt &quot;Bebas Kai&quot;;
+
+}
+
+</string>
+             </property>
+             <property name="diameter" stdset="0">
+              <number>0</number>
+             </property>
+            </widget>
+            <widget class="ActionButton" name="actionbutton_5">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>940</y>
+               <width>31</width>
+               <height>52</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>52</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>52</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+   	font: 17pt &quot;Bebas Kai&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>STOP</string>
+             </property>
+             <property name="actionName" stdset="0">
+              <string>program.abort</string>
+             </property>
+            </widget>
+            <widget class="ActionButton" name="Stop">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>910</y>
+               <width>100</width>
+               <height>100</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#Stop{
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/.iMG/Stop_off.png);
+}
+
+#Stop:pressed {
+
+image: url(/home/cnc/.iMG/Feed_off.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="actionName" stdset="0">
+              <string>program.abort</string>
              </property>
             </widget>
            </widget>
@@ -4483,8 +4679,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_19">
         <property name="geometry">
          <rect>
-          <x>840</x>
-          <y>1860</y>
+          <x>970</x>
+          <y>1400</y>
           <width>51</width>
           <height>31</height>
          </rect>
@@ -4515,8 +4711,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_20">
         <property name="geometry">
          <rect>
-          <x>320</x>
-          <y>1710</y>
+          <x>860</x>
+          <y>1470</y>
           <width>121</width>
           <height>31</height>
          </rect>
@@ -4850,48 +5046,6 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <string>G10 L20 P{ch[0]} X0.0 Y0.0 Z0.0</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="actionbutton_5">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>1070</y>
-          <width>71</width>
-          <height>52</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>52</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>52</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-   	font: 17pt &quot;Bebas Kai&quot;;
-}</string>
-        </property>
-        <property name="text">
-         <string>STOP</string>
-        </property>
-        <property name="actionName" stdset="0">
-         <string>program.abort</string>
-        </property>
-       </widget>
        <widget class="MDIButton" name="ZeroXY">
         <property name="enabled">
          <bool>false</bool>
@@ -5090,8 +5244,8 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
        <widget class="ActionButton" name="x_plus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>670</x>
-          <y>1510</y>
+          <x>730</x>
+          <y>1530</y>
           <width>60</width>
           <height>60</height>
          </rect>
@@ -5142,8 +5296,8 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="z_minus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>610</x>
-          <y>1570</y>
+          <x>670</x>
+          <y>1590</y>
           <width>60</width>
           <height>60</height>
          </rect>
@@ -5193,8 +5347,8 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="x_minus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>670</x>
-          <y>1630</y>
+          <x>730</x>
+          <y>1650</y>
           <width>60</width>
           <height>60</height>
          </rect>
@@ -5245,8 +5399,8 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="z_plus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>730</x>
-          <y>1570</y>
+          <x>790</x>
+          <y>1590</y>
           <width>60</width>
           <height>60</height>
          </rect>
@@ -5291,10 +5445,10 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="QWidget" name="layoutWidget_2">
         <property name="geometry">
          <rect>
-          <x>600</x>
-          <y>1430</y>
-          <width>265</width>
-          <height>172</height>
+          <x>610</x>
+          <y>1420</y>
+          <width>261</width>
+          <height>61</height>
          </rect>
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout_84">
@@ -5434,45 +5588,6 @@ border-radius: 4px;
          </item>
         </layout>
        </widget>
-       <widget class="JogIncrementWidget" name="jogincrement">
-        <property name="geometry">
-         <rect>
-          <x>500</x>
-          <y>1710</y>
-          <width>281</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-   	font: 15pt &quot;Bebas Kai&quot;;
-
-}
-
-</string>
-        </property>
-        <property name="diameter" stdset="0">
-         <number>0</number>
-        </property>
-       </widget>
        <widget class="QPushButton" name="exitAppBtn">
         <property name="geometry">
          <rect>
@@ -5528,7 +5643,7 @@ image: url(/home/cnc/.iMG/Btn_black_pressed.png);
         <property name="geometry">
          <rect>
           <x>930</x>
-          <y>1690</y>
+          <y>1800</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5581,62 +5696,11 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
          <string>program.pause</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="Stop">
-        <property name="geometry">
-         <rect>
-          <x>930</x>
-          <y>1790</y>
-          <width>100</width>
-          <height>100</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>100</width>
-          <height>100</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>100</width>
-          <height>100</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#Stop{
-background-color: transparent;
-background: none;
-border:none;
- 
-image: url(/home/cnc/.iMG/Stop_off.png);
-}
-
-#Stop:pressed {
-
-image: url(/home/cnc/.iMG/Feed_off.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="actionName" stdset="0">
-         <string>program.abort</string>
-        </property>
-       </widget>
        <widget class="ActionButton" name="Start">
         <property name="geometry">
          <rect>
           <x>930</x>
-          <y>1590</y>
+          <y>1700</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5663,7 +5727,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
         <property name="geometry">
          <rect>
           <x>900</x>
-          <y>1420</y>
+          <y>1524</y>
           <width>160</width>
           <height>160</height>
          </rect>
@@ -6004,7 +6068,7 @@ background-color: rgb(136, 138, 133,0);</string>
         <property name="geometry">
          <rect>
           <x>110</x>
-          <y>1330</y>
+          <y>1430</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -6030,7 +6094,7 @@ background-color: rgb(136, 138, 133,0);</string>
         <property name="geometry">
          <rect>
           <x>180</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>70</width>
           <height>70</height>
          </rect>
@@ -6073,7 +6137,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_MDI_pressed.png);
         <property name="geometry">
          <rect>
           <x>100</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>70</width>
           <height>70</height>
          </rect>
@@ -6113,7 +6177,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         <property name="geometry">
          <rect>
           <x>190</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -6139,7 +6203,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         <property name="geometry">
          <rect>
           <x>270</x>
-          <y>1330</y>
+          <y>1430</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -6165,7 +6229,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         <property name="geometry">
          <rect>
           <x>260</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>70</width>
           <height>70</height>
          </rect>
@@ -6205,7 +6269,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>340</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>81</width>
           <height>40</height>
          </rect>
@@ -6253,7 +6317,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>430</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>81</width>
           <height>40</height>
          </rect>
@@ -6298,7 +6362,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>520</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>71</width>
           <height>40</height>
          </rect>
@@ -6343,7 +6407,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>590</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>81</width>
           <height>40</height>
          </rect>
@@ -6388,7 +6452,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>680</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>71</width>
           <height>40</height>
          </rect>
@@ -6433,7 +6497,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>770</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>81</width>
           <height>40</height>
          </rect>
@@ -6478,7 +6542,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>870</x>
-          <y>1320</y>
+          <y>1420</y>
           <width>71</width>
           <height>40</height>
          </rect>
@@ -6519,118 +6583,11 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
          <string>backplot.show-grid</string>
         </property>
        </widget>
-       <widget class="StatusLabel" name="statuslabel_24">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>60</x>
-          <y>1520</y>
-          <width>181</width>
-          <height>91</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>1</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>35</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>300</width>
-          <height>300</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>lcd phone</family>
-          <pointsize>24</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-        </property>
-        <property name="wordWrap">
-         <bool>true</bool>
-        </property>
-        <property name="indent">
-         <number>0</number>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:gcodes?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;active_g_codes&quot;}]</string>
-        </property>
-        <property name="statusItem" stdset="0">
-         <string/>
-        </property>
-       </widget>
-       <widget class="StatusLabel" name="statuslabel_26">
-        <property name="geometry">
-         <rect>
-          <x>110</x>
-          <y>1530</y>
-          <width>141</width>
-          <height>111</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>1</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>35</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>300</width>
-          <height>300</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>lcd phone</family>
-          <pointsize>24</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
-        </property>
-        <property name="wordWrap">
-         <bool>true</bool>
-        </property>
-        <property name="indent">
-         <number>0</number>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mcodes?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;active_m_codes&quot;}]</string>
-        </property>
-        <property name="statusItem" stdset="0">
-         <string/>
-        </property>
-       </widget>
        <widget class="StatusLED" name="statusled_8">
         <property name="geometry">
          <rect>
           <x>895</x>
-          <y>1416</y>
+          <y>1520</y>
           <width>170</width>
           <height>170</height>
          </rect>
@@ -6772,6 +6729,48 @@ background-color: rgb(136, 138, 133,0);
          <string>Z</string>
         </property>
        </widget>
+       <widget class="ActionButton" name="actionbutton_3">
+        <property name="geometry">
+         <rect>
+          <x>1030</x>
+          <y>1730</y>
+          <width>41</width>
+          <height>52</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+   	font: 17pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>CYCLE START</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.run</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -6784,7 +6783,6 @@ background-color: rgb(136, 138, 133,0);
        <zorder>zero_x_button_9</zorder>
        <zorder>zero_z_button_9</zorder>
        <zorder>zero_all_button_3</zorder>
-       <zorder>actionbutton_5</zorder>
        <zorder>ZeroXY</zorder>
        <zorder>GoFront</zorder>
        <zorder>GoXY</zorder>
@@ -6795,10 +6793,8 @@ background-color: rgb(136, 138, 133,0);
        <zorder>x_minus_jogbutton</zorder>
        <zorder>z_plus_jogbutton</zorder>
        <zorder>layoutWidget_2</zorder>
-       <zorder>jogincrement</zorder>
        <zorder>exitAppBtn</zorder>
        <zorder>Feed</zorder>
-       <zorder>Stop</zorder>
        <zorder>Start</zorder>
        <zorder>frame_5</zorder>
        <zorder>mode_mdi</zorder>
@@ -6814,12 +6810,11 @@ background-color: rgb(136, 138, 133,0);
        <zorder>settings_pushbutton_5</zorder>
        <zorder>settings_pushbutton_6</zorder>
        <zorder>settings_pushbutton_7</zorder>
-       <zorder>statuslabel_24</zorder>
-       <zorder>statuslabel_26</zorder>
        <zorder>EStoper</zorder>
        <zorder>label_18</zorder>
        <zorder>label_28</zorder>
        <zorder>label_27</zorder>
+       <zorder>actionbutton_3</zorder>
       </widget>
      </widget>
     </item>
