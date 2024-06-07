@@ -1999,37 +1999,6 @@ border-style: transparant;
                   <string>T:</string>
                  </property>
                 </widget>
-                <widget class="VTKBackPlot" name="vtk">
-                 <property name="geometry">
-                  <rect>
-                   <x>0</x>
-                   <y>600</y>
-                   <width>881</width>
-                   <height>471</height>
-                  </rect>
-                 </property>
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>1</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">VTKBackPlot {
-    border: solid;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 8px;
-}</string>
-                 </property>
-                 <property name="backgroundColor" stdset="0">
-                  <color>
-                   <red>213</red>
-                   <green>227</green>
-                   <blue>238</blue>
-                  </color>
-                 </property>
-                </widget>
                 <widget class="QPushButton" name="perspective_button">
                  <property name="geometry">
                   <rect>
@@ -2500,6 +2469,37 @@ background-color: rgb(136, 138, 133,0);
                   <bool>true</bool>
                  </property>
                 </widget>
+                <widget class="VTKBackPlot" name="vtk">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>600</y>
+                   <width>881</width>
+                   <height>471</height>
+                  </rect>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>1</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">VTKBackPlot {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 8px;
+}</string>
+                 </property>
+                 <property name="backgroundColor" stdset="0">
+                  <color>
+                   <red>32</red>
+                   <green>36</green>
+                   <blue>37</blue>
+                  </color>
+                 </property>
+                </widget>
                 <zorder>label_44</zorder>
                 <zorder>dro_entry_main_x_3</zorder>
                 <zorder>dro_entry_main_z_3</zorder>
@@ -2536,7 +2536,6 @@ background-color: rgb(136, 138, 133,0);
                 <zorder>statuslabel_17</zorder>
                 <zorder>statuslabel_14</zorder>
                 <zorder>label_24</zorder>
-                <zorder>vtk</zorder>
                 <zorder>perspective_button</zorder>
                 <zorder>dro_entry_main_z_4</zorder>
                 <zorder>label_8</zorder>
@@ -2546,8 +2545,9 @@ background-color: rgb(136, 138, 133,0);
                 <zorder>dro_entry_main_x_14</zorder>
                 <zorder>gcodetextedit_2</zorder>
                 <zorder>label_13</zorder>
-                <zorder>mdiEntry</zorder>
                 <zorder>perspective_button_2</zorder>
+                <zorder>vtk</zorder>
+                <zorder>mdiEntry</zorder>
                </widget>
               </item>
              </layout>
@@ -7166,6 +7166,117 @@ background-color: rgb(136, 138, 133,0);
          <string>Z</string>
         </property>
        </widget>
+       <widget class="VCPSettingsPushButton" name="machine_boundary_button">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>1590</y>
+          <width>161</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>MCH BDRY</string>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-machine-bounds</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="program_boundary_button">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>1541</y>
+          <width>161</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>PGM BDRY</string>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-program-bounds</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="plot_grid_button">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>1639</y>
+          <width>161</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>PLOT GRID</string>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-grid</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -7213,6 +7324,9 @@ background-color: rgb(136, 138, 133,0);
        <zorder>label_58</zorder>
        <zorder>Ref_z_LED_3</zorder>
        <zorder>label_57</zorder>
+       <zorder>machine_boundary_button</zorder>
+       <zorder>program_boundary_button</zorder>
+       <zorder>plot_grid_button</zorder>
       </widget>
      </widget>
     </item>
@@ -7395,22 +7509,6 @@ background-color: rgb(136, 138, 133,0);
     <hint type="destinationlabel">
      <x>488</x>
      <y>188</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>perspective_button</sender>
-   <signal>clicked()</signal>
-   <receiver>vtk</receiver>
-   <slot>setViewPersp()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>348</x>
-     <y>1168</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>526</x>
-     <y>882</y>
     </hint>
    </hints>
   </connection>
