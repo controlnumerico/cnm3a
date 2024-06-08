@@ -5981,95 +5981,6 @@ image: url(/home/cnc/.iMG/btn_jog.png);
          <string>machine.jog.axis:z,pos</string>
         </property>
        </widget>
-       <widget class="QWidget" name="layoutWidget_2">
-        <property name="geometry">
-         <rect>
-          <x>350</x>
-          <y>1420</y>
-          <width>347</width>
-          <height>61</height>
-         </rect>
-        </property>
-        <layout class="QHBoxLayout" name="horizontalLayout_84">
-         <property name="spacing">
-          <number>15</number>
-         </property>
-         <property name="leftMargin">
-          <number>0</number>
-         </property>
-         <property name="rightMargin">
-          <number>0</number>
-         </property>
-         <item>
-          <widget class="QPushButton" name="y_view_button">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>75</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>75</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="focusPolicy">
-            <enum>Qt::NoFocus</enum>
-           </property>
-           <property name="styleSheet">
-            <string notr="true"/>
-           </property>
-           <property name="text">
-            <string>Y View</string>
-           </property>
-           <property name="checkable">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="z_view_button">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>75</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>75</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="focusPolicy">
-            <enum>Qt::NoFocus</enum>
-           </property>
-           <property name="styleSheet">
-            <string notr="true"/>
-           </property>
-           <property name="text">
-            <string>Z View</string>
-           </property>
-           <property name="checkable">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </widget>
        <widget class="QPushButton" name="exitAppBtn">
         <property name="geometry">
          <rect>
@@ -7844,6 +7755,256 @@ background-color: rgb(136, 138, 133,0);
          <string>View</string>
         </property>
        </widget>
+       <widget class="QPushButton" name="y_view_button">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>900</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#y_view_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#y_view_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="z_view_button">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>980</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#z_view_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#z_view_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_63">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>950</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>View</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_64">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>940</y>
+          <width>21</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_65">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1020</y>
+          <width>21</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Z</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_66">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>1030</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>View</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -7865,7 +8026,6 @@ background-color: rgb(136, 138, 133,0);
        <zorder>z_minus_jogbutton</zorder>
        <zorder>x_minus_jogbutton</zorder>
        <zorder>z_plus_jogbutton</zorder>
-       <zorder>layoutWidget_2</zorder>
        <zorder>exitAppBtn</zorder>
        <zorder>Feed</zorder>
        <zorder>Start</zorder>
@@ -7901,6 +8061,12 @@ background-color: rgb(136, 138, 133,0);
        <zorder>label_61</zorder>
        <zorder>x_view_button</zorder>
        <zorder>label_62</zorder>
+       <zorder>y_view_button</zorder>
+       <zorder>z_view_button</zorder>
+       <zorder>label_63</zorder>
+       <zorder>label_64</zorder>
+       <zorder>label_65</zorder>
+       <zorder>label_66</zorder>
       </widget>
      </widget>
     </item>
