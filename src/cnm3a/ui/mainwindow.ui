@@ -6001,37 +6001,6 @@ image: url(/home/cnc/.iMG/btn_jog.png);
           <number>0</number>
          </property>
          <item>
-          <widget class="QPushButton" name="iso_view_button">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>75</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>75</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="focusPolicy">
-            <enum>Qt::NoFocus</enum>
-           </property>
-           <property name="text">
-            <string>ISO VIEW</string>
-           </property>
-           <property name="checkable">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QPushButton" name="y_view_button">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -7690,6 +7659,89 @@ QPushButton:checked {
          <bool>false</bool>
         </property>
        </widget>
+       <widget class="QPushButton" name="iso_view_button">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>740</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#iso_view_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_60">
+        <property name="geometry">
+         <rect>
+          <x>16</x>
+          <y>780</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>ISOM</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -7742,6 +7794,8 @@ QPushButton:checked {
        <zorder>pan_button</zorder>
        <zorder>zoom_in_button</zorder>
        <zorder>zoom_out_button</zorder>
+       <zorder>iso_view_button</zorder>
+       <zorder>label_60</zorder>
       </widget>
      </widget>
     </item>
@@ -7928,22 +7982,6 @@ QPushButton:checked {
    </hints>
   </connection>
   <connection>
-   <sender>iso_view_button</sender>
-   <signal>clicked()</signal>
-   <receiver>vtk</receiver>
-   <slot>setViewP()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>397</x>
-     <y>1459</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>508</x>
-     <y>977</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>y_view_button</sender>
    <signal>clicked()</signal>
    <receiver>vtk</receiver>
@@ -7984,6 +8022,22 @@ QPushButton:checked {
     <hint type="sourcelabel">
      <x>667</x>
      <y>1459</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>iso_view_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewP()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>769</y>
     </hint>
     <hint type="destinationlabel">
      <x>508</x>
