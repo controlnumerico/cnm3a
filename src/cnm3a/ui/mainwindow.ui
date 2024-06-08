@@ -7382,8 +7382,8 @@ border-radius: 4px;
        <widget class="QPushButton" name="pan_button">
         <property name="geometry">
          <rect>
-          <x>380</x>
-          <y>1510</y>
+          <x>10</x>
+          <y>1410</y>
           <width>75</width>
           <height>33</height>
          </rect>
@@ -7459,10 +7459,10 @@ QPushButton:checked {
        <widget class="QPushButton" name="zoom_in_button">
         <property name="geometry">
          <rect>
-          <x>380</x>
-          <y>1555</y>
-          <width>75</width>
-          <height>33</height>
+          <x>10</x>
+          <y>1060</y>
+          <width>42</width>
+          <height>42</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7473,24 +7473,33 @@ QPushButton:checked {
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#zoom_in_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#zoom_in_button :pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
         </property>
         <property name="text">
-         <string>ZOOM +</string>
+         <string/>
         </property>
         <property name="checkable">
          <bool>false</bool>
@@ -7499,10 +7508,10 @@ QPushButton:checked {
        <widget class="QPushButton" name="zoom_out_button">
         <property name="geometry">
          <rect>
-          <x>380</x>
-          <y>1600</y>
-          <width>75</width>
-          <height>33</height>
+          <x>10</x>
+          <y>1140</y>
+          <width>42</width>
+          <height>42</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7513,24 +7522,33 @@ QPushButton:checked {
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#zoom_out_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#zoom_out_button :pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
         </property>
         <property name="text">
-         <string>ZOOM -</string>
+         <string/>
         </property>
         <property name="checkable">
          <bool>false</bool>
@@ -7752,7 +7770,7 @@ background-color: rgb(136, 138, 133,0);
  </string>
         </property>
         <property name="text">
-         <string>View</string>
+         <string>Vista</string>
         </property>
        </widget>
        <widget class="QPushButton" name="y_view_button">
@@ -7888,7 +7906,7 @@ background-color: rgb(136, 138, 133,0);
  </string>
         </property>
         <property name="text">
-         <string>View</string>
+         <string>Vista</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_64">
@@ -8002,7 +8020,159 @@ background-color: rgb(136, 138, 133,0);
  </string>
         </property>
         <property name="text">
-         <string>View</string>
+         <string>Vista</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_67">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>1110</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Zoom</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_68">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1100</y>
+          <width>21</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_69">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>1190</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Zoom</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_70">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1180</y>
+          <width>21</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>-</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8067,6 +8237,10 @@ background-color: rgb(136, 138, 133,0);
        <zorder>label_64</zorder>
        <zorder>label_65</zorder>
        <zorder>label_66</zorder>
+       <zorder>label_67</zorder>
+       <zorder>label_68</zorder>
+       <zorder>label_69</zorder>
+       <zorder>label_70</zorder>
       </widget>
      </widget>
     </item>
@@ -8309,6 +8483,38 @@ background-color: rgb(136, 138, 133,0);
     <hint type="sourcelabel">
      <x>39</x>
      <y>769</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoom_in_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>zoomIn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>1119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoom_out_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>zoomOut()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>1179</y>
     </hint>
     <hint type="destinationlabel">
      <x>508</x>
