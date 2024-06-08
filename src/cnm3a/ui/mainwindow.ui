@@ -7690,12 +7690,21 @@ QPushButton:checked {
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">#iso_view_button {
+         <string notr="true">
+
+#iso_view_button {
+font: 25pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
 image: url(/home/cnc/.iMG/btn_42x42.png);
-}</string>
+}
+
+#iso_view_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}
+
+</string>
         </property>
         <property name="text">
          <string/>
