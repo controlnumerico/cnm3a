@@ -3681,6 +3681,110 @@ border-radius: 4px;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
+            <widget class="MDIButton" name="GoFront">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>490</y>
+               <width>61</width>
+               <height>95</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#GoFront {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoFront:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+             </property>
+             <property name="text">
+              <string>Go Front</string>
+             </property>
+            </widget>
+            <widget class="MDIButton" name="GoXYZ">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>710</y>
+               <width>51</width>
+               <height>95</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#GoXYZ {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoXYZ:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+             </property>
+             <property name="text">
+              <string>Go X Y Zero</string>
+             </property>
+            </widget>
+            <widget class="MDIButton" name="GoBack">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>820</y>
+               <width>51</width>
+               <height>95</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#GoBack {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+             </property>
+             <property name="text">
+              <string>Go Back</string>
+             </property>
+            </widget>
+            <widget class="MDIButton" name="GoXY">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>600</y>
+               <width>61</width>
+               <height>95</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#GoXY {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoXY:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+             </property>
+             <property name="text">
+              <string>Go X Y Zero</string>
+             </property>
+            </widget>
            </widget>
           </item>
          </layout>
@@ -5592,7 +5696,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>650</y>
+          <y>630</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5674,110 +5778,6 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="MDICommand" stdset="0">
          <string>G10 L20 P{ch[0]} X0.0</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoFront">
-        <property name="geometry">
-         <rect>
-          <x>950</x>
-          <y>750</y>
-          <width>125</width>
-          <height>95</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoFront {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoFront:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go Front</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoXY">
-        <property name="geometry">
-         <rect>
-          <x>950</x>
-          <y>860</y>
-          <width>125</width>
-          <height>95</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoXY {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoXY:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go X Y Zero</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoBack">
-        <property name="geometry">
-         <rect>
-          <x>950</x>
-          <y>1080</y>
-          <width>125</width>
-          <height>95</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoBack {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoBack:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go Back</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoXYZ">
-        <property name="geometry">
-         <rect>
-          <x>950</x>
-          <y>970</y>
-          <width>125</width>
-          <height>95</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoXYZ {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoXYZ:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go X Y Zero</string>
         </property>
        </widget>
        <widget class="ActionButton" name="x_plus_jogbutton">
@@ -5985,7 +5985,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1220</y>
+          <y>1300</y>
           <width>125</width>
           <height>91</height>
          </rect>
@@ -6661,9 +6661,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="VCPSettingsPushButton" name="settings_pushbutton_3">
         <property name="geometry">
          <rect>
-          <x>190</x>
-          <y>1630</y>
-          <width>71</width>
+          <x>950</x>
+          <y>980</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -6681,8 +6681,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="font">
@@ -6696,8 +6696,20 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_3 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_3:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>PGM TICKS</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-program-ticks</string>
@@ -6706,9 +6718,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="VCPSettingsPushButton" name="settings_pushbutton_4">
         <property name="geometry">
          <rect>
-          <x>270</x>
-          <y>1630</y>
-          <width>81</width>
+          <x>950</x>
+          <y>1140</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -6726,8 +6738,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="font">
@@ -6741,8 +6753,20 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_4 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_4:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>MCH TICKS</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-machine-ticks</string>
@@ -6751,9 +6775,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="VCPSettingsPushButton" name="settings_pushbutton_5">
         <property name="geometry">
          <rect>
-          <x>190</x>
-          <y>1670</y>
-          <width>71</width>
+          <x>950</x>
+          <y>1060</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -6771,8 +6795,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="font">
@@ -6786,8 +6810,20 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_5 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_5:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>PGM LABEL</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-program-labels</string>
@@ -6796,9 +6832,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
        <widget class="VCPSettingsPushButton" name="settings_pushbutton_6">
         <property name="geometry">
          <rect>
-          <x>270</x>
-          <y>1670</y>
-          <width>81</width>
+          <x>950</x>
+          <y>1220</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -6816,8 +6852,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="font">
@@ -6831,8 +6867,20 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_6 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_6:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>MCH LABEL</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-machine-labels</string>
@@ -7134,9 +7182,9 @@ background-color: rgb(136, 138, 133,0);
        <widget class="VCPSettingsPushButton" name="machine_boundary_button">
         <property name="geometry">
          <rect>
-          <x>190</x>
-          <y>1550</y>
-          <width>161</width>
+          <x>950</x>
+          <y>820</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -7154,15 +7202,27 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="maximumSize">
          <size>
-          <width>16777215</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#machine_boundary_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#machine_boundary_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>MCH BDRY</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-machine-bounds</string>
@@ -7171,9 +7231,9 @@ background-color: rgb(136, 138, 133,0);
        <widget class="VCPSettingsPushButton" name="program_boundary_button">
         <property name="geometry">
          <rect>
-          <x>190</x>
-          <y>1510</y>
-          <width>161</width>
+          <x>950</x>
+          <y>740</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -7191,15 +7251,27 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="maximumSize">
          <size>
-          <width>16777215</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#program_boundary_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#program_boundary_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>PGM BDRY</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-program-bounds</string>
@@ -7208,9 +7280,9 @@ background-color: rgb(136, 138, 133,0);
        <widget class="VCPSettingsPushButton" name="plot_grid_button">
         <property name="geometry">
          <rect>
-          <x>190</x>
-          <y>1590</y>
-          <width>161</width>
+          <x>950</x>
+          <y>900</y>
+          <width>42</width>
           <height>40</height>
          </rect>
         </property>
@@ -7228,15 +7300,27 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="maximumSize">
          <size>
-          <width>16777215</width>
-          <height>30</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#plot_grid_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#plot_grid_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
         <property name="text">
-         <string>PLOT GRID</string>
+         <string/>
         </property>
         <property name="settingName" stdset="0">
          <string>backplot.show-grid</string>
@@ -7588,7 +7672,6 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
          <string notr="true">
 
 #iso_view_button {
-font: 25pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8175,6 +8258,196 @@ background-color: rgb(136, 138, 133,0);
          <string>-</string>
         </property>
        </widget>
+       <widget class="QLabel" name="label_71">
+        <property name="geometry">
+         <rect>
+          <x>955</x>
+          <y>772</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Limit</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_72">
+        <property name="geometry">
+         <rect>
+          <x>955</x>
+          <y>783</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Pgrm</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_73">
+        <property name="geometry">
+         <rect>
+          <x>953</x>
+          <y>853</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Limit</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_74">
+        <property name="geometry">
+         <rect>
+          <x>954</x>
+          <y>865</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Maq</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_75">
+        <property name="geometry">
+         <rect>
+          <x>953</x>
+          <y>933</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Rejilla</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8188,10 +8461,6 @@ background-color: rgb(136, 138, 133,0);
        <zorder>zero_z_button_9</zorder>
        <zorder>zero_all_button_3</zorder>
        <zorder>ZeroXY</zorder>
-       <zorder>GoFront</zorder>
-       <zorder>GoXY</zorder>
-       <zorder>GoBack</zorder>
-       <zorder>GoXYZ</zorder>
        <zorder>x_plus_jogbutton</zorder>
        <zorder>z_minus_jogbutton</zorder>
        <zorder>x_minus_jogbutton</zorder>
@@ -8241,6 +8510,11 @@ background-color: rgb(136, 138, 133,0);
        <zorder>label_68</zorder>
        <zorder>label_69</zorder>
        <zorder>label_70</zorder>
+       <zorder>label_71</zorder>
+       <zorder>label_72</zorder>
+       <zorder>label_73</zorder>
+       <zorder>label_74</zorder>
+       <zorder>label_75</zorder>
       </widget>
      </widget>
     </item>
