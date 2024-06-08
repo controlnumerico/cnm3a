@@ -8796,5 +8796,101 @@ background-color: rgb(136, 138, 133,0);
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>program_zoom_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewProgram()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>898</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>machine_zoom_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewMachine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>943</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>path_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>988</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clear_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>clearLivePlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>1033</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ortho_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewOrtho()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>1078</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>perspective_button_3</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewPersp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>1123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>977</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
 </ui>
