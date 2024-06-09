@@ -1460,7 +1460,7 @@ background-color: rgb(136, 138, 133,0);</string>
                  <property name="geometry">
                   <rect>
                    <x>4</x>
-                   <y>1070</y>
+                   <y>1060</y>
                    <width>874</width>
                    <height>41</height>
                   </rect>
@@ -1705,19 +1705,6 @@ color: rgb(237, 51, 59);</string>
                  </property>
                  <property name="text">
                   <string>Status:</string>
-                 </property>
-                </widget>
-                <widget class="ActionButton" name="btn_loadrun">
-                 <property name="geometry">
-                  <rect>
-                   <x>140</x>
-                   <y>1110</y>
-                   <width>131</width>
-                   <height>71</height>
-                  </rect>
-                 </property>
-                 <property name="text">
-                  <string>Load Run</string>
                  </property>
                 </widget>
                 <widget class="Line" name="line">
@@ -2424,9 +2411,38 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>0</x>
-                   <y>1110</y>
-                   <width>131</width>
-                   <height>71</height>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#dialogbutton {
+
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/CNC_Home.png);
+}
+
+#dialogbutton:pressed {
+image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>129</x>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
                   </rect>
                  </property>
                  <property name="text">
@@ -2462,7 +2478,6 @@ background-color: rgb(136, 138, 133,0);
                 <zorder>Homed_label</zorder>
                 <zorder>statuslabel_7</zorder>
                 <zorder>MyStatusBarNewLabel</zorder>
-                <zorder>btn_loadrun</zorder>
                 <zorder>line</zorder>
                 <zorder>line_2</zorder>
                 <zorder>line_3</zorder>
@@ -2483,6 +2498,7 @@ background-color: rgb(136, 138, 133,0);
                 <zorder>vtk</zorder>
                 <zorder>mdiEntry</zorder>
                 <zorder>dialogbutton</zorder>
+                <zorder>dialogbutton_2</zorder>
                </widget>
               </item>
              </layout>
