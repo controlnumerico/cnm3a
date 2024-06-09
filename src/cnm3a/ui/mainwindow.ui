@@ -286,7 +286,7 @@ image: url(/home/cnc/.iMG/CNC_Main_3_fw.png);
          <enum>QTabWidget::South</enum>
         </property>
         <property name="currentIndex">
-         <number>2</number>
+         <number>0</number>
         </property>
         <property name="usesScrollButtons">
          <bool>false</bool>
@@ -2389,7 +2389,7 @@ background-color: rgb(136, 138, 133,0);
                    <x>0</x>
                    <y>600</y>
                    <width>881</width>
-                   <height>471</height>
+                   <height>421</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
@@ -3364,10 +3364,10 @@ border-radius: 4px;
             <widget class="VTKBackPlot" name="vtk_2">
              <property name="geometry">
               <rect>
-               <x>0</x>
-               <y>0</y>
-               <width>861</width>
-               <height>1161</height>
+               <x>10</x>
+               <y>20</y>
+               <width>721</width>
+               <height>921</height>
               </rect>
              </property>
              <property name="sizePolicy">
