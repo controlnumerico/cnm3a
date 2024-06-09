@@ -1710,7 +1710,7 @@ color: rgb(237, 51, 59);</string>
                 <widget class="ActionButton" name="btn_loadrun">
                  <property name="geometry">
                   <rect>
-                   <x>0</x>
+                   <x>140</x>
                    <y>1110</y>
                    <width>131</width>
                    <height>71</height>
@@ -1997,49 +1997,6 @@ border-style: transparant;
                  </property>
                  <property name="text">
                   <string>T:</string>
-                 </property>
-                </widget>
-                <widget class="QPushButton" name="perspective_button">
-                 <property name="geometry">
-                  <rect>
-                   <x>170</x>
-                   <y>1130</y>
-                   <width>75</width>
-                   <height>33</height>
-                  </rect>
-                 </property>
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>75</width>
-                   <height>33</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>75</width>
-                   <height>33</height>
-                  </size>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true"/>
-                 </property>
-                 <property name="text">
-                  <string>PSPECT</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
                  </property>
                 </widget>
                 <widget class="DROLineEdit" name="dro_entry_main_z_4">
@@ -2426,49 +2383,6 @@ background-color: rgb(136, 138, 133,0);
                   <string>G-Code</string>
                  </property>
                 </widget>
-                <widget class="QPushButton" name="perspective_button_2">
-                 <property name="geometry">
-                  <rect>
-                   <x>300</x>
-                   <y>1130</y>
-                   <width>75</width>
-                   <height>33</height>
-                  </rect>
-                 </property>
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>75</width>
-                   <height>33</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>75</width>
-                   <height>33</height>
-                  </size>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true"/>
-                 </property>
-                 <property name="text">
-                  <string>PSPECT</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
                 <widget class="VTKBackPlot" name="vtk">
                  <property name="geometry">
                   <rect>
@@ -2498,6 +2412,22 @@ background-color: rgb(136, 138, 133,0);
                    <green>36</green>
                    <blue>37</blue>
                   </color>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>1110</y>
+                   <width>131</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
                  </property>
                 </widget>
                 <zorder>label_44</zorder>
@@ -2536,7 +2466,6 @@ background-color: rgb(136, 138, 133,0);
                 <zorder>statuslabel_17</zorder>
                 <zorder>statuslabel_14</zorder>
                 <zorder>label_24</zorder>
-                <zorder>perspective_button</zorder>
                 <zorder>dro_entry_main_z_4</zorder>
                 <zorder>label_8</zorder>
                 <zorder>label_59</zorder>
@@ -2545,9 +2474,9 @@ background-color: rgb(136, 138, 133,0);
                 <zorder>dro_entry_main_x_14</zorder>
                 <zorder>gcodetextedit_2</zorder>
                 <zorder>label_13</zorder>
-                <zorder>perspective_button_2</zorder>
                 <zorder>vtk</zorder>
                 <zorder>mdiEntry</zorder>
+                <zorder>dialogbutton</zorder>
                </widget>
               </item>
              </layout>
@@ -8822,6 +8751,11 @@ background-color: rgb(136, 138, 133,0);
    <class>MDIButton</class>
    <extends>QPushButton</extends>
    <header>qtpyvcp.widgets.button_widgets.mdi_button</header>
+  </customwidget>
+  <customwidget>
+   <class>DialogButton</class>
+   <extends>QPushButton</extends>
+   <header>qtpyvcp.widgets.button_widgets.dialog_button</header>
   </customwidget>
   <customwidget>
    <class>StatusLabel</class>

@@ -49,6 +49,15 @@ windows:
       # Set the window title from from the date in the vcp section above.
       title: ( vcp.name ) ( vcp.version)
 
+
+
+
+
+
+
+
+
+
 application:
   kwargs:
     # Specify the application wide stylesheet.
