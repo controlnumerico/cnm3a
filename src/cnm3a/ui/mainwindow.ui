@@ -2392,11 +2392,17 @@ background-color: rgb(136, 138, 133,0);
                    <height>421</height>
                   </rect>
                  </property>
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>1</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
+                 <property name="minimumSize">
+                  <size>
+                   <width>881</width>
+                   <height>421</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>881</width>
+                   <height>421</height>
+                  </size>
                  </property>
                  <property name="styleSheet">
                   <string notr="true">VTKBackPlot {
@@ -3361,37 +3367,6 @@ border-radius: 4px;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <widget class="VTKBackPlot" name="vtk_2">
-             <property name="geometry">
-              <rect>
-               <x>10</x>
-               <y>20</y>
-               <width>721</width>
-               <height>921</height>
-              </rect>
-             </property>
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-               <horstretch>1</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">VTKBackPlot {
-    border: solid;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 8px;
-}</string>
-             </property>
-             <property name="backgroundColor" stdset="0">
-              <color>
-               <red>32</red>
-               <green>36</green>
-               <blue>37</blue>
-              </color>
-             </property>
-            </widget>
            </widget>
           </item>
          </layout>
@@ -4427,7 +4402,11 @@ border-radius: 4px;
          <attribute name="title">
           <string> - offesets - </string>
          </attribute>
-         <layout class="QHBoxLayout" name="horizontalLayout_41"/>
+         <layout class="QHBoxLayout" name="horizontalLayout_41">
+          <item>
+           <widget class="VTKBackPlot" name="vtkbackplot"/>
+          </item>
+         </layout>
         </widget>
         <widget class="QWidget" name="offsets_tab">
          <attribute name="title">
