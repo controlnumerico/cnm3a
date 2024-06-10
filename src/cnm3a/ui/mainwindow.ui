@@ -2422,11 +2422,11 @@ background-color: rgb(136, 138, 133,0);
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/CNC_Home.png);
+image: url(/home/cnc/.iMG/Btn_Subm_inact.png);
 }
 
 #dialogbutton:pressed {
-image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
+image: url(/home/cnc/.iMG/Btn_Subm_act.png);
 }</string>
                  </property>
                  <property name="text">
@@ -2439,7 +2439,87 @@ image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
                 <widget class="DialogButton" name="dialogbutton_2">
                  <property name="geometry">
                   <rect>
-                   <x>129</x>
+                   <x>127</x>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>252</x>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>379</x>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>504</x>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>630</x>
+                   <y>1103</y>
+                   <width>130</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>OPEN</string>
+                 </property>
+                 <property name="dialogName" stdset="0">
+                  <string>open_file</string>
+                 </property>
+                </widget>
+                <widget class="DialogButton" name="dialogbutton_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>757</x>
                    <y>1103</y>
                    <width>130</width>
                    <height>75</height>
@@ -2499,6 +2579,11 @@ image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
                 <zorder>mdiEntry</zorder>
                 <zorder>dialogbutton</zorder>
                 <zorder>dialogbutton_2</zorder>
+                <zorder>dialogbutton_3</zorder>
+                <zorder>dialogbutton_4</zorder>
+                <zorder>dialogbutton_5</zorder>
+                <zorder>dialogbutton_6</zorder>
+                <zorder>dialogbutton_7</zorder>
                </widget>
               </item>
              </layout>
