@@ -2436,7 +2436,7 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                   <string>open_file</string>
                  </property>
                 </widget>
-                <widget class="DialogButton" name="dialogbutton_2">
+                <widget class="DialogButton" name="btn_loadrun">
                  <property name="geometry">
                   <rect>
                    <x>127</x>
@@ -2578,7 +2578,7 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                 <zorder>vtk</zorder>
                 <zorder>mdiEntry</zorder>
                 <zorder>dialogbutton</zorder>
-                <zorder>dialogbutton_2</zorder>
+                <zorder>btn_loadrun</zorder>
                 <zorder>dialogbutton_3</zorder>
                 <zorder>dialogbutton_4</zorder>
                 <zorder>dialogbutton_5</zorder>
