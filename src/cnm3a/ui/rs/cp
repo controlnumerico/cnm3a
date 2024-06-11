@@ -3,3 +3,15 @@
 cp * /home/cnc/.iMG/ 
 sudo cp -r *.TTF /usr/local/share/fonts
 sudo cp -r *.otf /usr/local/share/fonts
+
+
+
+[VTK]
+MACHINE_BOUNDRY = on
+MACHINE_TICKS = off
+MACHINE_LABELS = off
+PROGRAM_BOUNDRY = off
+PROGRAM_TICKS = off
+PROGRAM_LABELS = off
+
+
