@@ -360,7 +360,7 @@ image: url(/home/cnc/.iMG/CNC_Main_3_fw.png);
                   <rect>
                    <x>90</x>
                    <y>100</y>
-                   <width>341</width>
+                   <width>371</width>
                    <height>70</height>
                   </rect>
                  </property>
@@ -380,9 +380,9 @@ image: url(/home/cnc/.iMG/CNC_Main_3_fw.png);
                   <font>
                    <family>Digital Display</family>
                    <pointsize>70</pointsize>
-                   <weight>50</weight>
+                   <weight>75</weight>
                    <italic>false</italic>
-                   <bold>false</bold>
+                   <bold>true</bold>
                   </font>
                  </property>
                  <property name="focusPolicy">
@@ -409,7 +409,7 @@ color: rgb(56, 54, 57);
                   <number>0</number>
                  </property>
                  <property name="inchFormat" stdset="0">
-                  <string>%9.4f</string>
+                  <string>%9.3f</string>
                  </property>
                  <property name="millimeterFormat" stdset="0">
                   <string>%10.3f</string>
@@ -426,7 +426,7 @@ color: rgb(56, 54, 57);
                   <rect>
                    <x>90</x>
                    <y>180</y>
-                   <width>341</width>
+                   <width>371</width>
                    <height>70</height>
                   </rect>
                  </property>
@@ -581,176 +581,10 @@ background-color: rgb(136, 138, 133,0);
                   <string>COORD SYSTEM</string>
                  </property>
                 </widget>
-                <widget class="QLabel" name="label_5">
-                 <property name="geometry">
-                  <rect>
-                   <x>510</x>
-                   <y>70</y>
-                   <width>51</width>
-                   <height>31</height>
-                  </rect>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>lcd phone</family>
-                   <pointsize>17</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>DISTANCE TO GO</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>5</number>
-                 </property>
-                 <property name="layoutDirection">
-                  <enum>Qt::RightToLeft</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">
-color: rgb(1, 123, 206);
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                 </property>
-                 <property name="text">
-                  <string>DTG</string>
-                 </property>
-                </widget>
-                <widget class="DROLineEdit" name="dro_entry_main_x_4">
-                 <property name="geometry">
-                  <rect>
-                   <x>430</x>
-                   <y>120</y>
-                   <width>141</width>
-                   <height>35</height>
-                  </rect>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>100</width>
-                   <height>35</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>300</width>
-                   <height>70</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>LCD MONO</family>
-                   <pointsize>20</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">QLineEdit{
-background-color: rgb(136, 138, 133,0);
-    border-style: transparant;
-color: rgb(56, 54, 57);
-    font: 20pt &quot;LCD MONO&quot;;
-	border-color: rgb(164, 0, 0);
-}</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                 </property>
-                 <property name="referenceType" stdset="0">
-                  <number>2</number>
-                 </property>
-                 <property name="axisNumber" stdset="0">
-                  <number>0</number>
-                 </property>
-                 <property name="inchFormat" stdset="0">
-                  <string>%9.4f</string>
-                 </property>
-                 <property name="millimeterFormat" stdset="0">
-                  <string>%10.3f</string>
-                 </property>
-                 <property name="degreeFormat" stdset="0">
-                  <string>%10.2f</string>
-                 </property>
-                 <property name="latheMode" stdset="0">
-                  <number>0</number>
-                 </property>
-                </widget>
-                <widget class="DROLineEdit" name="dro_entry_main_x_6">
-                 <property name="geometry">
-                  <rect>
-                   <x>430</x>
-                   <y>200</y>
-                   <width>141</width>
-                   <height>38</height>
-                  </rect>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>100</width>
-                   <height>35</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>300</width>
-                   <height>70</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>LCD MONO</family>
-                   <pointsize>20</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">QLineEdit{
-background-color: rgb(136, 138, 133,0);
-    border-style: transparant;
-color: rgb(56, 54, 57);
-    font: 20pt &quot;LCD MONO&quot;;
-	border-color: rgb(164, 0, 0);
-}</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                 </property>
-                 <property name="referenceType" stdset="0">
-                  <number>2</number>
-                 </property>
-                 <property name="axisNumber" stdset="0">
-                  <number>1</number>
-                 </property>
-                 <property name="inchFormat" stdset="0">
-                  <string>%9.4f</string>
-                 </property>
-                 <property name="millimeterFormat" stdset="0">
-                  <string>%10.3f</string>
-                 </property>
-                 <property name="degreeFormat" stdset="0">
-                  <string>%10.2f</string>
-                 </property>
-                 <property name="latheMode" stdset="0">
-                  <number>0</number>
-                 </property>
-                </widget>
                 <widget class="DROLineEdit" name="dro_entry_main_x_7">
                  <property name="geometry">
                   <rect>
-                   <x>570</x>
+                   <x>460</x>
                    <y>200</y>
                    <width>151</width>
                    <height>38</height>
@@ -814,7 +648,7 @@ color: rgb(56, 54, 57);
                 <widget class="DROLineEdit" name="dro_entry_main_x_8">
                  <property name="geometry">
                   <rect>
-                   <x>570</x>
+                   <x>460</x>
                    <y>120</y>
                    <width>151</width>
                    <height>38</height>
@@ -878,7 +712,7 @@ color: rgb(56, 54, 57);
                 <widget class="QLabel" name="label_7">
                  <property name="geometry">
                   <rect>
-                   <x>780</x>
+                   <x>640</x>
                    <y>70</y>
                    <width>81</width>
                    <height>101</height>
@@ -911,7 +745,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>770</x>
-                   <y>140</y>
+                   <y>80</y>
                    <width>105</width>
                    <height>38</height>
                   </rect>
@@ -960,7 +794,7 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>770</x>
-                   <y>170</y>
+                   <y>110</y>
                    <width>105</width>
                    <height>45</height>
                   </rect>
@@ -1008,8 +842,8 @@ color: rgb(56, 54, 57);
                 <widget class="QLabel" name="label_10">
                  <property name="geometry">
                   <rect>
-                   <x>730</x>
-                   <y>150</y>
+                   <x>720</x>
+                   <y>90</y>
                    <width>51</width>
                    <height>31</height>
                   </rect>
@@ -1040,8 +874,8 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_11">
                  <property name="geometry">
                   <rect>
-                   <x>730</x>
-                   <y>180</y>
+                   <x>720</x>
+                   <y>120</y>
                    <width>51</width>
                    <height>31</height>
                   </rect>
@@ -1072,7 +906,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_12">
                  <property name="geometry">
                   <rect>
-                   <x>570</x>
+                   <x>470</x>
                    <y>100</y>
                    <width>71</width>
                    <height>31</height>
@@ -1105,7 +939,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_14">
                  <property name="geometry">
                   <rect>
-                   <x>570</x>
+                   <x>470</x>
                    <y>180</y>
                    <width>71</width>
                    <height>31</height>
@@ -1190,8 +1024,8 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_15">
                  <property name="geometry">
                   <rect>
-                   <x>630</x>
-                   <y>70</y>
+                   <x>500</x>
+                   <y>62</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
@@ -1691,7 +1525,7 @@ color: rgb(237, 51, 59);</string>
                 <widget class="Line" name="line_2">
                  <property name="geometry">
                   <rect>
-                   <x>430</x>
+                   <x>460</x>
                    <y>100</y>
                    <width>3</width>
                    <height>242</height>
@@ -1704,7 +1538,7 @@ color: rgb(237, 51, 59);</string>
                 <widget class="Line" name="line_3">
                  <property name="geometry">
                   <rect>
-                   <x>430</x>
+                   <x>460</x>
                    <y>170</y>
                    <width>181</width>
                    <height>3</height>
@@ -1717,7 +1551,7 @@ color: rgb(237, 51, 59);</string>
                 <widget class="Line" name="line_4">
                  <property name="geometry">
                   <rect>
-                   <x>430</x>
+                   <x>460</x>
                    <y>250</y>
                    <width>181</width>
                    <height>3</height>
@@ -1730,8 +1564,8 @@ color: rgb(237, 51, 59);</string>
                 <widget class="QLabel" name="label_17">
                  <property name="geometry">
                   <rect>
-                   <x>780</x>
-                   <y>200</y>
+                   <x>640</x>
+                   <y>160</y>
                    <width>81</width>
                    <height>101</height>
                   </rect>
@@ -1763,7 +1597,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>730</x>
-                   <y>280</y>
+                   <y>177</y>
                    <width>51</width>
                    <height>31</height>
                   </rect>
@@ -1795,7 +1629,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>770</x>
-                   <y>273</y>
+                   <y>170</y>
                    <width>105</width>
                    <height>38</height>
                   </rect>
@@ -1844,7 +1678,7 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>770</x>
-                   <y>306</y>
+                   <y>203</y>
                    <width>105</width>
                    <height>38</height>
                   </rect>
@@ -1893,7 +1727,7 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>730</x>
-                   <y>310</y>
+                   <y>207</y>
                    <width>51</width>
                    <height>31</height>
                   </rect>
@@ -1921,45 +1755,12 @@ background-color: rgb(136, 138, 133,0);
                   <string>REAL:</string>
                  </property>
                 </widget>
-                <widget class="QLabel" name="label_44">
-                 <property name="geometry">
-                  <rect>
-                   <x>700</x>
-                   <y>880</y>
-                   <width>81</width>
-                   <height>101</height>
-                  </rect>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>LCDMono</family>
-                   <pointsize>55</pointsize>
-                   <weight>75</weight>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="layoutDirection">
-                  <enum>Qt::RightToLeft</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: rgb(56, 54, 57);
-background-color: rgb(136, 138, 133,0);
-border-style: transparant;
- 
- 
- </string>
-                 </property>
-                 <property name="text">
-                  <string>T:</string>
-                 </property>
-                </widget>
                 <widget class="DROLineEdit" name="dro_entry_main_z_4">
                  <property name="geometry">
                   <rect>
                    <x>90</x>
                    <y>260</y>
-                   <width>341</width>
+                   <width>371</width>
                    <height>70</height>
                   </rect>
                  </property>
@@ -2055,7 +1856,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_59">
                  <property name="geometry">
                   <rect>
-                   <x>570</x>
+                   <x>470</x>
                    <y>270</y>
                    <width>71</width>
                    <height>31</height>
@@ -2097,74 +1898,10 @@ background-color: rgb(136, 138, 133,0);
                   <enum>Qt::Horizontal</enum>
                  </property>
                 </widget>
-                <widget class="DROLineEdit" name="dro_entry_main_x_13">
-                 <property name="geometry">
-                  <rect>
-                   <x>430</x>
-                   <y>290</y>
-                   <width>141</width>
-                   <height>38</height>
-                  </rect>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>100</width>
-                   <height>35</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>300</width>
-                   <height>70</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>LCD MONO</family>
-                   <pointsize>20</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">QLineEdit{
-background-color: rgb(136, 138, 133,0);
-    border-style: transparant;
-color: rgb(56, 54, 57);
-    font: 20pt &quot;LCD MONO&quot;;
-	border-color: rgb(164, 0, 0);
-}</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                 </property>
-                 <property name="referenceType" stdset="0">
-                  <number>2</number>
-                 </property>
-                 <property name="axisNumber" stdset="0">
-                  <number>2</number>
-                 </property>
-                 <property name="inchFormat" stdset="0">
-                  <string>%9.4f</string>
-                 </property>
-                 <property name="millimeterFormat" stdset="0">
-                  <string>%10.3f</string>
-                 </property>
-                 <property name="degreeFormat" stdset="0">
-                  <string>%10.2f</string>
-                 </property>
-                 <property name="latheMode" stdset="0">
-                  <number>0</number>
-                 </property>
-                </widget>
                 <widget class="DROLineEdit" name="dro_entry_main_x_14">
                  <property name="geometry">
                   <rect>
-                   <x>570</x>
+                   <x>460</x>
                    <y>290</y>
                    <width>151</width>
                    <height>38</height>
@@ -2515,14 +2252,44 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                   </color>
                  </property>
                 </widget>
+                <widget class="QLabel" name="label_44">
+                 <property name="geometry">
+                  <rect>
+                   <x>640</x>
+                   <y>250</y>
+                   <width>81</width>
+                   <height>101</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>LCDMono</family>
+                   <pointsize>55</pointsize>
+                   <weight>75</weight>
+                   <italic>false</italic>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::RightToLeft</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(56, 54, 57);
+background-color: rgb(136, 138, 133,0);
+border-style: transparant;
+ 
+ 
+ </string>
+                 </property>
+                 <property name="text">
+                  <string>T:</string>
+                 </property>
+                </widget>
                 <zorder>dro_entry_main_x_3</zorder>
                 <zorder>dro_entry_main_z_3</zorder>
                 <zorder>label</zorder>
                 <zorder>label_3</zorder>
                 <zorder>label_4</zorder>
-                <zorder>label_5</zorder>
-                <zorder>dro_entry_main_x_4</zorder>
-                <zorder>dro_entry_main_x_6</zorder>
                 <zorder>dro_entry_main_x_7</zorder>
                 <zorder>dro_entry_main_x_8</zorder>
                 <zorder>label_7</zorder>
@@ -2551,7 +2318,6 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                 <zorder>label_8</zorder>
                 <zorder>label_59</zorder>
                 <zorder>line_9</zorder>
-                <zorder>dro_entry_main_x_13</zorder>
                 <zorder>gcodetextedit_2</zorder>
                 <zorder>label_13</zorder>
                 <zorder>mdiEntry</zorder>
@@ -2563,9 +2329,9 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                 <zorder>dialogbutton_6</zorder>
                 <zorder>dialogbutton_7</zorder>
                 <zorder>dro_entry_main_x_14</zorder>
-                <zorder>label_44</zorder>
                 <zorder>MyStatusBarNewLabel</zorder>
                 <zorder>vtkbackplot_2</zorder>
+                <zorder>label_44</zorder>
                </widget>
               </item>
              </layout>
@@ -5204,7 +4970,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>340</y>
+          <y>430</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -6086,7 +5852,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
          <property name="geometry">
           <rect>
            <x>570</x>
-           <y>30</y>
+           <y>23</y>
            <width>301</width>
            <height>21</height>
           </rect>
@@ -6533,46 +6299,8 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
        <widget class="QLabel" name="label_18">
         <property name="geometry">
          <rect>
-          <x>12</x>
-          <y>210</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Liberation Mono</family>
-          <pointsize>11</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>HOME</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_28">
-        <property name="geometry">
-         <rect>
-          <x>12</x>
-          <y>297</y>
+          <x>10</x>
+          <y>190</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -6684,44 +6412,6 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="actionName" stdset="0">
          <string>program.run</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_58">
-        <property name="geometry">
-         <rect>
-          <x>12</x>
-          <y>388</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Liberation Mono</family>
-          <pointsize>11</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>HOME</string>
         </property>
        </widget>
        <widget class="HalLedIndicator" name="Ref_z_LED_3">
@@ -8650,10 +8340,8 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
        <zorder>settings_pushbutton_5</zorder>
        <zorder>EStoper</zorder>
        <zorder>label_18</zorder>
-       <zorder>label_28</zorder>
        <zorder>label_27</zorder>
        <zorder>actionbutton_3</zorder>
-       <zorder>label_58</zorder>
        <zorder>Ref_z_LED_3</zorder>
        <zorder>label_57</zorder>
        <zorder>machine_boundary_button</zorder>
@@ -8906,6 +8594,22 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
     </hint>
     <hint type="destinationlabel">
      <x>508</x>
+     <y>747</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>halcheckbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewMachine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
      <y>747</y>
     </hint>
    </hints>
