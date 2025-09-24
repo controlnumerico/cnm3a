@@ -6483,63 +6483,6 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
          <string>backplot.show-program-labels</string>
         </property>
        </widget>
-       <widget class="VCPSettingsPushButton" name="settings_pushbutton_6">
-        <property name="geometry">
-         <rect>
-          <x>950</x>
-          <y>1220</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>DejaVu Sans</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#settings_pushbutton_6 {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#settings_pushbutton_6:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="settingName" stdset="0">
-         <string>backplot.show-machine-labels</string>
-        </property>
-       </widget>
        <widget class="StatusLED" name="statusled_8">
         <property name="geometry">
          <rect>
@@ -8154,55 +8097,6 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="path_button">
-        <property name="geometry">
-         <rect>
-          <x>1010</x>
-          <y>1150</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#path_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#path_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
        <widget class="QPushButton" name="ortho_button">
         <property name="geometry">
          <rect>
@@ -8729,7 +8623,6 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
        <zorder>settings_pushbutton_3</zorder>
        <zorder>settings_pushbutton_4</zorder>
        <zorder>settings_pushbutton_5</zorder>
-       <zorder>settings_pushbutton_6</zorder>
        <zorder>EStoper</zorder>
        <zorder>label_18</zorder>
        <zorder>label_28</zorder>
@@ -8767,7 +8660,6 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
        <zorder>label_74</zorder>
        <zorder>label_75</zorder>
        <zorder>perspective_button_3</zorder>
-       <zorder>path_button</zorder>
        <zorder>ortho_button</zorder>
        <zorder>clear_button</zorder>
        <zorder>program_zoom_button</zorder>
@@ -9092,22 +8984,6 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
     <hint type="sourcelabel">
      <x>895</x>
      <y>943</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>508</x>
-     <y>977</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>path_button</sender>
-   <signal>clicked()</signal>
-   <receiver>vtk</receiver>
-   <slot>setViewPath()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>895</x>
-     <y>988</y>
     </hint>
     <hint type="destinationlabel">
      <x>508</x>
