@@ -5189,7 +5189,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>330</y>
+          <y>340</y>
           <width>125</width>
           <height>95</height>
          </rect>
