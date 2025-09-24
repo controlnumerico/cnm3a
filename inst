@@ -1,0 +1,12 @@
+Descargar desde Browser cnm3a   https://www.github.com/controlnumerico/cnm3a
+
+Descomprimir e instalar en c:/home/cnc
+
+cd /home/cnc/cnm3a
+pip install -e .
+
+mkdir /home/cnc/.iMG
+sudo cp -r /home/cnc/cnm3a/src/cnm3a/ui/rs/* /home/cnc/.iMG/ 
+sudo cp -r /home/cnc/cnm3a/src/cnm3a/ui/rs/*.TTF /usr/local/share/fonts
+sudo cp -r /home/cnc/cnm3a/src/cnm3a/ui/rs/*.otf /usr/local/share/fonts
+==========================================================
