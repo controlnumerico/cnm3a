@@ -1962,119 +1962,6 @@ color: rgb(56, 54, 57);
                   <number>0</number>
                  </property>
                 </widget>
-                <widget class="GcodeTextEdit" name="gcodetextedit_2">
-                 <property name="geometry">
-                  <rect>
-                   <x>0</x>
-                   <y>870</y>
-                   <width>871</width>
-                   <height>231</height>
-                  </rect>
-                 </property>
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>DejaVu Sans</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="focusPolicy">
-                  <enum>Qt::NoFocus</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true"/>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::NoFrame</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Plain</enum>
-                 </property>
-                 <property name="lineWidth">
-                  <number>0</number>
-                 </property>
-                 <property name="sizeAdjustPolicy">
-                  <enum>QAbstractScrollArea::AdjustIgnored</enum>
-                 </property>
-                 <property name="tabStopWidth">
-                  <number>100</number>
-                 </property>
-                 <property name="syntaxHighlighting" stdset="0">
-                  <bool>false</bool>
-                 </property>
-                 <property name="currentLineBackground" stdset="0">
-                  <color>
-                   <red>214</red>
-                   <green>214</green>
-                   <blue>221</blue>
-                  </color>
-                 </property>
-                 <property name="marginBackground" stdset="0">
-                  <color>
-                   <red>146</red>
-                   <green>150</green>
-                   <blue>149</blue>
-                  </color>
-                 </property>
-                 <property name="marginCurrentLineBackground" stdset="0">
-                  <color>
-                   <red>110</red>
-                   <green>110</green>
-                   <blue>110</blue>
-                  </color>
-                 </property>
-                 <property name="marginColor" stdset="0">
-                  <color>
-                   <red>49</red>
-                   <green>49</green>
-                   <blue>49</blue>
-                  </color>
-                 </property>
-                 <property name="marginCurrentLineColor" stdset="0">
-                  <color>
-                   <red>255</red>
-                   <green>255</green>
-                   <blue>255</blue>
-                  </color>
-                 </property>
-                </widget>
-                <widget class="QLabel" name="label_13">
-                 <property name="geometry">
-                  <rect>
-                   <x>510</x>
-                   <y>880</y>
-                   <width>101</width>
-                   <height>31</height>
-                  </rect>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>lcd phone</family>
-                   <pointsize>20</pointsize>
-                   <weight>75</weight>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="layoutDirection">
-                  <enum>Qt::RightToLeft</enum>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: rgb(191, 64, 64);
-color: rgb(1, 123, 206);
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                 </property>
-                 <property name="text">
-                  <string>G-Code</string>
-                 </property>
-                </widget>
                 <widget class="DialogButton" name="dialogbutton">
                  <property name="geometry">
                   <rect>
@@ -2204,10 +2091,13 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                  <property name="geometry">
                   <rect>
                    <x>-10</x>
-                   <y>360</y>
+                   <y>520</y>
                    <width>891</width>
                    <height>491</height>
                   </rect>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
                  </property>
                  <property name="backgroundColor" stdset="0">
                   <color>
@@ -2251,6 +2141,184 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                    <blue>35</blue>
                   </color>
                  </property>
+                 <widget class="QPushButton" name="x_view_button_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>90</x>
+                    <y>0</y>
+                    <width>75</width>
+                    <height>50</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>33</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>DejaVu Sans</family>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>X View</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="z_view_button_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>230</x>
+                    <y>0</y>
+                    <width>75</width>
+                    <height>50</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>33</height>
+                   </size>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>Z View</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="y_view_button_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>160</x>
+                    <y>0</y>
+                    <width>75</width>
+                    <height>50</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>33</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>DejaVu Sans</family>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>Y View</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="iso_view_button_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>0</y>
+                    <width>75</width>
+                    <height>50</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>33</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>DejaVu Sans</family>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="text">
+                   <string>ISO VIEW</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
                 </widget>
                 <widget class="QLabel" name="label_44">
                  <property name="geometry">
@@ -2258,7 +2326,7 @@ image: url(/home/cnc/.iMG/Btn_Subm_act.png);
                    <x>640</x>
                    <y>250</y>
                    <width>81</width>
-                   <height>101</height>
+                   <height>81</height>
                   </rect>
                  </property>
                  <property name="font">
@@ -2283,6 +2351,119 @@ border-style: transparant;
                  </property>
                  <property name="text">
                   <string>T:</string>
+                 </property>
+                </widget>
+                <widget class="GcodeTextEdit" name="gcodetextedit_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>350</y>
+                   <width>871</width>
+                   <height>231</height>
+                  </rect>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>DejaVu Sans</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"/>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="lineWidth">
+                  <number>0</number>
+                 </property>
+                 <property name="sizeAdjustPolicy">
+                  <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                 </property>
+                 <property name="tabStopWidth">
+                  <number>100</number>
+                 </property>
+                 <property name="syntaxHighlighting" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="currentLineBackground" stdset="0">
+                  <color>
+                   <red>214</red>
+                   <green>214</green>
+                   <blue>221</blue>
+                  </color>
+                 </property>
+                 <property name="marginBackground" stdset="0">
+                  <color>
+                   <red>146</red>
+                   <green>150</green>
+                   <blue>149</blue>
+                  </color>
+                 </property>
+                 <property name="marginCurrentLineBackground" stdset="0">
+                  <color>
+                   <red>110</red>
+                   <green>110</green>
+                   <blue>110</blue>
+                  </color>
+                 </property>
+                 <property name="marginColor" stdset="0">
+                  <color>
+                   <red>49</red>
+                   <green>49</green>
+                   <blue>49</blue>
+                  </color>
+                 </property>
+                 <property name="marginCurrentLineColor" stdset="0">
+                  <color>
+                   <red>255</red>
+                   <green>255</green>
+                   <blue>255</blue>
+                  </color>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_13">
+                 <property name="geometry">
+                  <rect>
+                   <x>610</x>
+                   <y>350</y>
+                   <width>101</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>lcd phone</family>
+                   <pointsize>20</pointsize>
+                   <weight>75</weight>
+                   <italic>false</italic>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::RightToLeft</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(191, 64, 64);
+color: rgb(1, 123, 206);
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+                 </property>
+                 <property name="text">
+                  <string>G-Code</string>
                  </property>
                 </widget>
                 <zorder>dro_entry_main_x_3</zorder>
@@ -2318,8 +2499,6 @@ border-style: transparant;
                 <zorder>label_8</zorder>
                 <zorder>label_59</zorder>
                 <zorder>line_9</zorder>
-                <zorder>gcodetextedit_2</zorder>
-                <zorder>label_13</zorder>
                 <zorder>mdiEntry</zorder>
                 <zorder>dialogbutton</zorder>
                 <zorder>btn_loadrun</zorder>
@@ -2332,6 +2511,8 @@ border-style: transparant;
                 <zorder>MyStatusBarNewLabel</zorder>
                 <zorder>vtkbackplot_2</zorder>
                 <zorder>label_44</zorder>
+                <zorder>gcodetextedit_2</zorder>
+                <zorder>label_13</zorder>
                </widget>
               </item>
              </layout>
@@ -4241,6 +4422,549 @@ border-radius: 4px;
              </property>
              <property name="settingName" stdset="0">
               <string>machine.jog.linear-speed-percentage</string>
+             </property>
+            </widget>
+            <widget class="StatusLabel" name="fr_override_dro_2">
+             <property name="geometry">
+              <rect>
+               <x>270</x>
+               <y>760</y>
+               <width>48</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>48</width>
+               <height>38</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>48</width>
+               <height>38</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">StatusLabel {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 75 15pt &quot;Bebas Kai&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>30%</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="rules" stdset="0">
+              <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;settings:machine.jog.linear-speed-percentage&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{ch[0]}%\&quot;&quot;, &quot;name&quot;: &quot;linear_jog_slider_dro&quot;}]</string>
+             </property>
+            </widget>
+            <widget class="VCPSettingsSlider" name="linear_jog_slider_2">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>760</y>
+               <width>196</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 20px;
+border-radius: 3px;
+}
+
+QSlider::sub-page:horizontal {
+background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
+    stop: 0 #66e, stop: 1 #bbf);
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #bbf, stop: 1 #55f);
+border: 1px solid #777;
+height: 20px;
+border-radius: 3px;
+}
+
+QSlider::add-page:horizontal {
+background: rgb(235, 235, 235);
+border: 1px solid #777;
+height: 20px;
+border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+background: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(60, 60, 60, 255), stop:0.21 rgba(60, 60, 60, 255), stop:0.25 rgba(255, 255, 255, 255), stop:0.29 rgba(60, 60, 60, 255), stop:0.46 rgba(60, 60, 60, 255), stop:0.5 rgba(255, 255, 255, 255), stop:0.54 rgba(60, 60, 60, 255), stop:0.71 rgba(60, 60, 60, 255), stop:0.75 rgba(255, 255, 255, 255), stop:0.79 rgba(60, 60, 60, 255), stop:0.9 rgba(60, 60, 60, 255), stop:1 rgba(255, 255, 255, 255));
+border: 1px solid #777;
+border-color: rgba(40, 40, 40, 255);
+width: 40px;
+margin-top: -13px;
+margin-bottom: -13px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover {
+background: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(60, 60, 60, 255), stop:0.21 rgba(60, 60, 60, 255), stop:0.25 rgba(255, 255, 255, 255), stop:0.29 rgba(60, 60, 60, 255), stop:0.46 rgba(60, 60, 60, 255), stop:0.5 rgba(255, 255, 255, 255), stop:0.54 rgba(60, 60, 60, 255), stop:0.71 rgba(60, 60, 60, 255), stop:0.75 rgba(255, 255, 255, 255), stop:0.79 rgba(60, 60, 60, 255), stop:0.9 rgba(60, 60, 60, 255), stop:1 rgba(255, 255, 255, 255));
+border: 1px solid #444;
+border-color: rgb(241, 239, 237);
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+             </property>
+             <property name="minimum">
+              <number>0</number>
+             </property>
+             <property name="maximum">
+              <number>100</number>
+             </property>
+             <property name="value">
+              <number>50</number>
+             </property>
+             <property name="sliderPosition">
+              <number>50</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="settingName" stdset="0">
+              <string>machine.jog.linear-speed-percentage</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="path_button">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>745</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string/>
+             </property>
+             <property name="text">
+              <string>PATH</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="program_zoom_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>655</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>PGM EXT</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pan_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>520</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    color: white;
+    border-color: rgb(74, 77, 81);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+QPushButton {
+    font-family: &quot;Bebas Kai&quot;;
+    font-size: 15pt;
+}
+
+QPushButton:disabled {
+    border-color: gray;
+}
+
+/*QPushButton[error=&quot;true&quot;] {
+    border-color: red;
+}*/
+
+QPushButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+QPushButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+             </property>
+             <property name="text">
+              <string>PAN</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="ortho_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>835</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>ORTHO</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+             <property name="autoExclusive">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="perspective_button">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>880</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>PSPECT</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+             <property name="autoExclusive">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="zoom_in_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>565</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>ZOOM +</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="zoom_out_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>610</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>ZOOM -</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="clear_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>790</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>CLEAR</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="machine_zoom_button_2">
+             <property name="geometry">
+              <rect>
+               <x>690</x>
+               <y>700</y>
+               <width>75</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>33</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>MCH EXT</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
              </property>
             </widget>
            </widget>
@@ -6372,48 +7096,6 @@ background-color: rgb(136, 138, 133,0);
          <string>Y</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="actionbutton_3">
-        <property name="geometry">
-         <rect>
-          <x>1030</x>
-          <y>1730</y>
-          <width>41</width>
-          <height>52</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>52</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>52</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-   	font: 17pt &quot;Bebas Kai&quot;;
-}</string>
-        </property>
-        <property name="text">
-         <string>CYCLE START</string>
-        </property>
-        <property name="actionName" stdset="0">
-         <string>program.run</string>
-        </property>
-       </widget>
        <widget class="HalLedIndicator" name="Ref_z_LED_3">
         <property name="geometry">
          <rect>
@@ -6628,938 +7310,6 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
          <string>backplot.show-grid</string>
         </property>
        </widget>
-       <widget class="VCPSettingsSlider" name="linear_jog_slider">
-        <property name="geometry">
-         <rect>
-          <x>670</x>
-          <y>1740</y>
-          <width>196</width>
-          <height>50</height>
-         </rect>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QSlider::groove:horizontal {
-border: 1px solid #bbb;
-background: white;
-height: 20px;
-border-radius: 3px;
-}
-
-QSlider::sub-page:horizontal {
-background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
-    stop: 0 #66e, stop: 1 #bbf);
-background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
-    stop: 0 #bbf, stop: 1 #55f);
-border: 1px solid #777;
-height: 20px;
-border-radius: 3px;
-}
-
-QSlider::add-page:horizontal {
-background: rgb(235, 235, 235);
-border: 1px solid #777;
-height: 20px;
-border-radius: 3px;
-}
-
-QSlider::handle:horizontal {
-background: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(60, 60, 60, 255), stop:0.21 rgba(60, 60, 60, 255), stop:0.25 rgba(255, 255, 255, 255), stop:0.29 rgba(60, 60, 60, 255), stop:0.46 rgba(60, 60, 60, 255), stop:0.5 rgba(255, 255, 255, 255), stop:0.54 rgba(60, 60, 60, 255), stop:0.71 rgba(60, 60, 60, 255), stop:0.75 rgba(255, 255, 255, 255), stop:0.79 rgba(60, 60, 60, 255), stop:0.9 rgba(60, 60, 60, 255), stop:1 rgba(255, 255, 255, 255));
-border: 1px solid #777;
-border-color: rgba(40, 40, 40, 255);
-width: 40px;
-margin-top: -13px;
-margin-bottom: -13px;
-border-radius: 4px;
-}
-
-QSlider::handle:horizontal:hover {
-background: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(60, 60, 60, 255), stop:0.21 rgba(60, 60, 60, 255), stop:0.25 rgba(255, 255, 255, 255), stop:0.29 rgba(60, 60, 60, 255), stop:0.46 rgba(60, 60, 60, 255), stop:0.5 rgba(255, 255, 255, 255), stop:0.54 rgba(60, 60, 60, 255), stop:0.71 rgba(60, 60, 60, 255), stop:0.75 rgba(255, 255, 255, 255), stop:0.79 rgba(60, 60, 60, 255), stop:0.9 rgba(60, 60, 60, 255), stop:1 rgba(255, 255, 255, 255));
-border: 1px solid #444;
-border-color: rgb(241, 239, 237);
-border-radius: 4px;
-}
-
-QSlider::sub-page:horizontal:disabled {
-background: #bbb;
-border-color: #999;
-}
-
-QSlider::add-page:horizontal:disabled {
-background: #eee;
-border-color: #999;
-}
-
-QSlider::handle:horizontal:disabled {
-background: #eee;
-border: 1px solid #aaa;
-border-radius: 4px;
-}</string>
-        </property>
-        <property name="minimum">
-         <number>0</number>
-        </property>
-        <property name="maximum">
-         <number>100</number>
-        </property>
-        <property name="value">
-         <number>50</number>
-        </property>
-        <property name="sliderPosition">
-         <number>50</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="settingName" stdset="0">
-         <string>machine.jog.linear-speed-percentage</string>
-        </property>
-       </widget>
-       <widget class="StatusLabel" name="fr_override_dro">
-        <property name="geometry">
-         <rect>
-          <x>610</x>
-          <y>1740</y>
-          <width>48</width>
-          <height>38</height>
-         </rect>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>48</width>
-          <height>38</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>48</width>
-          <height>38</height>
-         </size>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">StatusLabel {
-    border-style: transparent;
-    border-color: rgb(235, 235, 235);
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: rgb(235, 235, 235);
-	font: 75 15pt &quot;Bebas Kai&quot;;
-}</string>
-        </property>
-        <property name="text">
-         <string>30%</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;settings:machine.jog.linear-speed-percentage&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{ch[0]}%\&quot;&quot;, &quot;name&quot;: &quot;linear_jog_slider_dro&quot;}]</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pan_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1410</y>
-          <width>75</width>
-          <height>33</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>75</width>
-          <height>33</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>75</width>
-          <height>33</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-    color: white;
-    border-color: rgb(74, 77, 81);
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
-}
-
-QPushButton {
-    font-family: &quot;Bebas Kai&quot;;
-    font-size: 15pt;
-}
-
-QPushButton:disabled {
-    border-color: gray;
-}
-
-/*QPushButton[error=&quot;true&quot;] {
-    border-color: red;
-}*/
-
-QPushButton:hover {
-    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
-}
-
-QPushButton:pressed {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-QPushButton:checked[option=&quot;true&quot;] {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-QPushButton:checked {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}</string>
-        </property>
-        <property name="text">
-         <string>PAN</string>
-        </property>
-        <property name="checkable">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="zoom_in_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1230</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#zoom_in_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#zoom_in_button :pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="zoom_out_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1310</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#zoom_out_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#zoom_out_button :pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="iso_view_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>910</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">
-
-#iso_view_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#iso_view_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}
-
-</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_60">
-        <property name="geometry">
-         <rect>
-          <x>16</x>
-          <y>950</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>ISOM</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_61">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1030</y>
-          <width>21</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>X</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="x_view_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>990</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>75</width>
-          <height>33</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">
-#x_view_button {
-font: 25pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#x_view_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_62">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>1040</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Vista</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="y_view_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1070</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#y_view_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#y_view_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="z_view_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1150</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#z_view_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#z_view_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_63">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>1120</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Vista</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_64">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1110</y>
-          <width>21</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Y</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_65">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1190</y>
-          <width>21</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Z</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_66">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>1200</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Vista</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_67">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>1280</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Zoom</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_68">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1270</y>
-          <width>21</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>+</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_69">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>1360</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Zoom</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_70">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>1350</y>
-          <width>21</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>-</string>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_71">
         <property name="geometry">
          <rect>
@@ -7750,476 +7500,6 @@ background-color: rgb(136, 138, 133,0);
          <string>Rejilla</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="perspective_button_3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>830</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#perspective_button_3 {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#perspective_button_3:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>true</bool>
-        </property>
-        <property name="autoExclusive">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ortho_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>750</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#ortho_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#ortho_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>true</bool>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-        <property name="autoExclusive">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="clear_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>670</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#clear_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#clear_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="program_zoom_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>590</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#program_zoom_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#program_zoom_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="machine_zoom_button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>510</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>42</width>
-          <height>42</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#machine_zoom_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#machine_zoom_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="checkable">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_76">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>550</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Maq</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_77">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>630</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Prog</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_78">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>710</y>
-          <width>51</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Limpia</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_79">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>790</y>
-          <width>51</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Ortho</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_80">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>870</y>
-          <width>51</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string>DISTANCE TO GO</string>
-        </property>
-        <property name="toolTipDuration">
-         <number>5</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>Persp</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoFront">
-        <property name="geometry">
-         <rect>
-          <x>340</x>
-          <y>1430</y>
-          <width>111</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoFront {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoFront:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go Front</string>
-        </property>
-       </widget>
        <widget class="MDIButton" name="GoXY">
         <property name="geometry">
          <rect>
@@ -8400,6 +7680,54 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <string>G10 L20 P{ch[0]} Y0.0</string>
         </property>
        </widget>
+       <widget class="StatusLabel" name="Homed_label_2">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>20</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>BebasKai</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+#Homed_label2 {
+
+text-transform: uppercase ;
+
+
+background-color: rgb(136, 138, 133,0);
+
+
+	color: rgb(255, 255, 255);
+
+    font: 18pt &quot;BebasKai&quot;;
+
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>No HOME</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:all_axes_homed&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'- Limits -' if ch[0] else 'No HOME'&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8433,53 +7761,22 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
        <zorder>EStoper</zorder>
        <zorder>label_18</zorder>
        <zorder>label_27</zorder>
-       <zorder>actionbutton_3</zorder>
        <zorder>Ref_z_LED_3</zorder>
        <zorder>label_57</zorder>
        <zorder>machine_boundary_button</zorder>
        <zorder>program_boundary_button</zorder>
        <zorder>plot_grid_button</zorder>
-       <zorder>linear_jog_slider</zorder>
-       <zorder>fr_override_dro</zorder>
-       <zorder>pan_button</zorder>
-       <zorder>zoom_in_button</zorder>
-       <zorder>zoom_out_button</zorder>
-       <zorder>iso_view_button</zorder>
-       <zorder>label_60</zorder>
-       <zorder>label_61</zorder>
-       <zorder>x_view_button</zorder>
-       <zorder>label_62</zorder>
-       <zorder>y_view_button</zorder>
-       <zorder>z_view_button</zorder>
-       <zorder>label_63</zorder>
-       <zorder>label_64</zorder>
-       <zorder>label_65</zorder>
-       <zorder>label_66</zorder>
-       <zorder>label_67</zorder>
-       <zorder>label_68</zorder>
-       <zorder>label_69</zorder>
-       <zorder>label_70</zorder>
        <zorder>label_71</zorder>
        <zorder>label_72</zorder>
        <zorder>label_73</zorder>
        <zorder>label_74</zorder>
        <zorder>label_75</zorder>
-       <zorder>perspective_button_3</zorder>
-       <zorder>ortho_button</zorder>
-       <zorder>clear_button</zorder>
-       <zorder>program_zoom_button</zorder>
-       <zorder>machine_zoom_button</zorder>
-       <zorder>label_76</zorder>
-       <zorder>label_77</zorder>
-       <zorder>label_78</zorder>
-       <zorder>label_79</zorder>
-       <zorder>label_80</zorder>
-       <zorder>GoFront</zorder>
        <zorder>GoXY</zorder>
        <zorder>GoXYZ</zorder>
        <zorder>GoBack</zorder>
        <zorder>halcheckbox</zorder>
        <zorder>zero_y_button</zorder>
+       <zorder>Homed_label_2</zorder>
       </widget>
      </widget>
     </item>
@@ -8672,22 +7969,6 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
     <hint type="destinationlabel">
      <x>488</x>
      <y>188</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>machine_zoom_button</sender>
-   <signal>clicked()</signal>
-   <receiver>vtkbackplot_2</receiver>
-   <slot>setViewMachine()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>39</x>
-     <y>539</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>508</x>
-     <y>747</y>
     </hint>
    </hints>
   </connection>
