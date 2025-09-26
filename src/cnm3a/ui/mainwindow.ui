@@ -8126,5 +8126,69 @@ background-color: rgb(136, 138, 133,0);
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>program_zoom_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewProgram()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>machine_zoom_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewMachine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>1132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ortho_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewOrtho()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>1189</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>perspective_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewPersp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>1246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
 </ui>
