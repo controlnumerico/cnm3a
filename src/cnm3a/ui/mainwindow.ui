@@ -4966,7 +4966,7 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_19">
         <property name="geometry">
          <rect>
-          <x>970</x>
+          <x>830</x>
           <y>1540</y>
           <width>51</width>
           <height>31</height>
@@ -4998,7 +4998,7 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_20">
         <property name="geometry">
          <rect>
-          <x>900</x>
+          <x>770</x>
           <y>1580</y>
           <width>121</width>
           <height>31</height>
@@ -7761,6 +7761,81 @@ background-color: rgb(136, 138, 133,0);
          <string>Zero</string>
         </property>
        </widget>
+       <widget class="ActionButton" name="ref_all_button_7">
+        <property name="geometry">
+         <rect>
+          <x>947</x>
+          <y>1270</y>
+          <width>125</width>
+          <height>125</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::WheelFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#ref_all_button_7 {
+font: 25pt &quot;Bebas Kai&quot;;
+ 
+	color: rgb(61, 56, 70);
+
+border:none;
+image: url(/home/cnc/.iMG/BTN_4_Up.png);
+}
+
+#ref_all_button_7:pressed {
+image: url(/home/cnc/.iMG/BTN_4_Down.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>ALARMS</string>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[]</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>machine.home.all</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>980</x>
+          <y>1290</y>
+          <width>62</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>CLEAR</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -7819,6 +7894,8 @@ background-color: rgb(136, 138, 133,0);
        <zorder>label_73</zorder>
        <zorder>label_74</zorder>
        <zorder>label_75</zorder>
+       <zorder>ref_all_button_7</zorder>
+       <zorder>label_2</zorder>
       </widget>
      </widget>
     </item>
