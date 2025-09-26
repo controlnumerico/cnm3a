@@ -1682,9 +1682,9 @@ color: rgb(56, 54, 57);
                  </property>
                  <property name="backgroundColor2" stdset="0">
                   <color>
-                   <red>119</red>
-                   <green>118</green>
-                   <blue>123</blue>
+                   <red>154</red>
+                   <green>153</green>
+                   <blue>150</blue>
                   </color>
                  </property>
                  <property name="arcfeedColor" stdset="0">
@@ -1715,514 +1715,6 @@ color: rgb(56, 54, 57);
                    <blue>35</blue>
                   </color>
                  </property>
-                 <widget class="VCPSettingsPushButton" name="program_boundary_button">
-                  <property name="geometry">
-                   <rect>
-                    <x>790</x>
-                    <y>30</y>
-                    <width>42</width>
-                    <height>42</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>42</width>
-                    <height>42</height>
-                   </size>
-                  </property>
-                  <property name="focusPolicy">
-                   <enum>Qt::NoFocus</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">#program_boundary_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#program_boundary_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="settingName" stdset="0">
-                   <string>backplot.show-program-bounds</string>
-                  </property>
-                 </widget>
-                 <widget class="VCPSettingsPushButton" name="settings_pushbutton_4">
-                  <property name="geometry">
-                   <rect>
-                    <x>790</x>
-                    <y>430</y>
-                    <width>42</width>
-                    <height>42</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>42</width>
-                    <height>42</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>DejaVu Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>75</weight>
-                    <bold>true</bold>
-                   </font>
-                  </property>
-                  <property name="focusPolicy">
-                   <enum>Qt::NoFocus</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">#settings_pushbutton_4 {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#settings_pushbutton_4:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="settingName" stdset="0">
-                   <string>backplot.show-machine-ticks</string>
-                  </property>
-                 </widget>
-                 <widget class="VCPSettingsPushButton" name="settings_pushbutton_3">
-                  <property name="geometry">
-                   <rect>
-                    <x>790</x>
-                    <y>270</y>
-                    <width>42</width>
-                    <height>42</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>42</width>
-                    <height>42</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>DejaVu Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>75</weight>
-                    <bold>true</bold>
-                   </font>
-                  </property>
-                  <property name="focusPolicy">
-                   <enum>Qt::NoFocus</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">#settings_pushbutton_3 {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#settings_pushbutton_3:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="settingName" stdset="0">
-                   <string>backplot.show-program-ticks</string>
-                  </property>
-                 </widget>
-                 <widget class="QLabel" name="label_72">
-                  <property name="geometry">
-                   <rect>
-                    <x>820</x>
-                    <y>80</y>
-                    <width>51</width>
-                    <height>31</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="toolTip">
-                   <string>DISTANCE TO GO</string>
-                  </property>
-                  <property name="toolTipDuration">
-                   <number>5</number>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::RightToLeft</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                  </property>
-                  <property name="text">
-                   <string>Pgrm</string>
-                  </property>
-                 </widget>
-                 <widget class="QLabel" name="label_73">
-                  <property name="geometry">
-                   <rect>
-                    <x>793</x>
-                    <y>143</y>
-                    <width>41</width>
-                    <height>31</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="toolTip">
-                   <string>DISTANCE TO GO</string>
-                  </property>
-                  <property name="toolTipDuration">
-                   <number>5</number>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::RightToLeft</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                  </property>
-                  <property name="text">
-                   <string>Limit</string>
-                  </property>
-                 </widget>
-                 <widget class="QLabel" name="label_75">
-                  <property name="geometry">
-                   <rect>
-                    <x>793</x>
-                    <y>223</y>
-                    <width>51</width>
-                    <height>31</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="toolTip">
-                   <string>DISTANCE TO GO</string>
-                  </property>
-                  <property name="toolTipDuration">
-                   <number>5</number>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::RightToLeft</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                  </property>
-                  <property name="text">
-                   <string>Rejilla</string>
-                  </property>
-                 </widget>
-                 <widget class="VCPSettingsPushButton" name="plot_grid_button">
-                  <property name="geometry">
-                   <rect>
-                    <x>790</x>
-                    <y>190</y>
-                    <width>42</width>
-                    <height>42</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>42</width>
-                    <height>42</height>
-                   </size>
-                  </property>
-                  <property name="focusPolicy">
-                   <enum>Qt::NoFocus</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">#plot_grid_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#plot_grid_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="settingName" stdset="0">
-                   <string>backplot.show-grid</string>
-                  </property>
-                 </widget>
-                 <widget class="QLabel" name="label_74">
-                  <property name="geometry">
-                   <rect>
-                    <x>830</x>
-                    <y>160</y>
-                    <width>51</width>
-                    <height>31</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="toolTip">
-                   <string>DISTANCE TO GO</string>
-                  </property>
-                  <property name="toolTipDuration">
-                   <number>5</number>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::RightToLeft</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                  </property>
-                  <property name="text">
-                   <string>Maq</string>
-                  </property>
-                 </widget>
-                 <widget class="VCPSettingsPushButton" name="machine_boundary_button">
-                  <property name="geometry">
-                   <rect>
-                    <x>790</x>
-                    <y>110</y>
-                    <width>42</width>
-                    <height>42</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>42</width>
-                    <height>42</height>
-                   </size>
-                  </property>
-                  <property name="focusPolicy">
-                   <enum>Qt::NoFocus</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">#machine_boundary_button {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#machine_boundary_button:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="settingName" stdset="0">
-                   <string>backplot.show-machine-bounds</string>
-                  </property>
-                 </widget>
-                 <widget class="QLabel" name="label_71">
-                  <property name="geometry">
-                   <rect>
-                    <x>795</x>
-                    <y>62</y>
-                    <width>41</width>
-                    <height>31</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="toolTip">
-                   <string>DISTANCE TO GO</string>
-                  </property>
-                  <property name="toolTipDuration">
-                   <number>5</number>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::RightToLeft</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(136, 138, 133);
-
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-                  </property>
-                  <property name="text">
-                   <string>Limit</string>
-                  </property>
-                 </widget>
-                 <widget class="VCPSettingsPushButton" name="settings_pushbutton_5">
-                  <property name="geometry">
-                   <rect>
-                    <x>790</x>
-                    <y>350</y>
-                    <width>42</width>
-                    <height>42</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>42</width>
-                    <height>42</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>DejaVu Sans</family>
-                    <pointsize>10</pointsize>
-                    <weight>75</weight>
-                    <bold>true</bold>
-                   </font>
-                  </property>
-                  <property name="focusPolicy">
-                   <enum>Qt::NoFocus</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">#settings_pushbutton_5 {
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/.iMG/btn_42x42.png);
-}
-
-#settings_pushbutton_5:pressed {
-image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
-}</string>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="settingName" stdset="0">
-                   <string>backplot.show-program-labels</string>
-                  </property>
-                 </widget>
                 </widget>
                 <widget class="QLabel" name="label_44">
                  <property name="geometry">
@@ -2260,7 +1752,7 @@ border-style: transparant;
                 <widget class="GcodeTextEdit" name="gcodetextedit_2">
                  <property name="geometry">
                   <rect>
-                   <x>10</x>
+                   <x>0</x>
                    <y>350</y>
                    <width>871</width>
                    <height>261</height>
@@ -2341,7 +1833,7 @@ border-style: transparant;
                 <widget class="QLabel" name="label_13">
                  <property name="geometry">
                   <rect>
-                   <x>610</x>
+                   <x>600</x>
                    <y>350</y>
                    <width>101</width>
                    <height>31</height>
@@ -7169,9 +6661,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>750</y>
-          <width>75</width>
-          <height>50</height>
+          <y>748</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7182,8 +6674,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>50</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7195,6 +6687,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="font">
          <font>
           <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -7213,9 +6706,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>800</y>
-          <width>75</width>
-          <height>50</height>
+          <y>790</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7226,8 +6719,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>50</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7239,6 +6732,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="font">
          <font>
           <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -7260,9 +6754,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>850</y>
-          <width>75</width>
-          <height>50</height>
+          <y>832</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7273,8 +6767,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>50</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7286,6 +6780,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="font">
          <font>
           <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -7307,9 +6802,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>900</y>
-          <width>75</width>
-          <height>50</height>
+          <y>874</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7320,8 +6815,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>50</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7329,6 +6824,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7347,9 +6850,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1220</y>
-          <width>75</width>
-          <height>33</height>
+          <y>1210</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7360,8 +6863,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7369,6 +6872,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7390,9 +6901,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1020</y>
-          <width>75</width>
-          <height>33</height>
+          <y>1000</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7403,8 +6914,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7412,6 +6923,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7430,9 +6949,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1100</y>
-          <width>75</width>
-          <height>33</height>
+          <y>1084</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7443,8 +6962,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7452,6 +6971,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7470,9 +6997,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>955</y>
-          <width>75</width>
-          <height>33</height>
+          <y>916</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7483,8 +7010,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7492,6 +7019,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7510,9 +7045,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>990</y>
-          <width>75</width>
-          <height>33</height>
+          <y>958</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7523,8 +7058,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7532,6 +7067,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7550,9 +7093,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1060</y>
-          <width>75</width>
-          <height>33</height>
+          <y>1042</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7563,8 +7106,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7572,6 +7115,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7590,9 +7141,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1180</y>
-          <width>75</width>
-          <height>33</height>
+          <y>1168</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7603,8 +7154,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7612,6 +7163,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7636,9 +7195,9 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>950</x>
-          <y>1140</y>
-          <width>75</width>
-          <height>33</height>
+          <y>1126</y>
+          <width>125</width>
+          <height>40</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -7649,8 +7208,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>75</width>
-          <height>33</height>
+          <width>125</width>
+          <height>40</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -7658,6 +7217,14 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
           <width>75</width>
           <height>33</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -7670,6 +7237,362 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="checkable">
          <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="program_boundary_button">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>770</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#program_boundary_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#program_boundary_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-program-bounds</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="machine_boundary_button">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>860</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#machine_boundary_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#machine_boundary_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-machine-bounds</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="plot_grid_button">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>940</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#plot_grid_button {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#plot_grid_button:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-grid</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="settings_pushbutton_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1020</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_3 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_3:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-program-ticks</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="settings_pushbutton_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1100</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_5 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_5:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-program-labels</string>
+        </property>
+       </widget>
+       <widget class="VCPSettingsPushButton" name="settings_pushbutton_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1200</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#settings_pushbutton_4 {
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/btn_42x42.png);
+}
+
+#settings_pushbutton_4:pressed {
+image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="settingName" stdset="0">
+         <string>backplot.show-machine-ticks</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_71">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>730</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sans</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>Limit</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -7721,6 +7644,13 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
        <zorder>machine_zoom_button_2</zorder>
        <zorder>ortho_button_2</zorder>
        <zorder>clear_button_2</zorder>
+       <zorder>program_boundary_button</zorder>
+       <zorder>machine_boundary_button</zorder>
+       <zorder>plot_grid_button</zorder>
+       <zorder>settings_pushbutton_3</zorder>
+       <zorder>settings_pushbutton_5</zorder>
+       <zorder>settings_pushbutton_4</zorder>
+       <zorder>label_71</zorder>
       </widget>
      </widget>
     </item>
