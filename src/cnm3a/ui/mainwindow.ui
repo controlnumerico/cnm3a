@@ -6657,7 +6657,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <string>G10 L20 P{ch[0]} Y0.0</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="iso_view_button_2">
+       <widget class="QPushButton" name="iso_view_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -6697,16 +6697,16 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">#iso_view_button_2 {
+         <string notr="true">#iso_view_button {
 font: 16pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/CNC_REF.png);
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
 }
 
-#iso_view_button_2 :pressed {
-image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
+#iso_view_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
 }</string>
         </property>
         <property name="text">
@@ -6716,7 +6716,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="x_view_button_2">
+       <widget class="QPushButton" name="x_view_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -6745,17 +6745,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#x_view_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#x_view_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>X View</string>
@@ -6764,7 +6775,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="y_view_button_2">
+       <widget class="QPushButton" name="y_view_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -6793,17 +6804,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#y_view_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#y_view_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>Y View</string>
@@ -6812,7 +6834,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="z_view_button_2">
+       <widget class="QPushButton" name="z_view_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -6841,17 +6863,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#z_view_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#z_view_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>Z View</string>
@@ -6889,17 +6922,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#perspective_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#perspective_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>PSPECT</string>
@@ -6911,7 +6955,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="program_zoom_button_2">
+       <widget class="QPushButton" name="program_zoom_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -6940,17 +6984,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#program_zoom_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#program_zoom_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>PGM EXT</string>
@@ -6959,7 +7014,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="zoom_in_button_2">
+       <widget class="QPushButton" name="zoom_in_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -6988,17 +7043,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#zoom_in_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#zoom_in_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>ZOOM +</string>
@@ -7007,7 +7073,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="zoom_out_button_2">
+       <widget class="QPushButton" name="zoom_out_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -7036,17 +7102,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#zoom_out_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#zoom_out_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>ZOOM -</string>
@@ -7055,7 +7132,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="machine_zoom_button_2">
+       <widget class="QPushButton" name="machine_zoom_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -7084,17 +7161,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#machine_zoom_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#machine_zoom_button:pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>MCH EXT</string>
@@ -7103,7 +7191,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QPushButton" name="ortho_button_2">
+       <widget class="QPushButton" name="ortho_button">
         <property name="geometry">
          <rect>
           <x>948</x>
@@ -7132,17 +7220,28 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Bebas Kai</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#ortho_button {
+font: 16pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/.iMG/BTN_3_Up.png);
+}
+
+#ortho_button :pressed {
+image: url(/home/cnc/.iMG/BTN_3_Down.png);
+}</string>
         </property>
         <property name="text">
          <string>ORTHO</string>
@@ -7550,16 +7649,16 @@ background-color: rgb(136, 138, 133,0);
        <zorder>GoBack</zorder>
        <zorder>halcheckbox</zorder>
        <zorder>zero_y_button</zorder>
-       <zorder>iso_view_button_2</zorder>
-       <zorder>x_view_button_2</zorder>
-       <zorder>y_view_button_2</zorder>
-       <zorder>z_view_button_2</zorder>
+       <zorder>iso_view_button</zorder>
+       <zorder>x_view_button</zorder>
+       <zorder>y_view_button</zorder>
+       <zorder>z_view_button</zorder>
        <zorder>perspective_button</zorder>
-       <zorder>program_zoom_button_2</zorder>
-       <zorder>zoom_in_button_2</zorder>
-       <zorder>zoom_out_button_2</zorder>
-       <zorder>machine_zoom_button_2</zorder>
-       <zorder>ortho_button_2</zorder>
+       <zorder>program_zoom_button</zorder>
+       <zorder>zoom_in_button</zorder>
+       <zorder>zoom_out_button</zorder>
+       <zorder>machine_zoom_button</zorder>
+       <zorder>ortho_button</zorder>
        <zorder>program_boundary_button</zorder>
        <zorder>machine_boundary_button</zorder>
        <zorder>plot_grid_button</zorder>
