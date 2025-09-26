@@ -1665,9 +1665,9 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>-10</x>
-                   <y>610</y>
+                   <y>560</y>
                    <width>891</width>
-                   <height>521</height>
+                   <height>571</height>
                   </rect>
                  </property>
                  <property name="focusPolicy">
@@ -1755,7 +1755,7 @@ border-style: transparant;
                    <x>0</x>
                    <y>350</y>
                    <width>871</width>
-                   <height>261</height>
+                   <height>211</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
@@ -1867,7 +1867,7 @@ background-color: rgb(136, 138, 133,0);
                   <rect>
                    <x>0</x>
                    <y>1130</y>
-                   <width>871</width>
+                   <width>877</width>
                    <height>50</height>
                   </rect>
                  </property>
@@ -5086,8 +5086,8 @@ image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>947</x>
-          <y>215</y>
+          <x>949</x>
+          <y>221</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5178,8 +5178,8 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>947</x>
-          <y>415</y>
+          <x>949</x>
+          <y>405</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5258,7 +5258,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>515</y>
+          <y>500</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5340,7 +5340,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>613</y>
+          <y>590</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -6571,8 +6571,8 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>947</x>
-          <y>315</y>
+          <x>949</x>
+          <y>311</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -6661,7 +6661,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>747</y>
+          <y>697</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6720,7 +6720,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>804</y>
+          <y>754</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6779,7 +6779,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>861</y>
+          <y>811</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6838,7 +6838,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>918</y>
+          <y>868</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6897,7 +6897,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1260</y>
+          <y>1210</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6959,7 +6959,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1089</y>
+          <y>1039</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7018,7 +7018,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>975</y>
+          <y>925</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7077,7 +7077,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1032</y>
+          <y>982</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7136,7 +7136,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1146</y>
+          <y>1096</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7195,7 +7195,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1203</y>
+          <y>1153</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7577,18 +7577,57 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
        <widget class="QLabel" name="label_71">
         <property name="geometry">
          <rect>
-          <x>10</x>
-          <y>730</y>
+          <x>1025</x>
+          <y>275</y>
           <width>41</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>Sans</family>
-          <pointsize>10</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>Zero</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_72">
+        <property name="geometry">
+         <rect>
+          <x>1025</x>
+          <y>365</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="toolTip">
@@ -7605,11 +7644,121 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
 
 
 background-color: rgb(136, 138, 133,0);
- 
  </string>
         </property>
         <property name="text">
-         <string>Limit</string>
+         <string>Zero</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_73">
+        <property name="geometry">
+         <rect>
+          <x>1025</x>
+          <y>455</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>Zero</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_74">
+        <property name="geometry">
+         <rect>
+          <x>1025</x>
+          <y>560</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>Zero</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_75">
+        <property name="geometry">
+         <rect>
+          <x>1025</x>
+          <y>650</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>DISTANCE TO GO</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(136, 138, 133);
+
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>Zero</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -7666,6 +7815,10 @@ background-color: rgb(136, 138, 133,0);
        <zorder>settings_pushbutton_5</zorder>
        <zorder>settings_pushbutton_4</zorder>
        <zorder>label_71</zorder>
+       <zorder>label_72</zorder>
+       <zorder>label_73</zorder>
+       <zorder>label_74</zorder>
+       <zorder>label_75</zorder>
       </widget>
      </widget>
     </item>
@@ -7874,6 +8027,102 @@ background-color: rgb(136, 138, 133,0);
     <hint type="destinationlabel">
      <x>503</x>
      <y>747</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>iso_view_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewP()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>733</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>x_view_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewX()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>790</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y_view_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewY()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>847</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>z_view_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewZ()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>904</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoom_in_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>zoomIn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>961</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoom_out_button</sender>
+   <signal>clicked()</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>zoomOut()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>1018</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>987</y>
     </hint>
    </hints>
   </connection>
