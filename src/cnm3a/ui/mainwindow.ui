@@ -7239,7 +7239,7 @@ border:none;
 image: url(/home/cnc/.iMG/BTN_3_Up.png);
 }
 
-#ortho_button :pressed {
+#ortho_button:pressed {
 image: url(/home/cnc/.iMG/BTN_3_Down.png);
 }</string>
         </property>
