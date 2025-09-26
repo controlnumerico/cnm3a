@@ -5628,16 +5628,16 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="QPushButton" name="exitAppBtn">
         <property name="geometry">
          <rect>
-          <x>950</x>
-          <y>1450</y>
+          <x>947</x>
+          <y>1400</y>
           <width>125</width>
-          <height>91</height>
+          <height>125</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>125</width>
-          <height>91</height>
+          <height>125</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -5661,19 +5661,20 @@ font: 25pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
+	color: rgb(222, 221, 218);
  
-image: url(/home/cnc/.iMG/Btn_black_unpressed.png);
+image: url(/home/cnc/.iMG/BTN_5_Up.png);
 
 
 }
 
 #exitAppBtn :pressed {
  
-image: url(/home/cnc/.iMG/Btn_black_pressed.png);
+image: url(/home/cnc/.iMG/BTN_5_Down.png);
 }</string>
         </property>
         <property name="text">
-         <string/>
+         <string>E X I T</string>
         </property>
        </widget>
        <widget class="ActionButton" name="Feed">
