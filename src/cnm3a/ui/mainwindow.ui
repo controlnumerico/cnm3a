@@ -1665,9 +1665,9 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>-10</x>
-                   <y>560</y>
+                   <y>350</y>
                    <width>891</width>
-                   <height>571</height>
+                   <height>781</height>
                   </rect>
                  </property>
                  <property name="focusPolicy">
@@ -1752,10 +1752,10 @@ border-style: transparant;
                 <widget class="GcodeTextEdit" name="gcodetextedit_2">
                  <property name="geometry">
                   <rect>
-                   <x>0</x>
+                   <x>420</x>
                    <y>350</y>
-                   <width>871</width>
-                   <height>211</height>
+                   <width>461</width>
+                   <height>241</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
@@ -1833,8 +1833,8 @@ border-style: transparant;
                 <widget class="QLabel" name="label_13">
                  <property name="geometry">
                   <rect>
-                   <x>600</x>
-                   <y>360</y>
+                   <x>770</x>
+                   <y>350</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
