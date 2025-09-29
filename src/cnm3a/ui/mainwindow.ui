@@ -5794,8 +5794,8 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
        <widget class="ActionButton" name="Feed">
         <property name="geometry">
          <rect>
-          <x>290</x>
-          <y>1680</y>
+          <x>770</x>
+          <y>1780</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5851,7 +5851,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <widget class="ActionButton" name="Start">
         <property name="geometry">
          <rect>
-          <x>710</x>
+          <x>770</x>
           <y>1660</y>
           <width>100</width>
           <height>100</height>
@@ -5879,7 +5879,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
         <property name="geometry">
          <rect>
           <x>900</x>
-          <y>1694</y>
+          <y>1644</y>
           <width>160</width>
           <height>160</height>
          </rect>
@@ -6421,7 +6421,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>895</x>
-          <y>1690</y>
+          <y>1640</y>
           <width>170</width>
           <height>170</height>
          </rect>
@@ -8353,6 +8353,63 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <string>G10 L20 P{ch[0]} X0.0 Y0.0 Z0.0</string>
         </property>
        </widget>
+       <widget class="ActionButton" name="Feed_2">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>1810</y>
+          <width>100</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Feed_2 {
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/.iMG/Stop_off.png);
+}
+
+#Feed_2:pressed {
+ 
+image: url(/home/cnc/.iMG/E-Stop-Inac.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Checked&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;check when paused&quot;}]</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.abort</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8418,6 +8475,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
        <zorder>XY_Zero_4</zorder>
        <zorder>GoXY</zorder>
        <zorder>GoBack</zorder>
+       <zorder>Feed_2</zorder>
       </widget>
      </widget>
     </item>
