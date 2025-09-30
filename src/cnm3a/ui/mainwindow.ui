@@ -1682,9 +1682,9 @@ color: rgb(56, 54, 57);
                  </property>
                  <property name="backgroundColor2" stdset="0">
                   <color>
-                   <red>192</red>
-                   <green>191</green>
-                   <blue>188</blue>
+                   <red>246</red>
+                   <green>245</green>
+                   <blue>244</blue>
                   </color>
                  </property>
                  <property name="arcfeedColor" stdset="0">
