@@ -1681,10 +1681,10 @@ color: rgb(56, 54, 57);
                   </color>
                  </property>
                  <property name="backgroundColor2" stdset="0">
-                  <color>
-                   <red>246</red>
-                   <green>245</green>
-                   <blue>244</blue>
+                  <color alpha="0">
+                   <red>213</red>
+                   <green>228</green>
+                   <blue>238</blue>
                   </color>
                  </property>
                  <property name="arcfeedColor" stdset="0">
@@ -8369,7 +8369,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_2 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8395,7 +8395,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_3 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8421,7 +8421,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_4 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8447,7 +8447,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_5 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8473,7 +8473,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_6 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8499,7 +8499,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_7 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8511,7 +8511,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
 }</string>
         </property>
         <property name="text">
-         <string>X Y Zero</string>
+         <string>X Y - Zero</string>
         </property>
        </widget>
        <widget class="MDIButton" name="GoBack_8">
@@ -8525,7 +8525,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_8 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8551,7 +8551,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true">#GoBack_9 {
-font: 20pt &quot;Bebas Kai&quot;;
+font: 18pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
@@ -8563,7 +8563,7 @@ image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
 }</string>
         </property>
         <property name="text">
-         <string>X Y Z Zero</string>
+         <string>X Y Z - Zero</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
