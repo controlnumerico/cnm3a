@@ -7652,8 +7652,9 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
         </property>
         <property name="styleSheet">
          <string notr="true"> 
-color: rgb(222, 221, 218);
-
+ 
+ 
+color: rgb(119, 118, 123);
 
 background-color: rgb(136, 138, 133,0);
  </string>
@@ -7690,7 +7691,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(222, 221, 218);
+         <string notr="true">color: rgb(119, 118, 123);
 
 background-color: rgb(136, 138, 133,0);
  </string>
@@ -7726,7 +7727,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(222, 221, 218);
+         <string notr="true">color: rgb(119, 118, 123);
 
 
 background-color: rgb(136, 138, 133,0);
@@ -7763,8 +7764,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(222, 221, 218);
-
+         <string notr="true">color: rgb(119, 118, 123);
 
 background-color: rgb(136, 138, 133,0);
  </string>
@@ -7800,8 +7800,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(222, 221, 218);
-
+         <string notr="true">color: rgb(119, 118, 123);
 
 background-color: rgb(136, 138, 133,0);
  </string>
