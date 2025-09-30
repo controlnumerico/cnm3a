@@ -5795,7 +5795,7 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
         <property name="geometry">
          <rect>
           <x>770</x>
-          <y>1780</y>
+          <y>1810</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5852,7 +5852,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
         <property name="geometry">
          <rect>
           <x>770</x>
-          <y>1660</y>
+          <y>1680</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -6590,58 +6590,6 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="text">
          <string>Z</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoXY">
-        <property name="geometry">
-         <rect>
-          <x>430</x>
-          <y>1570</y>
-          <width>111</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoXY {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoXY:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go X Y Zero</string>
-        </property>
-       </widget>
-       <widget class="MDIButton" name="GoBack">
-        <property name="geometry">
-         <rect>
-          <x>550</x>
-          <y>1560</y>
-          <width>131</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#GoBack {
-font: 20pt &quot;Bebas Kai&quot;;
-background-color: transparent;
-background: none;
-border:none;
-image: url(/home/cnc/Downloads/CNC_Zero.png);
-}
-
-#GoBack:pressed {
-image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
-}</string>
-        </property>
-        <property name="text">
-         <string>Go Back</string>
         </property>
        </widget>
        <widget class="HalCheckBox" name="halcheckbox">
@@ -8067,11 +8015,11 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/CNC_REF.png);
+image: url(/home/cnc/.iMG/Go_Up.png);
 }
 
 #XY_Zero:pressed {
-image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
+image: url(/home/cnc/.iMG/Go_Down.png);
 }</string>
         </property>
         <property name="text">
@@ -8149,11 +8097,11 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/CNC_REF.png);
+image: url(/home/cnc/.iMG/Go_Up.png);
 }
 
-#XY_Zero:pressed _2{
-image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
+#XY_Zero_2:pressed {
+image: url(/home/cnc/.iMG/Go_Down.png);
 }</string>
         </property>
         <property name="text">
@@ -8231,11 +8179,11 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/CNC_REF.png);
+image: url(/home/cnc/.iMG/Go_Up.png);
 }
 
-#XY_Zero:pressed _3{
-image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
+#XY_Zero_3:pressed {
+image: url(/home/cnc/.iMG/Go_Down.png);
 }</string>
         </property>
         <property name="text">
@@ -8308,16 +8256,16 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
          <enum>Qt::LeftToRight</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">#XY_Zero_4{
+         <string notr="true">#XY_Zero_4 {
 font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/CNC_REF.png);
+image: url(/home/cnc/.iMG/Go_Up.png);
 }
 
-#XY_Zero:pressed _4{
-image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
+#XY_Zero_4:pressed {
+image: url(/home/cnc/.iMG/Go_Down.png);
 }</string>
         </property>
         <property name="text">
@@ -8410,6 +8358,214 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
          <string>program.abort</string>
         </property>
        </widget>
+       <widget class="MDIButton" name="GoBack_2">
+        <property name="geometry">
+         <rect>
+          <x>465</x>
+          <y>1550</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_2 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_2:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>Move</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_3">
+        <property name="geometry">
+         <rect>
+          <x>445</x>
+          <y>1582</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_3 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_3:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>Front</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_4">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>1582</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_4 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_4:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_5">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>1550</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_5 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_5:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>Move</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_6">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>1550</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_6 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_6:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>Move</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_7">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>1582</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_7 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_7:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>X Y Zero</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_8">
+        <property name="geometry">
+         <rect>
+          <x>850</x>
+          <y>1550</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_8 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_8:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>Move</string>
+        </property>
+       </widget>
+       <widget class="MDIButton" name="GoBack_9">
+        <property name="geometry">
+         <rect>
+          <x>820</x>
+          <y>1582</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#GoBack_9 {
+font: 20pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/Downloads/CNC_Zero.png);
+}
+
+#GoBack_9:pressed {
+image: url(/home/cnc/Downloads/CNC_Zero_pressed.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>X Y Z Zero</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8473,9 +8629,15 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <zorder>XY_Zero_2</zorder>
        <zorder>XY_Zero_3</zorder>
        <zorder>XY_Zero_4</zorder>
-       <zorder>GoXY</zorder>
-       <zorder>GoBack</zorder>
        <zorder>Feed_2</zorder>
+       <zorder>GoBack_2</zorder>
+       <zorder>GoBack_3</zorder>
+       <zorder>GoBack_4</zorder>
+       <zorder>GoBack_5</zorder>
+       <zorder>GoBack_6</zorder>
+       <zorder>GoBack_7</zorder>
+       <zorder>GoBack_8</zorder>
+       <zorder>GoBack_9</zorder>
       </widget>
      </widget>
     </item>
