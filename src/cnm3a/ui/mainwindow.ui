@@ -8051,7 +8051,7 @@ image: url(/home/cnc/.iMG/Go_Down.png);
 ]</string>
         </property>
         <property name="MDICommand" stdset="0">
-         <string>G10 L20 P{ch[0]} X0.0 Y0.0 Z0.0</string>
+         <string>G0 X10 Y10</string>
         </property>
        </widget>
        <widget class="MDIButton" name="XY_Zero_2">
@@ -8133,7 +8133,7 @@ image: url(/home/cnc/.iMG/Go_Down.png);
 ]</string>
         </property>
         <property name="MDICommand" stdset="0">
-         <string>G10 L20 P{ch[0]} X0.0 Y0.0 Z0.0</string>
+         <string>G0 X20 Y20</string>
         </property>
        </widget>
        <widget class="MDIButton" name="XY_Zero_3">
@@ -8215,7 +8215,7 @@ image: url(/home/cnc/.iMG/Go_Down.png);
 ]</string>
         </property>
         <property name="MDICommand" stdset="0">
-         <string>G10 L20 P{ch[0]} X0.0 Y0.0 Z0.0</string>
+         <string>G0 X0 Y0</string>
         </property>
        </widget>
        <widget class="MDIButton" name="XY_Zero_4">
@@ -8297,7 +8297,7 @@ image: url(/home/cnc/.iMG/Go_Down.png);
 ]</string>
         </property>
         <property name="MDICommand" stdset="0">
-         <string>G10 L20 P{ch[0]} X0.0 Y0.0 Z0.0</string>
+         <string>G0 X0 Y0 Z0</string>
         </property>
        </widget>
        <widget class="ActionButton" name="Feed_2">
