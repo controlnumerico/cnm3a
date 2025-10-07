@@ -286,7 +286,7 @@ image: url(/home/cnc/.iMG/CNC_Main_4_fw.png);
          <enum>QTabWidget::South</enum>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <property name="usesScrollButtons">
          <bool>false</bool>
@@ -778,13 +778,13 @@ color: rgb(56, 54, 57);
 }</string>
                  </property>
                  <property name="text">
-                  <string>0</string>
+                  <string>0.0</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                  </property>
                  <property name="rules" stdset="0">
-                  <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:settings&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'%.0f' % ch[0][1]&quot;, &quot;name&quot;: &quot;F Word&quot;}]</string>
+                  <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:settings&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{ch[0][1]:.1f}\&quot;&quot;, &quot;name&quot;: &quot;F Word&quot;}]</string>
                  </property>
                  <property name="format" stdset="0">
                   <string/>
@@ -827,13 +827,13 @@ color: rgb(56, 54, 57);
 }</string>
                  </property>
                  <property name="text">
-                  <string>0</string>
+                  <string>0.0</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                  </property>
                  <property name="rules" stdset="0">
-                  <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:current_vel&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'%.0f' % (ch[0] * 60)&quot;, &quot;name&quot;: &quot;cur vel&quot;}]</string>
+                  <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:current_vel&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{(ch[0] * 60):.1f}\&quot;&quot;, &quot;name&quot;: &quot;cur vel&quot;}]</string>
                  </property>
                  <property name="format" stdset="0">
                   <string/>
@@ -1666,8 +1666,8 @@ color: rgb(56, 54, 57);
                   <rect>
                    <x>-10</x>
                    <y>344</y>
-                   <width>891</width>
-                   <height>786</height>
+                   <width>300</width>
+                   <height>300</height>
                   </rect>
                  </property>
                  <property name="focusPolicy">
@@ -3249,6 +3249,108 @@ border-radius: 4px;
              </property>
              <property name="actionName" stdset="0">
               <string>machine.max-velocity.set</string>
+             </property>
+            </widget>
+            <widget class="StatusLabel" name="f_word_status">
+             <property name="geometry">
+              <rect>
+               <x>392</x>
+               <y>1100</y>
+               <width>105</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>105</width>
+               <height>38</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>105</width>
+               <height>38</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 17pt &quot;Bebas Kai&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>0.0</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="rules" stdset="0">
+              <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:settings&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{ch[0][1]:.1f}\&quot;&quot;, &quot;name&quot;: &quot;F Word&quot;}]</string>
+             </property>
+             <property name="format" stdset="0">
+              <string>{:1f}</string>
+             </property>
+            </widget>
+            <widget class="StatusLabel" name="current_velocity_status">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>1100</y>
+               <width>105</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>105</width>
+               <height>38</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>105</width>
+               <height>38</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+    border-style: solid;
+    border-color: rgb(96, 96, 97);
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(86, 86, 87);
+	font: 50 17pt &quot;Bebas Kai&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>0.0</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="rules" stdset="0">
+              <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:current_vel&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;f\&quot;{(ch[0] * 60):.1f}\&quot;&quot;, &quot;name&quot;: &quot;cur vel&quot;}]</string>
+             </property>
+             <property name="format" stdset="0">
+              <string>{:.1f}</string>
              </property>
             </widget>
            </widget>
