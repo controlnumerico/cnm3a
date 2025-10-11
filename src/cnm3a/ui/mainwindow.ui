@@ -5179,70 +5179,6 @@ background-color: rgb(136, 138, 133,0);
          <string>X</string>
         </property>
        </widget>
-       <widget class="QLabel" name="label_19">
-        <property name="geometry">
-         <rect>
-          <x>570</x>
-          <y>1760</y>
-          <width>51</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Liberation Mono</family>
-          <pointsize>22</pointsize>
-          <weight>75</weight>
-          <italic>false</italic>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(136, 138, 133);
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>F2</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_20">
-        <property name="geometry">
-         <rect>
-          <x>570</x>
-          <y>1720</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Liberation Mono</family>
-          <pointsize>15</pointsize>
-          <weight>75</weight>
-          <italic>false</italic>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(1, 123, 206);
-
-background-color: rgb(136, 138, 133,0);
- 
- </string>
-        </property>
-        <property name="text">
-         <string>TURN ON/OFF</string>
-        </property>
-       </widget>
        <widget class="ActionButton" name="ref_all_button_6">
         <property name="geometry">
          <rect>
@@ -6321,14 +6257,14 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="StatusLED" name="statusled">
         <property name="geometry">
          <rect>
-          <x>60</x>
-          <y>1550</y>
-          <width>15</width>
-          <height>15</height>
+          <x>155</x>
+          <y>1546</y>
+          <width>20</width>
+          <height>20</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>15</number>
+         <number>20</number>
         </property>
         <property name="color">
          <color>
@@ -6347,16 +6283,16 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="ActionButton" name="mode_mdi">
         <property name="geometry">
          <rect>
-          <x>130</x>
-          <y>1540</y>
-          <width>70</width>
-          <height>70</height>
+          <x>190</x>
+          <y>1533</y>
+          <width>125</width>
+          <height>87</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
-          <width>70</width>
-          <height>70</height>
+          <width>125</width>
+          <height>87</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -6373,7 +6309,7 @@ background-color: rgb(136, 138, 133,0);</string>
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/70x70.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/MDIMode_Up.png);
 }
 
 #mode_mdi:pressed {
@@ -6390,16 +6326,16 @@ image: url(/home/cnc/Downloads/CNC_Mode_MDI_pressed.png);
        <widget class="ActionButton" name="mode_auto">
         <property name="geometry">
          <rect>
-          <x>50</x>
-          <y>1540</y>
-          <width>70</width>
-          <height>70</height>
+          <x>60</x>
+          <y>1533</y>
+          <width>125</width>
+          <height>87</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
-          <width>70</width>
-          <height>70</height>
+          <width>125</width>
+          <height>87</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -6416,7 +6352,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_MDI_pressed.png);
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/70x70.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/AutoMode_Up.png);
 }
 
 #mode_auto:pressed {
@@ -6430,14 +6366,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_2">
         <property name="geometry">
          <rect>
-          <x>140</x>
-          <y>1540</y>
-          <width>15</width>
-          <height>15</height>
+          <x>284</x>
+          <y>1546</y>
+          <width>20</width>
+          <height>20</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>15</number>
+         <number>20</number>
         </property>
         <property name="color">
          <color>
@@ -6456,14 +6392,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_3">
         <property name="geometry">
          <rect>
-          <x>220</x>
-          <y>1550</y>
-          <width>15</width>
-          <height>15</height>
+          <x>417</x>
+          <y>1546</y>
+          <width>20</width>
+          <height>20</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>15</number>
+         <number>20</number>
         </property>
         <property name="color">
          <color>
@@ -6482,22 +6418,22 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="ActionButton" name="mode_manual">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>1540</y>
-          <width>70</width>
-          <height>70</height>
+          <x>320</x>
+          <y>1533</y>
+          <width>125</width>
+          <height>87</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
-          <width>70</width>
-          <height>70</height>
+          <width>125</width>
+          <height>87</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>70</width>
-          <height>70</height>
+          <width>125</width>
+          <height>87</height>
          </size>
         </property>
         <property name="focusPolicy">
@@ -6508,7 +6444,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/70x70.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/ManualMode_Up.png);
 }
 
 #mode_manual:pressed {
@@ -8080,7 +8016,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>460</x>
+          <x>490</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8162,7 +8098,7 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>580</x>
+          <x>600</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8244,7 +8180,7 @@ image: url(/home/cnc/.iMG/Go_Down_Back.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>700</x>
+          <x>710</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8459,14 +8395,25 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
          <string>program.abort</string>
         </property>
        </widget>
+       <widget class="Line" name="line_5">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>1541</y>
+          <width>20</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
        <zorder>Ref_x_LED</zorder>
        <zorder>Ref_z_LED</zorder>
        <zorder>label_16</zorder>
-       <zorder>label_19</zorder>
-       <zorder>label_20</zorder>
        <zorder>ref_all_button_6</zorder>
        <zorder>zero_x_button_9</zorder>
        <zorder>zero_z_button_9</zorder>
@@ -8523,6 +8470,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <zorder>XY_Zero_3</zorder>
        <zorder>XY_Zero_4</zorder>
        <zorder>Feed_2</zorder>
+       <zorder>line_5</zorder>
       </widget>
      </widget>
     </item>
