@@ -6268,9 +6268,9 @@ background-color: rgb(136, 138, 133,0);</string>
         </property>
         <property name="color">
          <color>
-          <red>115</red>
-          <green>210</green>
-          <blue>22</blue>
+          <red>246</red>
+          <green>211</green>
+          <blue>45</blue>
          </color>
         </property>
         <property name="state">
@@ -6377,9 +6377,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         </property>
         <property name="color">
          <color>
-          <red>115</red>
-          <green>210</green>
-          <blue>22</blue>
+          <red>246</red>
+          <green>211</green>
+          <blue>45</blue>
          </color>
         </property>
         <property name="state">
@@ -6403,9 +6403,9 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         </property>
         <property name="color">
          <color>
-          <red>115</red>
-          <green>210</green>
-          <blue>22</blue>
+          <red>246</red>
+          <green>211</green>
+          <blue>45</blue>
          </color>
         </property>
         <property name="state">
