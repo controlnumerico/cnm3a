@@ -5215,6 +5215,7 @@ font: 25pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
+	color: rgb(246, 211, 45);
 image: url(/home/cnc/.iMG/CNC_Home.png);
 }
 
@@ -7665,7 +7666,7 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
         <property name="geometry">
          <rect>
           <x>1025</x>
-          <y>265</y>
+          <y>270</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7692,7 +7693,7 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
          <string notr="true"> 
  
  
-color: rgb(119, 118, 123);
+color: rgb(192, 191, 188);
 
 background-color: rgb(136, 138, 133,0);
  </string>
@@ -7705,7 +7706,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>1025</x>
-          <y>355</y>
+          <y>360</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7729,7 +7730,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(119, 118, 123);
+         <string notr="true">color: rgb(192, 191, 188);
 
 background-color: rgb(136, 138, 133,0);
  </string>
@@ -7742,7 +7743,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>1025</x>
-          <y>445</y>
+          <y>450</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7765,7 +7766,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(119, 118, 123);
+         <string notr="true">color: rgb(192, 191, 188);
 
 
 background-color: rgb(136, 138, 133,0);
@@ -7802,7 +7803,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(119, 118, 123);
+         <string notr="true">color: rgb(192, 191, 188);
 
 background-color: rgb(136, 138, 133,0);
  </string>
@@ -7838,8 +7839,7 @@ background-color: rgb(136, 138, 133,0);
          <enum>Qt::RightToLeft</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(119, 118, 123);
-
+         <string notr="true">color: rgb(192, 191, 188);
 background-color: rgb(136, 138, 133,0);
  </string>
         </property>
