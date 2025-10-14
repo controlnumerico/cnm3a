@@ -8411,6 +8411,53 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
          <enum>Qt::Vertical</enum>
         </property>
        </widget>
+       <widget class="StatusLabel" name="Modee_label_2">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>1635</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>BebasKai</family>
+          <pointsize>20</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+#Modee_label {
+
+text-transform: uppercase ;
+
+
+background-color: rgb(136, 138, 133,0);
+
+	color: rgb(222, 221, 218);
+
+    font: 20pt &quot;BebasKai&quot;;
+
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>N/A Operation</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?string&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0] + \&quot; Operation\&quot;&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8474,6 +8521,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <zorder>XY_Zero_4</zorder>
        <zorder>Feed_2</zorder>
        <zorder>line_5</zorder>
+       <zorder>Modee_label_2</zorder>
       </widget>
      </widget>
     </item>
