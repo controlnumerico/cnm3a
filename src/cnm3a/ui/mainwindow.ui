@@ -8432,14 +8432,15 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
         <property name="styleSheet">
          <string notr="true">
 
-#Modee_label {
+#Modee_label_2 {
 
 text-transform: uppercase ;
 
 
 background-color: rgb(136, 138, 133,0);
 
-	color: rgb(222, 221, 218);
+ 
+	color: rgb(246, 211, 45);
 
     font: 20pt &quot;BebasKai&quot;;
 
