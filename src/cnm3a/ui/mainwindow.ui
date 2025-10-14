@@ -5284,7 +5284,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
- 
+color: rgb(222, 221, 218);
 image: url(/home/cnc/.iMG/CNC_Zero.png);
 }
 
@@ -5364,6 +5364,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
+color: rgb(222, 221, 218);
 image: url(/home/cnc/.iMG//CNC_Zero.png);
 }
 
@@ -5446,6 +5447,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
+color: rgb(222, 221, 218);
 image: url(/home/cnc/.iMG/CNC_REF.png);
 }
 
@@ -5537,6 +5539,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
+color: rgb(222, 221, 218);
 image: url(/home/cnc/.iMG/CNC_Zero.png);
 }
 
@@ -6692,7 +6695,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
- 
+ color: rgb(222, 221, 218);
 image: url(/home/cnc/.iMG/CNC_Zero.png);
 }
 
