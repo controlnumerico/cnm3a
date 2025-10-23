@@ -8414,7 +8414,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <widget class="StatusLabel" name="Modee_label_2">
         <property name="geometry">
          <rect>
-          <x>170</x>
+          <x>190</x>
           <y>1635</y>
           <width>171</width>
           <height>31</height>
