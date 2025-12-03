@@ -1891,7 +1891,7 @@ border-style: transparant;
                  <property name="geometry">
                   <rect>
                    <x>770</x>
-                   <y>370</y>
+                   <y>360</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
