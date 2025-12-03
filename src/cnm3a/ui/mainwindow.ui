@@ -1891,7 +1891,7 @@ border-style: transparant;
                  <property name="geometry">
                   <rect>
                    <x>770</x>
-                   <y>350</y>
+                   <y>370</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
@@ -7668,8 +7668,8 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
        <widget class="QLabel" name="label_71">
         <property name="geometry">
          <rect>
-          <x>1025</x>
-          <y>270</y>
+          <x>960</x>
+          <y>210</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7708,8 +7708,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_72">
         <property name="geometry">
          <rect>
-          <x>1025</x>
-          <y>360</y>
+          <x>960</x>
+          <y>301</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7745,8 +7745,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_73">
         <property name="geometry">
          <rect>
-          <x>1025</x>
-          <y>450</y>
+          <x>960</x>
+          <y>394</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7782,8 +7782,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_74">
         <property name="geometry">
          <rect>
-          <x>1025</x>
-          <y>550</y>
+          <x>960</x>
+          <y>490</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7818,8 +7818,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="QLabel" name="label_75">
         <property name="geometry">
          <rect>
-          <x>1025</x>
-          <y>640</y>
+          <x>960</x>
+          <y>580</y>
           <width>41</width>
           <height>31</height>
          </rect>
