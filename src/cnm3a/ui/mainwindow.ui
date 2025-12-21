@@ -6637,7 +6637,7 @@ background-color: rgb(136, 138, 133,0);
        <widget class="HalCheckBox" name="halcheckbox">
         <property name="geometry">
          <rect>
-          <x>590</x>
+          <x>850</x>
           <y>10</y>
           <width>61</width>
           <height>41</height>
