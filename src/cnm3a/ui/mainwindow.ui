@@ -58,7 +58,7 @@
 
 
 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/CNC_Main_5_fw.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/CNC_Main.png);
 
 
 }</string>
@@ -6637,9 +6637,9 @@ background-color: rgb(136, 138, 133,0);
        <widget class="HalCheckBox" name="halcheckbox">
         <property name="geometry">
          <rect>
-          <x>850</x>
-          <y>10</y>
-          <width>61</width>
+          <x>10</x>
+          <y>590</y>
+          <width>31</width>
           <height>41</height>
          </rect>
         </property>
