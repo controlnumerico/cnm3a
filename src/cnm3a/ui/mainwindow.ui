@@ -8486,7 +8486,7 @@ background-color: rgb(136, 138, 133,0);
          <bool>false</bool>
         </property>
         <property name="flashing">
-         <bool>true</bool>
+         <bool>false</bool>
         </property>
         <property name="flashRate">
          <number>300</number>
