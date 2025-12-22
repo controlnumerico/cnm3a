@@ -8459,6 +8459,32 @@ background-color: rgb(136, 138, 133,0);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?string&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0] + \&quot; Operation\&quot;&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
         </property>
        </widget>
+       <widget class="StatusLED" name="statusled_4">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>1820</y>
+          <width>20</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="diameter">
+         <number>20</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>246</red>
+          <green>211</green>
+          <blue>45</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8523,6 +8549,7 @@ background-color: rgb(136, 138, 133,0);
        <zorder>Feed_2</zorder>
        <zorder>line_5</zorder>
        <zorder>Modee_label_2</zorder>
+       <zorder>statusled_4</zorder>
       </widget>
      </widget>
     </item>
