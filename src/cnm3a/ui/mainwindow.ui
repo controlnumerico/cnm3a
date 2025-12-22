@@ -5837,7 +5837,7 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1410</y>
+          <y>1400</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5894,7 +5894,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Feed_on.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1310</y>
+          <y>1296</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -8301,7 +8301,7 @@ image: url(/home/cnc/.iMG/Go_Down_XYZ.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1510</y>
+          <y>1504</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -8419,7 +8419,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>1055</x>
-          <y>1450</y>
+          <y>1440</y>
           <width>20</width>
           <height>20</height>
          </rect>
