@@ -5836,10 +5836,10 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
        <widget class="ActionButton" name="Feed">
         <property name="geometry">
          <rect>
-          <x>770</x>
-          <y>1810</y>
-          <width>100</width>
-          <height>100</height>
+          <x>983</x>
+          <y>1640</y>
+          <width>90</width>
+          <height>90</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -5850,14 +5850,14 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>100</width>
-          <height>100</height>
+          <width>90</width>
+          <height>90</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>100</height>
+          <width>90</width>
+          <height>90</height>
          </size>
         </property>
         <property name="focusPolicy">
@@ -5869,7 +5869,7 @@ background-color: transparent;
 background: none;
 border:none;
  
-image: url(/home/cnc/.iMG/Feed_off.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Feed_off.png);
 }
 
 #Feed:pressed {
@@ -5893,10 +5893,10 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <widget class="ActionButton" name="Start">
         <property name="geometry">
          <rect>
-          <x>770</x>
-          <y>1680</y>
-          <width>100</width>
-          <height>100</height>
+          <x>893</x>
+          <y>1640</y>
+          <width>90</width>
+          <height>90</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -5905,7 +5905,11 @@ background-color: transparent;
 background: none;
 border:none;
  
-image: url(/home/cnc/.iMG/Cycle_start_off.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_off.png);
+
+
+
+
 }
 
 #Start:pressed {
@@ -5921,7 +5925,7 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
         <property name="geometry">
          <rect>
           <x>900</x>
-          <y>1644</y>
+          <y>1740</y>
           <width>160</width>
           <height>160</height>
          </rect>
@@ -6463,7 +6467,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>895</x>
-          <y>1640</y>
+          <y>1736</y>
           <width>170</width>
           <height>170</height>
          </rect>
@@ -8344,8 +8348,8 @@ image: url(/home/cnc/.iMG/Go_Down_XYZ.png);
        <widget class="ActionButton" name="Feed_2">
         <property name="geometry">
          <rect>
-          <x>930</x>
-          <y>1810</y>
+          <x>780</x>
+          <y>1640</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -8462,8 +8466,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="StatusLED" name="statusled_4">
         <property name="geometry">
          <rect>
-          <x>710</x>
-          <y>1820</y>
+          <x>1051</x>
+          <y>1715</y>
           <width>20</width>
           <height>20</height>
          </rect>
@@ -8480,6 +8484,12 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="state">
          <bool>false</bool>
+        </property>
+        <property name="flashing">
+         <bool>true</bool>
+        </property>
+        <property name="flashRate">
+         <number>300</number>
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
