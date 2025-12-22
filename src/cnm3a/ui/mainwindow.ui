@@ -5784,22 +5784,22 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="QPushButton" name="exitAppBtn">
         <property name="geometry">
          <rect>
-          <x>610</x>
-          <y>1770</y>
+          <x>921</x>
+          <y>1830</y>
           <width>125</width>
-          <height>125</height>
+          <height>60</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>125</width>
-          <height>125</height>
+          <height>60</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>125</width>
-          <height>91</height>
+          <height>60</height>
          </size>
         </property>
         <property name="baseSize">
@@ -5818,8 +5818,9 @@ background-color: transparent;
 background: none;
 border:none;
 	color: rgb(222, 221, 218);
- 
-image: url(/home/cnc/.iMG/BTN_5_Up.png);
+
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_5_Up.png);
+
 
 
 }
@@ -7854,60 +7855,6 @@ background-color: rgb(136, 138, 133,0);
          <string>Zero</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="ref_all_button_7">
-        <property name="geometry">
-         <rect>
-          <x>390</x>
-          <y>1730</y>
-          <width>125</width>
-          <height>125</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>1</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>125</width>
-          <height>125</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>125</width>
-          <height>125</height>
-         </size>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::WheelFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#ref_all_button_7 {
-font: 25pt &quot;Bebas Kai&quot;;
- 
-	color: rgb(61, 56, 70);
-
-border:none;
-image: url(/home/cnc/.iMG/BTN_4_Up.png);
-}
-
-#ref_all_button_7:pressed {
-image: url(/home/cnc/.iMG/BTN_4_Down.png);
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[]</string>
-        </property>
-        <property name="actionName" stdset="0">
-         <string>machine.home.all</string>
-        </property>
-       </widget>
        <widget class="QPushButton" name="clean">
         <property name="geometry">
          <rect>
@@ -8500,7 +8447,6 @@ background-color: rgb(136, 138, 133,0);
        <zorder>label_73</zorder>
        <zorder>label_74</zorder>
        <zorder>label_75</zorder>
-       <zorder>ref_all_button_7</zorder>
        <zorder>clean</zorder>
        <zorder>XY_Zero</zorder>
        <zorder>XY_Zero_2</zorder>
