@@ -5836,10 +5836,10 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
        <widget class="ActionButton" name="Feed">
         <property name="geometry">
          <rect>
-          <x>983</x>
-          <y>1640</y>
-          <width>90</width>
-          <height>90</height>
+          <x>670</x>
+          <y>1770</y>
+          <width>100</width>
+          <height>100</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -5856,8 +5856,8 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
         </property>
         <property name="maximumSize">
          <size>
-          <width>90</width>
-          <height>90</height>
+          <width>100</width>
+          <height>100</height>
          </size>
         </property>
         <property name="focusPolicy">
@@ -5893,10 +5893,10 @@ image: url(/home/cnc/.iMG/E-Stop-Inac.png);
        <widget class="ActionButton" name="Start">
         <property name="geometry">
          <rect>
-          <x>893</x>
-          <y>1640</y>
-          <width>90</width>
-          <height>90</height>
+          <x>660</x>
+          <y>1650</y>
+          <width>100</width>
+          <height>100</height>
          </rect>
         </property>
         <property name="styleSheet">
