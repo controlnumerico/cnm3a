@@ -5874,7 +5874,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Feed_off.png);
 
 #Feed:pressed {
  
-image: url(/home/cnc/.iMG/E-Stop-Inac.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Feed_on.png);
 }</string>
         </property>
         <property name="text">
@@ -5914,7 +5914,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_off.png);
 
 #Start:pressed {
  
-image: url(/home/cnc/.iMG/E-Stop-Inac.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
 }</string>
         </property>
         <property name="actionName" stdset="0">
@@ -8338,7 +8338,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Stop_off.png);
 
 #Feed_2:pressed {
  
-image: url(/home/cnc/.iMG/E-Stop-Inac.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Stop_on.png);
 }</string>
         </property>
         <property name="text">
