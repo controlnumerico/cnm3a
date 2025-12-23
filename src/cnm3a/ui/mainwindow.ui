@@ -5183,7 +5183,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>87</y>
+          <y>69</y>
           <width>125</width>
           <height>125</height>
          </rect>
@@ -5240,7 +5240,7 @@ image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
         <property name="geometry">
          <rect>
           <x>949</x>
-          <y>211</y>
+          <y>193</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5332,7 +5332,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>949</x>
-          <y>395</y>
+          <y>377</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5412,7 +5412,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>490</y>
+          <y>472</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5495,7 +5495,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>580</y>
+          <y>562</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5838,7 +5838,7 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1400</y>
+          <y>1420</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5895,7 +5895,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Feed_on.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1296</y>
+          <y>1280</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -6656,7 +6656,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>949</x>
-          <y>301</y>
+          <y>283</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -6745,7 +6745,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>736</y>
+          <y>718</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6806,7 +6806,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>792</y>
+          <y>774</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6867,7 +6867,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>848</y>
+          <y>830</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6927,7 +6927,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>904</y>
+          <y>886</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6987,7 +6987,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1240</y>
+          <y>1222</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7050,7 +7050,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1072</y>
+          <y>1054</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7110,7 +7110,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>960</y>
+          <y>942</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7170,7 +7170,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1016</y>
+          <y>998</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7230,7 +7230,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1128</y>
+          <y>1110</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7290,7 +7290,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1184</y>
+          <y>1166</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7674,7 +7674,7 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>210</y>
+          <y>192</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7714,7 +7714,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>301</y>
+          <y>283</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7751,7 +7751,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>394</y>
+          <y>376</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7788,7 +7788,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>490</y>
+          <y>472</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7824,7 +7824,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>580</y>
+          <y>562</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7859,7 +7859,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>680</y>
+          <y>662</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -8251,7 +8251,7 @@ image: url(/home/cnc/.iMG/Go_Down_XYZ.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1504</y>
+          <y>1520</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -8397,35 +8397,62 @@ background-color: rgb(136, 138, 133,0);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="Start_2">
+       <widget class="ActionCheckBox" name="stop_2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="geometry">
          <rect>
-          <x>851</x>
-          <y>1532</y>
-          <width>87</width>
-          <height>87</height>
+          <x>959</x>
+          <y>1385</y>
+          <width>104</width>
+          <height>30</height>
          </rect>
         </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>104</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>145</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>120</width>
+          <height>37</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="styleSheet">
-         <string notr="true">#Start_2 {
-background-color: transparent;
-background: none;
-border:none;
- 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Single_Block_Up.png);
+         <string notr="true">ActionCheckBox::indicator:checked {
 
-
-
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Down.png);
 
 }
 
-#Start_2:pressed {
- 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
-}</string>
+ActionCheckBox::indicator:unchecked {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Up.png);
+}
+
+
+
+</string>
         </property>
         <property name="actionName" stdset="0">
-         <string>program.run</string>
+         <string>program.step</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8490,7 +8517,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
        <zorder>line_5</zorder>
        <zorder>Modee_label_2</zorder>
        <zorder>statusled_4</zorder>
-       <zorder>Start_2</zorder>
+       <zorder>stop_2</zorder>
       </widget>
      </widget>
     </item>
