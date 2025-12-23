@@ -6266,14 +6266,14 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="StatusLED" name="statusled">
         <property name="geometry">
          <rect>
-          <x>124</x>
-          <y>1593</y>
+          <x>110</x>
+          <y>1595</y>
           <width>15</width>
           <height>15</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>20</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -6292,7 +6292,7 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="ActionButton" name="mode_mdi">
         <property name="geometry">
          <rect>
-          <x>147</x>
+          <x>136</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -6335,7 +6335,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_MDI_pressed.png);
        <widget class="ActionButton" name="mode_auto">
         <property name="geometry">
          <rect>
-          <x>58</x>
+          <x>43</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -6375,14 +6375,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_2">
         <property name="geometry">
          <rect>
-          <x>214</x>
-          <y>1593</y>
+          <x>202</x>
+          <y>1595</y>
           <width>15</width>
           <height>15</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>20</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -6401,14 +6401,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_3">
         <property name="geometry">
          <rect>
-          <x>305</x>
-          <y>1593</y>
+          <x>298</x>
+          <y>1595</y>
           <width>15</width>
           <height>15</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>20</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -6427,7 +6427,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="ActionButton" name="mode_manual">
         <property name="geometry">
          <rect>
-          <x>237</x>
+          <x>230</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -8304,19 +8304,6 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Stop_on.png);
          <string>program.abort</string>
         </property>
        </widget>
-       <widget class="Line" name="line_5">
-        <property name="geometry">
-         <rect>
-          <x>342</x>
-          <y>1541</y>
-          <width>20</width>
-          <height>71</height>
-         </rect>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
        <widget class="StatusLabel" name="Modee_label_2">
         <property name="geometry">
          <rect>
@@ -8437,41 +8424,29 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Down.png);
          <string>program.step</string>
         </property>
        </widget>
-       <widget class="MDIButton" name="Coolant">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
+       <widget class="ActionButton" name="Coolant">
         <property name="geometry">
          <rect>
-          <x>328</x>
-          <y>1533</y>
-          <width>90</width>
-          <height>90</height>
+          <x>325</x>
+          <y>1534</y>
+          <width>87</width>
+          <height>87</height>
          </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
         </property>
         <property name="minimumSize">
          <size>
-          <width>90</width>
-          <height>90</height>
+          <width>87</width>
+          <height>87</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>125</width>
-          <height>90</height>
+          <height>87</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::LeftToRight</enum>
         </property>
         <property name="styleSheet">
          <string notr="true">#Coolant {
@@ -8486,119 +8461,49 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Up.png);
 image: url(/home/cnc/.iMG/Go_Down_Front.png);
 }</string>
         </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normaloff>:/images/zero.png</normaloff>:/images/zero.png</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>20</width>
-          <height>20</height>
-         </size>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[
-    {
-        &quot;channels&quot;: [
-            {
-                &quot;url&quot;: &quot;status:g5x_index&quot;,
-                &quot;trigger&quot;: true,
-                &quot;type&quot;: &quot;int&quot;
-            }
-        ],
-        &quot;expression&quot;: &quot;&quot;,
-        &quot;name&quot;: &quot;G5x Index&quot;,
-        &quot;property&quot;: &quot;None&quot;
-    }
-]</string>
-        </property>
-        <property name="MDICommand" stdset="0">
-         <string>G0 X10 Y10</string>
+        <property name="actionName" stdset="0">
+         <string>coolant.flood.toggle</string>
         </property>
        </widget>
-       <widget class="MDIButton" name="Coolant_2">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
+       <widget class="ActionButton" name="Mist">
         <property name="geometry">
          <rect>
-          <x>419</x>
-          <y>1533</y>
-          <width>90</width>
-          <height>90</height>
+          <x>418</x>
+          <y>1534</y>
+          <width>87</width>
+          <height>87</height>
          </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
         </property>
         <property name="minimumSize">
          <size>
-          <width>90</width>
-          <height>90</height>
+          <width>87</width>
+          <height>87</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>125</width>
-          <height>90</height>
+          <height>87</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
-        <property name="layoutDirection">
-         <enum>Qt::LeftToRight</enum>
-        </property>
         <property name="styleSheet">
-         <string notr="true">#Coolant_2 {
+         <string notr="true">#Mist {
 font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Up.png);
 }
 
-#Coolant_2:pressed {
+#Mist:pressed {
 image: url(/home/cnc/.iMG/Go_Down_Front.png);
 }</string>
         </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normaloff>:/images/zero.png</normaloff>:/images/zero.png</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>20</width>
-          <height>20</height>
-         </size>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[
-    {
-        &quot;channels&quot;: [
-            {
-                &quot;url&quot;: &quot;status:g5x_index&quot;,
-                &quot;trigger&quot;: true,
-                &quot;type&quot;: &quot;int&quot;
-            }
-        ],
-        &quot;expression&quot;: &quot;&quot;,
-        &quot;name&quot;: &quot;G5x Index&quot;,
-        &quot;property&quot;: &quot;None&quot;
-    }
-]</string>
-        </property>
-        <property name="MDICommand" stdset="0">
-         <string>G0 X10 Y10</string>
+        <property name="actionName" stdset="0">
+         <string>coolant.mist.toggle</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8660,12 +8565,11 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
        <zorder>XY_Zero_3</zorder>
        <zorder>XY_Zero_4</zorder>
        <zorder>Feed_2</zorder>
-       <zorder>line_5</zorder>
        <zorder>Modee_label_2</zorder>
        <zorder>statusled_4</zorder>
        <zorder>Step</zorder>
        <zorder>Coolant</zorder>
-       <zorder>Coolant_2</zorder>
+       <zorder>Mist</zorder>
       </widget>
      </widget>
     </item>
