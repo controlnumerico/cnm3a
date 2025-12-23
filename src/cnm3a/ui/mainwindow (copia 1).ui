@@ -6643,9 +6643,9 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>1590</y>
-          <width>0</width>
-          <height>0</height>
+          <y>590</y>
+          <width>31</width>
+          <height>41</height>
          </rect>
         </property>
        </widget>
