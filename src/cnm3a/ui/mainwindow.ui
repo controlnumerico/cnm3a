@@ -3353,16 +3353,6 @@ border-radius: 4px;
               <string>{:.1f}</string>
              </property>
             </widget>
-            <widget class="HalCheckBox" name="halcheckbox">
-             <property name="geometry">
-              <rect>
-               <x>670</x>
-               <y>1210</y>
-               <width>151</width>
-               <height>61</height>
-              </rect>
-             </property>
-            </widget>
            </widget>
           </item>
          </layout>
@@ -8441,6 +8431,16 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
          <enum>Qt::Vertical</enum>
         </property>
        </widget>
+       <widget class="HalCheckBox" name="halcheckbox">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>1690</y>
+          <width>151</width>
+          <height>61</height>
+         </rect>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8504,6 +8504,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
        <zorder>statusled_4</zorder>
        <zorder>Start_2</zorder>
        <zorder>line_6</zorder>
+       <zorder>halcheckbox</zorder>
       </widget>
      </widget>
     </item>
