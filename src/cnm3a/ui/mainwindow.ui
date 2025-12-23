@@ -286,7 +286,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/CNC_Main.png);
          <enum>QTabWidget::South</enum>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <property name="usesScrollButtons">
          <bool>false</bool>
@@ -3351,6 +3351,16 @@ border-radius: 4px;
              </property>
              <property name="format" stdset="0">
               <string>{:.1f}</string>
+             </property>
+            </widget>
+            <widget class="HalCheckBox" name="halcheckbox">
+             <property name="geometry">
+              <rect>
+               <x>670</x>
+               <y>1210</y>
+               <width>151</width>
+               <height>61</height>
+              </rect>
              </property>
             </widget>
            </widget>
@@ -6639,16 +6649,6 @@ background-color: rgb(136, 138, 133,0);
          <string>Z</string>
         </property>
        </widget>
-       <widget class="HalCheckBox" name="halcheckbox">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>590</y>
-          <width>31</width>
-          <height>41</height>
-         </rect>
-        </property>
-       </widget>
        <widget class="MDIButton" name="zero_y_button">
         <property name="enabled">
          <bool>false</bool>
@@ -8471,7 +8471,6 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
        <zorder>label_27</zorder>
        <zorder>Ref_z_LED_3</zorder>
        <zorder>label_57</zorder>
-       <zorder>halcheckbox</zorder>
        <zorder>zero_y_button</zorder>
        <zorder>iso_view_button</zorder>
        <zorder>x_view_button</zorder>
@@ -8702,22 +8701,6 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
     <hint type="destinationlabel">
      <x>488</x>
      <y>188</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>halcheckbox</sender>
-   <signal>stateChanged(int)</signal>
-   <receiver>vtkbackplot_2</receiver>
-   <slot>setViewMachine()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>629</x>
-     <y>39</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>503</x>
-     <y>747</y>
     </hint>
    </hints>
   </connection>
