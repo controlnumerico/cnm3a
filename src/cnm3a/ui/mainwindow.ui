@@ -7958,7 +7958,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/Go_Up_Front.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Go_Up_Front.png);
 }
 
 #XY_Zero:pressed {
@@ -8040,7 +8040,8 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/Go_Up_Back.png);
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Go_Up_Back.png);
 }
 
 #XY_Zero_2:pressed {
@@ -8122,7 +8123,8 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/Go_Up_XY.png);
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Go_Up_XY.png);
 }
 
 #XY_Zero_3:pressed {
@@ -8204,7 +8206,8 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/.iMG/Go_Up_XYZ.png);
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Go_Up_XYZ.png);
 }
 
 #XY_Zero_4:pressed {
