@@ -286,7 +286,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/CNC_Main.png);
          <enum>QTabWidget::South</enum>
         </property>
         <property name="currentIndex">
-         <number>1</number>
+         <number>0</number>
         </property>
         <property name="usesScrollButtons">
          <bool>false</bool>
@@ -1664,10 +1664,10 @@ color: rgb(56, 54, 57);
                 <widget class="VTKBackPlot" name="vtkbackplot_2">
                  <property name="geometry">
                   <rect>
-                   <x>-10</x>
-                   <y>344</y>
-                   <width>889</width>
-                   <height>786</height>
+                   <x>-3</x>
+                   <y>359</y>
+                   <width>881</width>
+                   <height>771</height>
                   </rect>
                  </property>
                  <property name="focusPolicy">
