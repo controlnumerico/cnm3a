@@ -8425,7 +8425,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
 }</string>
         </property>
         <property name="actionName" stdset="0">
-         <string>program.run</string>
+         <string>program.step</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
