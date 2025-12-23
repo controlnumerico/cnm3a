@@ -8397,59 +8397,41 @@ background-color: rgb(136, 138, 133,0);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
-       <widget class="ActionCheckBox" name="stop_2">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
+       <widget class="ActionButton" name="Step">
         <property name="geometry">
          <rect>
-          <x>959</x>
-          <y>1385</y>
+          <x>958</x>
+          <y>1384</y>
           <width>104</width>
           <height>30</height>
          </rect>
         </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
         <property name="minimumSize">
          <size>
-          <width>104</width>
+          <width>87</width>
           <height>30</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>145</width>
-          <height>45</height>
-         </size>
-        </property>
-        <property name="baseSize">
-         <size>
-          <width>120</width>
-          <height>37</height>
+          <width>125</width>
+          <height>87</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">ActionCheckBox::indicator:checked {
-
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Down.png);
-
-}
-
-ActionCheckBox::indicator:unchecked {
+         <string notr="true">#Step{
+background-color: transparent;
+background: none;
+border:none;
 image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Up.png);
 }
 
-
-
-</string>
+#Step:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Down.png);
+}</string>
         </property>
         <property name="actionName" stdset="0">
          <string>program.step</string>
@@ -8517,7 +8499,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Up.png);
        <zorder>line_5</zorder>
        <zorder>Modee_label_2</zorder>
        <zorder>statusled_4</zorder>
-       <zorder>stop_2</zorder>
+       <zorder>Step</zorder>
       </widget>
      </widget>
     </item>
