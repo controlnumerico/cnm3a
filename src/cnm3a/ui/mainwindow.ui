@@ -8397,6 +8397,37 @@ background-color: rgb(136, 138, 133,0);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
+       <widget class="ActionButton" name="Start_2">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>1720</y>
+          <width>98</width>
+          <height>98</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Start_2 {
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Single_Block_Up.png);
+
+
+
+
+}
+
+#Start_2:pressed {
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.run</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8459,6 +8490,7 @@ background-color: rgb(136, 138, 133,0);
        <zorder>line_5</zorder>
        <zorder>Modee_label_2</zorder>
        <zorder>statusled_4</zorder>
+       <zorder>Start_2</zorder>
       </widget>
      </widget>
     </item>
