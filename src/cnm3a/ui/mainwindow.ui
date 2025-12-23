@@ -8526,7 +8526,13 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
          </color>
         </property>
         <property name="state">
-         <bool>false</bool>
+         <bool>true</bool>
+        </property>
+        <property name="flashing">
+         <bool>true</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Manual'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
@@ -8553,6 +8559,12 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
         </property>
         <property name="state">
          <bool>false</bool>
+        </property>
+        <property name="flashing">
+         <bool>true</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Manual'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
