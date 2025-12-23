@@ -6266,8 +6266,8 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="StatusLED" name="statusled">
         <property name="geometry">
          <rect>
-          <x>120</x>
-          <y>1540</y>
+          <x>122</x>
+          <y>1593</y>
           <width>20</width>
           <height>20</height>
          </rect>
@@ -6292,7 +6292,7 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="ActionButton" name="mode_mdi">
         <property name="geometry">
          <rect>
-          <x>150</x>
+          <x>155</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -6375,8 +6375,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_2">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>1540</y>
+          <x>219</x>
+          <y>1593</y>
           <width>20</width>
           <height>20</height>
          </rect>
@@ -6401,8 +6401,8 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_3">
         <property name="geometry">
          <rect>
-          <x>300</x>
-          <y>1540</y>
+          <x>314</x>
+          <y>1593</y>
           <width>20</width>
           <height>20</height>
          </rect>
@@ -6427,7 +6427,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="ActionButton" name="mode_manual">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -7922,7 +7922,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>350</x>
+          <x>360</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8004,7 +8004,7 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>460</x>
+          <x>480</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8087,7 +8087,7 @@ image: url(/home/cnc/.iMG/Go_Down_Back.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>570</x>
+          <x>600</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8170,7 +8170,7 @@ image: url(/home/cnc/.iMG/Go_Down_XY.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>680</x>
+          <x>720</x>
           <y>1533</y>
           <width>125</width>
           <height>87</height>
@@ -8307,7 +8307,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Stop_on.png);
        <widget class="Line" name="line_5">
         <property name="geometry">
          <rect>
-          <x>330</x>
+          <x>342</x>
           <y>1541</y>
           <width>20</width>
           <height>71</height>
@@ -8400,10 +8400,10 @@ background-color: rgb(136, 138, 133,0);
        <widget class="ActionButton" name="Start_2">
         <property name="geometry">
          <rect>
-          <x>840</x>
-          <y>1530</y>
-          <width>98</width>
-          <height>98</height>
+          <x>851</x>
+          <y>1532</y>
+          <width>87</width>
+          <height>87</height>
          </rect>
         </property>
         <property name="styleSheet">
