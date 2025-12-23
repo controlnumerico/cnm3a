@@ -8400,8 +8400,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="ActionButton" name="Start_2">
         <property name="geometry">
          <rect>
-          <x>720</x>
-          <y>1720</y>
+          <x>840</x>
+          <y>1530</y>
           <width>98</width>
           <height>98</height>
          </rect>
