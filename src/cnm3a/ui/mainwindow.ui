@@ -8506,77 +8506,13 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
          <string>coolant.mist.toggle</string>
         </property>
        </widget>
-       <widget class="StatusLED" name="statusled_5">
+       <widget class="StatusLED" name="statusled_9">
         <property name="geometry">
          <rect>
           <x>390</x>
           <y>1540</y>
           <width>15</width>
           <height>15</height>
-         </rect>
-        </property>
-        <property name="diameter">
-         <number>15</number>
-        </property>
-        <property name="color">
-         <color>
-          <red>246</red>
-          <green>211</green>
-          <blue>45</blue>
-         </color>
-        </property>
-        <property name="state">
-         <bool>true</bool>
-        </property>
-        <property name="flashing">
-         <bool>true</bool>
-        </property>
-        <property name="flashRate">
-         <number>500</number>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Manual'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
-        </property>
-       </widget>
-       <widget class="StatusLED" name="statusled_6">
-        <property name="geometry">
-         <rect>
-          <x>484</x>
-          <y>1540</y>
-          <width>15</width>
-          <height>15</height>
-         </rect>
-        </property>
-        <property name="diameter">
-         <number>15</number>
-        </property>
-        <property name="color">
-         <color>
-          <red>246</red>
-          <green>211</green>
-          <blue>45</blue>
-         </color>
-        </property>
-        <property name="state">
-         <bool>true</bool>
-        </property>
-        <property name="flashing">
-         <bool>true</bool>
-        </property>
-        <property name="flashRate">
-         <number>500</number>
-        </property>
-        <property name="rules" stdset="0">
-         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_mode?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Manual'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
-        </property>
-       </widget>
-       <widget class="StatusLED" name="statusled_9">
-        <property name="geometry">
-         <rect>
-          <x>370</x>
-          <y>1690</y>
-          <width>60</width>
-          <height>60</height>
          </rect>
         </property>
         <property name="maximumSize">
@@ -8586,7 +8522,7 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
          </size>
         </property>
         <property name="diameter">
-         <number>84</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -8603,6 +8539,41 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
         </property>
         <property name="rules" stdset="0">
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:flood&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="StatusLED" name="statusled_10">
+        <property name="geometry">
+         <rect>
+          <x>484</x>
+          <y>1540</y>
+          <width>15</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="diameter">
+         <number>15</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8669,9 +8640,8 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
        <zorder>Step</zorder>
        <zorder>Coolant</zorder>
        <zorder>Mist</zorder>
-       <zorder>statusled_5</zorder>
-       <zorder>statusled_6</zorder>
        <zorder>statusled_9</zorder>
+       <zorder>statusled_10</zorder>
       </widget>
      </widget>
     </item>
