@@ -8579,8 +8579,8 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
        <widget class="ActionButton" name="run_from_line_Btn">
         <property name="geometry">
          <rect>
-          <x>600</x>
-          <y>1690</y>
+          <x>400</x>
+          <y>1680</y>
           <width>130</width>
           <height>42</height>
          </rect>
@@ -8624,8 +8624,8 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
        <widget class="VCPLineEdit" name="run_from_line_Num_2">
         <property name="geometry">
          <rect>
-          <x>740</x>
-          <y>1690</y>
+          <x>540</x>
+          <y>1680</y>
           <width>130</width>
           <height>39</height>
          </rect>
