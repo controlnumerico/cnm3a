@@ -8580,7 +8580,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
         <property name="geometry">
          <rect>
           <x>680</x>
-          <y>1633</y>
+          <y>1640</y>
           <width>90</width>
           <height>50</height>
          </rect>
@@ -8606,7 +8606,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_3_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
 }
 
 #M01:pressed {
@@ -8621,7 +8621,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
         <property name="geometry">
          <rect>
           <x>776</x>
-          <y>1633</y>
+          <y>1640</y>
           <width>90</width>
           <height>50</height>
          </rect>
@@ -8647,7 +8647,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_3_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
 }
 
 #BlockDel:pressed {
@@ -8661,8 +8661,8 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
        <widget class="StatusLED" name="statusled_11">
         <property name="geometry">
          <rect>
-          <x>750</x>
-          <y>1644</y>
+          <x>748</x>
+          <y>1647</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -8696,8 +8696,8 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
        <widget class="StatusLED" name="statusled_12">
         <property name="geometry">
          <rect>
-          <x>844</x>
-          <y>1644</y>
+          <x>842</x>
+          <y>1647</y>
           <width>15</width>
           <height>15</height>
          </rect>
