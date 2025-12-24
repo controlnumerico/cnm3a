@@ -8458,7 +8458,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Up.png);
 }
 
 #Coolant:pressed {
-image: url(/home/cnc/.iMG/Go_Down_Front.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
 }</string>
         </property>
         <property name="actionName" stdset="0">
@@ -8499,7 +8499,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Up.png);
 }
 
 #Mist:pressed {
-image: url(/home/cnc/.iMG/Go_Down_Front.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
 }</string>
         </property>
         <property name="actionName" stdset="0">
