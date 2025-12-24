@@ -6267,7 +6267,7 @@ background-color: rgb(136, 138, 133,0);</string>
         <property name="geometry">
          <rect>
           <x>110</x>
-          <y>1540</y>
+          <y>1542</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -6376,7 +6376,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         <property name="geometry">
          <rect>
           <x>202</x>
-          <y>1540</y>
+          <y>1542</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -6402,7 +6402,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
         <property name="geometry">
          <rect>
           <x>298</x>
-          <y>1540</y>
+          <y>1542</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -8510,7 +8510,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
         <property name="geometry">
          <rect>
           <x>390</x>
-          <y>1540</y>
+          <y>1542</y>
           <width>15</width>
           <height>15</height>
          </rect>
@@ -8545,7 +8545,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
         <property name="geometry">
          <rect>
           <x>484</x>
-          <y>1540</y>
+          <y>1542</y>
           <width>15</width>
           <height>15</height>
          </rect>
