@@ -8576,6 +8576,187 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
+       <widget class="ActionButton" name="run_from_line_Btn">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>1690</y>
+          <width>130</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="statusTip">
+         <string>Can't run program when not enabled</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+   	font: 15pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>RUN FROM LINE</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.run-from-line</string>
+        </property>
+       </widget>
+       <widget class="VCPLineEdit" name="run_from_line_Num_2">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>1690</y>
+          <width>130</width>
+          <height>39</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>39</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>39</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic; text-decoration: underline; color:#ff0000;&quot;&gt;IMPORTANT WARNING!!!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RUN FROM LINE &lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;does &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;NOT &lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;account for any&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;preceding commands such as but not limited &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;too the following:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- XYZ positioning move Commands&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- Feedrate Commands&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- G5x Work Offset Commands&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- Tool Change Commands&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- Tool length offsets that need to be active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- Spindle or Coolant ON Commands&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;- ANY Commands not on the current line&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;It is recommended to be run from a previous&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;tool change line that reissues all of those &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;commands to avoid unexpected behavior!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="statusTip">
+         <string>Warning! this run command does not account for preceding positioning moves or commands!</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 17pt;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="block_delete_button">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>1801</y>
+          <width>130</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+   	font: 15pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>BLOCK DELETE</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.block-delete.toggle</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="m01_break_button">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>1800</y>
+          <width>130</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+   	font: 15pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>M01 BREAK</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.optional-stop.toggle</string>
+        </property>
+       </widget>
        <zorder>statusled_8</zorder>
        <zorder>tabWidget</zorder>
        <zorder>stop</zorder>
@@ -8642,6 +8823,10 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
        <zorder>Mist</zorder>
        <zorder>statusled_9</zorder>
        <zorder>statusled_10</zorder>
+       <zorder>run_from_line_Btn</zorder>
+       <zorder>run_from_line_Num_2</zorder>
+       <zorder>block_delete_button</zorder>
+       <zorder>m01_break_button</zorder>
       </widget>
      </widget>
     </item>
