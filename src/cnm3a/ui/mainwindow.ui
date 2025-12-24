@@ -8576,94 +8576,156 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="block_delete_button">
+       <widget class="ActionButton" name="M01">
         <property name="geometry">
          <rect>
-          <x>750</x>
-          <y>1801</y>
-          <width>130</width>
-          <height>42</height>
+          <x>680</x>
+          <y>1630</y>
+          <width>90</width>
+          <height>70</height>
          </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
         </property>
         <property name="minimumSize">
          <size>
-          <width>130</width>
-          <height>42</height>
+          <width>87</width>
+          <height>70</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>130</width>
-          <height>42</height>
+          <width>125</width>
+          <height>87</height>
          </size>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton {
-   	font: 15pt &quot;Bebas Kai&quot;;
+         <string notr="true">#M01 {
+font: 40pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
+}
+
+#M01:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
 }</string>
         </property>
-        <property name="text">
-         <string>BLOCK DELETE</string>
+        <property name="actionName" stdset="0">
+         <string>program.optional-stop.toggle</string>
         </property>
-        <property name="checkable">
-         <bool>true</bool>
+       </widget>
+       <widget class="ActionButton" name="BlockDel">
+        <property name="geometry">
+         <rect>
+          <x>776</x>
+          <y>1630</y>
+          <width>90</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>87</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#BlockDel {
+font: 40pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
+}
+
+#BlockDel:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
+}</string>
         </property>
         <property name="actionName" stdset="0">
          <string>program.block-delete.toggle</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="m01_break_button">
+       <widget class="StatusLED" name="statusled_11">
         <property name="geometry">
          <rect>
-          <x>600</x>
-          <y>1800</y>
-          <width>130</width>
-          <height>42</height>
+          <x>750</x>
+          <y>1644</y>
+          <width>15</width>
+          <height>15</height>
          </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>130</width>
-          <height>42</height>
-         </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>130</width>
-          <height>42</height>
+          <width>60</width>
+          <height>60</height>
          </size>
         </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
+        <property name="diameter">
+         <number>15</number>
         </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-   	font: 15pt &quot;Bebas Kai&quot;;
-}</string>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
         </property>
-        <property name="text">
-         <string>M01 BREAK</string>
+        <property name="state">
+         <bool>false</bool>
         </property>
-        <property name="checkable">
-         <bool>true</bool>
+        <property name="flashRate">
+         <number>500</number>
         </property>
-        <property name="actionName" stdset="0">
-         <string>program.optional-stop.toggle</string>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="StatusLED" name="statusled_12">
+        <property name="geometry">
+         <rect>
+          <x>844</x>
+          <y>1644</y>
+          <width>15</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="diameter">
+         <number>15</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8732,8 +8794,10 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
        <zorder>Mist</zorder>
        <zorder>statusled_9</zorder>
        <zorder>statusled_10</zorder>
-       <zorder>block_delete_button</zorder>
-       <zorder>m01_break_button</zorder>
+       <zorder>M01</zorder>
+       <zorder>BlockDel</zorder>
+       <zorder>statusled_11</zorder>
+       <zorder>statusled_12</zorder>
       </widget>
      </widget>
     </item>
