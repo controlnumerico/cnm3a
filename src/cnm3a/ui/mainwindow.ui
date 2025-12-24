@@ -8580,15 +8580,15 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
         <property name="geometry">
          <rect>
           <x>680</x>
-          <y>1630</y>
+          <y>1633</y>
           <width>90</width>
-          <height>70</height>
+          <height>50</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>87</width>
-          <height>70</height>
+          <height>50</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -8606,7 +8606,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_3_Up.png);
 }
 
 #M01:pressed {
@@ -8621,15 +8621,15 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
         <property name="geometry">
          <rect>
           <x>776</x>
-          <y>1630</y>
+          <y>1633</y>
           <width>90</width>
-          <height>70</height>
+          <height>50</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>87</width>
-          <height>70</height>
+          <height>50</height>
          </size>
         </property>
         <property name="maximumSize">
@@ -8647,7 +8647,7 @@ font: 40pt &quot;Bebas Kai&quot;;
 background-color: transparent;
 background: none;
 border:none;
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_3_Up.png);
 }
 
 #BlockDel:pressed {
