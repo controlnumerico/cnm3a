@@ -5819,7 +5819,7 @@ background: none;
 border:none;
 	color: rgb(222, 221, 218);
 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_5_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_6_Up.png);
 
 
 
@@ -5831,7 +5831,7 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
 }</string>
         </property>
         <property name="text">
-         <string>E X I T</string>
+         <string/>
         </property>
        </widget>
        <widget class="ActionButton" name="Feed">
