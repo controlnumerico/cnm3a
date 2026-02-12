@@ -5583,7 +5583,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
        <widget class="ActionButton" name="x_plus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>610</x>
           <y>1700</y>
           <width>60</width>
           <height>60</height>
@@ -5635,7 +5635,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="z_minus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>550</x>
           <y>1760</y>
           <width>60</width>
           <height>60</height>
@@ -5686,7 +5686,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="x_minus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>610</x>
           <y>1820</y>
           <width>60</width>
           <height>60</height>
@@ -5738,7 +5738,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="z_plus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>660</x>
+          <x>670</x>
           <y>1760</y>
           <width>60</width>
           <height>60</height>
