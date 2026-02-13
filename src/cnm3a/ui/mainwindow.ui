@@ -8755,6 +8755,9 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m3.png);
 image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m3.png);
 }</string>
         </property>
+        <property name="rules" stdset="0">
+         <string>[]</string>
+        </property>
         <property name="actionName" stdset="0">
          <string>spindle.forward</string>
         </property>
