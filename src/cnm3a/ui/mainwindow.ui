@@ -8793,8 +8793,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="StatusLabel" name="statuslabel_8">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>1770</y>
+          <x>150</x>
+          <y>1765</y>
           <width>100</width>
           <height>36</height>
          </rect>
@@ -8817,6 +8817,15 @@ background-color: rgb(136, 138, 133,0);
           <height>36</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Digital Display</family>
+          <pointsize>37</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">
 #statuslabel_8 {
@@ -8829,7 +8838,7 @@ background-color: rgb(136, 138, 133,0);
  
 	color: rgb(246, 211, 45);
 
-    font: 37pt &quot;BebasKai&quot;;
+
 
 }</string>
         </property>
@@ -8908,6 +8917,38 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="actionName" stdset="0">
          <string>spindle.override</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>1770</y>
+          <width>81</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>LCDMono</family>
+          <pointsize>55</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(56, 54, 57);
+background-color: rgb(136, 138, 133,0);
+ 
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>S:</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8989,6 +9030,7 @@ background-color: rgb(136, 138, 133,0);
        <zorder>statuslabel_8</zorder>
        <zorder>actionbutton_32</zorder>
        <zorder>actionslider</zorder>
+       <zorder>label_19</zorder>
       </widget>
      </widget>
     </item>
