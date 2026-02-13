@@ -8731,10 +8731,10 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
        <widget class="ActionButton" name="SpnM3">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>1670</y>
-          <width>40</width>
-          <height>40</height>
+          <x>20</x>
+          <y>1678</y>
+          <width>60</width>
+          <height>60</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -8762,16 +8762,16 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m3.png);
        <widget class="QLabel" name="label_76">
         <property name="geometry">
          <rect>
-          <x>290</x>
-          <y>1770</y>
-          <width>41</width>
+          <x>30</x>
+          <y>1740</y>
+          <width>61</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
           <family>DejaVu Sans</family>
-          <pointsize>8</pointsize>
+          <pointsize>13</pointsize>
           <weight>75</weight>
           <italic>false</italic>
           <bold>true</bold>
@@ -8802,10 +8802,10 @@ background-color: rgb(136, 138, 133,0);
        <widget class="ActionButton" name="SpnM4">
         <property name="geometry">
          <rect>
-          <x>144</x>
-          <y>1670</y>
-          <width>40</width>
-          <height>40</height>
+          <x>202</x>
+          <y>1678</y>
+          <width>60</width>
+          <height>60</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -8830,19 +8830,90 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m4.png);
          <string>spindle.forward</string>
         </property>
        </widget>
+       <widget class="ActionButton" name="SpnM5">
+        <property name="geometry">
+         <rect>
+          <x>112</x>
+          <y>1678</y>
+          <width>60</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#SpnM5 {
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m5.png);
+
+
+
+
+}
+
+#SpnM5:pressed {
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m5.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.forward</string>
+        </property>
+       </widget>
        <widget class="QLabel" name="label_77">
         <property name="geometry">
          <rect>
-          <x>406</x>
-          <y>1770</y>
-          <width>41</width>
+          <x>116</x>
+          <y>1740</y>
+          <width>61</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
           <family>DejaVu Sans</family>
-          <pointsize>8</pointsize>
+          <pointsize>13</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> 
+ 
+ 
+color: rgb(192, 191, 188);
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>STOP</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_78">
+        <property name="geometry">
+         <rect>
+          <x>214</x>
+          <y>1740</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>13</pointsize>
           <weight>75</weight>
           <italic>false</italic>
           <bold>true</bold>
@@ -8868,77 +8939,6 @@ background-color: rgb(136, 138, 133,0);
         </property>
         <property name="text">
          <string>REV</string>
-        </property>
-       </widget>
-       <widget class="ActionButton" name="SpnM5">
-        <property name="geometry">
-         <rect>
-          <x>89</x>
-          <y>1670</y>
-          <width>40</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#SpnM5 {
-background-color: transparent;
-background: none;
-border:none;
- 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m5.png);
-
-
-
-
-}
-
-#SpnM5:pressed {
- 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m5.png);
-}</string>
-        </property>
-        <property name="actionName" stdset="0">
-         <string>spindle.forward</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_78">
-        <property name="geometry">
-         <rect>
-          <x>351</x>
-          <y>1770</y>
-          <width>41</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>DejaVu Sans</family>
-          <pointsize>8</pointsize>
-          <weight>75</weight>
-          <italic>false</italic>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="toolTipDuration">
-         <number>0</number>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"> 
- 
- 
-color: rgb(192, 191, 188);
-
-background-color: rgb(136, 138, 133,0);
- </string>
-        </property>
-        <property name="text">
-         <string>STP</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -9014,8 +9014,8 @@ background-color: rgb(136, 138, 133,0);
        <zorder>SpnM3</zorder>
        <zorder>label_76</zorder>
        <zorder>SpnM4</zorder>
-       <zorder>label_77</zorder>
        <zorder>SpnM5</zorder>
+       <zorder>label_77</zorder>
        <zorder>label_78</zorder>
       </widget>
      </widget>
