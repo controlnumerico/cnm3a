@@ -8793,7 +8793,7 @@ background-color: rgb(136, 138, 133,0);
        <widget class="StatusLabel" name="statuslabel_8">
         <property name="geometry">
          <rect>
-          <x>170</x>
+          <x>165</x>
           <y>1765</y>
           <width>100</width>
           <height>36</height>
