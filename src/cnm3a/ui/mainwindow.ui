@@ -8882,8 +8882,8 @@ background-color: rgb(136, 138, 133,0);
        <widget class="ActionSlider" name="actionslider_6">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>1860</y>
+          <x>370</x>
+          <y>1830</y>
           <width>222</width>
           <height>50</height>
          </rect>
@@ -8954,6 +8954,31 @@ background: #eee;
 border: 1px solid #aaa;
 border-radius: 4px;
 }</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.override</string>
+        </property>
+       </widget>
+       <widget class="ActionSlider" name="actionslider">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>1870</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>10</number>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="value">
+         <number>100</number>
         </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -9041,6 +9066,7 @@ border-radius: 4px;
        <zorder>statuslabel_8</zorder>
        <zorder>actionbutton_32</zorder>
        <zorder>actionslider_6</zorder>
+       <zorder>actionslider</zorder>
       </widget>
      </widget>
     </item>
