@@ -1969,6 +1969,38 @@ background-color: rgb(247, 124, 22);</string>
                   <number>0</number>
                  </property>
                 </widget>
+                <widget class="StatusLabel" name="statuslabel_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>600</x>
+                   <y>20</y>
+                   <width>121</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>lcd phone</family>
+                   <pointsize>17</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+background-color: rgb(136, 138, 133,0);</string>
+                 </property>
+                 <property name="text">
+                  <string>HORA :</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                 <property name="rules" stdset="0">
+                  <string>[]</string>
+                 </property>
+                </widget>
                 <zorder>dro_entry_main_x_3</zorder>
                 <zorder>dro_entry_main_z_3</zorder>
                 <zorder>label</zorder>
@@ -2008,6 +2040,7 @@ background-color: rgb(247, 124, 22);</string>
                 <zorder>gcodetextedit_2</zorder>
                 <zorder>label_13</zorder>
                 <zorder>mdiEntry</zorder>
+                <zorder>statuslabel_9</zorder>
                </widget>
               </item>
              </layout>
