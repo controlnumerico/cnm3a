@@ -554,7 +554,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>220</x>
-                   <y>70</y>
+                   <y>63</y>
                    <width>271</width>
                    <height>30</height>
                   </rect>
@@ -972,7 +972,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>50</x>
-                   <y>70</y>
+                   <y>63</y>
                    <width>181</width>
                    <height>30</height>
                   </rect>
@@ -1025,7 +1025,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>500</x>
-                   <y>62</y>
+                   <y>63</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
@@ -1182,7 +1182,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="StatusLabel" name="statuslabel_7">
                  <property name="geometry">
                   <rect>
-                   <x>730</x>
+                   <x>720</x>
                    <y>20</y>
                    <width>121</width>
                    <height>21</height>
@@ -1972,7 +1972,7 @@ background-color: rgb(247, 124, 22);</string>
                 <widget class="StatusLabel" name="statuslabel_9">
                  <property name="geometry">
                   <rect>
-                   <x>630</x>
+                   <x>620</x>
                    <y>20</y>
                    <width>121</width>
                    <height>21</height>
@@ -5663,8 +5663,8 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="QPushButton" name="exitAppBtn">
         <property name="geometry">
          <rect>
-          <x>920</x>
-          <y>1820</y>
+          <x>918</x>
+          <y>1646</y>
           <width>125</width>
           <height>80</height>
          </rect>
@@ -5805,7 +5805,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
         <property name="geometry">
          <rect>
           <x>900</x>
-          <y>1650</y>
+          <y>1740</y>
           <width>160</width>
           <height>160</height>
          </rect>
@@ -6101,7 +6101,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
         <widget class="StatusLabel" name="statuslabel_2">
          <property name="geometry">
           <rect>
-           <x>570</x>
+           <x>560</x>
            <y>23</y>
            <width>301</width>
            <height>21</height>
@@ -6347,7 +6347,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>895</x>
-          <y>1646</y>
+          <y>1736</y>
           <width>170</width>
           <height>170</height>
          </rect>
