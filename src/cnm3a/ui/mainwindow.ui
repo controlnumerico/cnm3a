@@ -1182,7 +1182,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="StatusLabel" name="statuslabel_7">
                  <property name="geometry">
                   <rect>
-                   <x>700</x>
+                   <x>730</x>
                    <y>20</y>
                    <width>121</width>
                    <height>21</height>
@@ -1972,7 +1972,7 @@ background-color: rgb(247, 124, 22);</string>
                 <widget class="StatusLabel" name="statuslabel_9">
                  <property name="geometry">
                   <rect>
-                   <x>600</x>
+                   <x>630</x>
                    <y>20</y>
                    <width>121</width>
                    <height>21</height>
