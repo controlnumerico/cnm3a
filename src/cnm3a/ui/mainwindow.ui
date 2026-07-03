@@ -490,7 +490,7 @@ color: rgb(56, 54, 57);
                 <widget class="QLabel" name="label">
                  <property name="geometry">
                   <rect>
-                   <x>10</x>
+                   <x>20</x>
                    <y>90</y>
                    <width>81</width>
                    <height>91</height>
@@ -521,7 +521,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="QLabel" name="label_3">
                  <property name="geometry">
                   <rect>
-                   <x>10</x>
+                   <x>20</x>
                    <y>170</y>
                    <width>81</width>
                    <height>101</height>
@@ -554,7 +554,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>220</x>
-                   <y>62</y>
+                   <y>63</y>
                    <width>271</width>
                    <height>30</height>
                   </rect>
@@ -585,7 +585,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>460</x>
-                   <y>200</y>
+                   <y>210</y>
                    <width>151</width>
                    <height>38</height>
                   </rect>
@@ -649,7 +649,7 @@ color: rgb(56, 54, 57);
                  <property name="geometry">
                   <rect>
                    <x>460</x>
-                   <y>120</y>
+                   <y>130</y>
                    <width>151</width>
                    <height>38</height>
                   </rect>
@@ -971,8 +971,8 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="StatusLabel" name="statuslabel_12">
                  <property name="geometry">
                   <rect>
-                   <x>30</x>
-                   <y>65</y>
+                   <x>50</x>
+                   <y>63</y>
                    <width>181</width>
                    <height>30</height>
                   </rect>
@@ -1025,7 +1025,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>500</x>
-                   <y>62</y>
+                   <y>63</y>
                    <width>101</width>
                    <height>31</height>
                   </rect>
@@ -1182,7 +1182,7 @@ background-color: rgb(136, 138, 133,0);
                 <widget class="StatusLabel" name="statuslabel_7">
                  <property name="geometry">
                   <rect>
-                   <x>700</x>
+                   <x>720</x>
                    <y>20</y>
                    <width>121</width>
                    <height>21</height>
@@ -1523,7 +1523,7 @@ color: rgb(56, 54, 57);
                 <widget class="QLabel" name="label_8">
                  <property name="geometry">
                   <rect>
-                   <x>10</x>
+                   <x>20</x>
                    <y>250</y>
                    <width>81</width>
                    <height>101</height>
@@ -1601,7 +1601,7 @@ background-color: rgb(136, 138, 133,0);
                  <property name="geometry">
                   <rect>
                    <x>460</x>
-                   <y>290</y>
+                   <y>300</y>
                    <width>151</width>
                    <height>38</height>
                   </rect>
@@ -1664,10 +1664,10 @@ color: rgb(56, 54, 57);
                 <widget class="VTKBackPlot" name="vtkbackplot_2">
                  <property name="geometry">
                   <rect>
-                   <x>-3</x>
-                   <y>359</y>
-                   <width>881</width>
-                   <height>771</height>
+                   <x>-10</x>
+                   <y>344</y>
+                   <width>889</width>
+                   <height>786</height>
                   </rect>
                  </property>
                  <property name="focusPolicy">
@@ -1812,7 +1812,7 @@ border-style: transparant;
                    <x>460</x>
                    <y>345</y>
                    <width>421</width>
-                   <height>241</height>
+                   <height>261</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
@@ -1969,6 +1969,38 @@ background-color: rgb(247, 124, 22);</string>
                   <number>0</number>
                  </property>
                 </widget>
+                <widget class="StatusLabel" name="statuslabel_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>620</x>
+                   <y>20</y>
+                   <width>121</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>lcd phone</family>
+                   <pointsize>17</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+background-color: rgb(136, 138, 133,0);</string>
+                 </property>
+                 <property name="text">
+                  <string>HORA :</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                 <property name="rules" stdset="0">
+                  <string>[]</string>
+                 </property>
+                </widget>
                 <zorder>dro_entry_main_x_3</zorder>
                 <zorder>dro_entry_main_z_3</zorder>
                 <zorder>label</zorder>
@@ -2008,6 +2040,7 @@ background-color: rgb(247, 124, 22);</string>
                 <zorder>gcodetextedit_2</zorder>
                 <zorder>label_13</zorder>
                 <zorder>mdiEntry</zorder>
+                <zorder>statuslabel_9</zorder>
                </widget>
               </item>
              </layout>
@@ -3635,7 +3668,168 @@ border-radius: 4px;
                 </property>
                </widget>
               </item>
-              <item row="5" column="0">
+              <item row="1" column="2">
+               <widget class="ActionButton" name="actionbutton_34">
+                <property name="minimumSize">
+                 <size>
+                  <width>65</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>65</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::NoFocus</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>V 100%</string>
+                </property>
+                <property name="actionName" stdset="0">
+                 <string>machine.max-velocity.reset</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="2">
+               <widget class="HalBarIndicator" name="spindle_load_indicator_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Bebas Kai</family>
+                  <pointsize>14</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="value" stdset="0">
+                 <double>100.000000000000000</double>
+                </property>
+                <property name="maximum" stdset="0">
+                 <double>150.000000000000000</double>
+                </property>
+                <property name="barGradient" stdset="0">
+                 <stringlist>
+                  <string>0.0, 170, 170, 236</string>
+                  <string>0.63, 85, 85, 238</string>
+                  <string>0.65, 171, 171, 158</string>
+                  <string>0.79, 227, 237, 106</string>
+                  <string>0.84, 219, 124, 55</string>
+                  <string>1.0, 209, 0, 0</string>
+                 </stringlist>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="StatusLabel" name="statuslabel_11">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>55</width>
+                  <height>36</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>55</width>
+                  <height>36</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel {
+    border-style: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 75 14pt &quot;Bebas Kai&quot;;
+}</string>
+                </property>
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="margin">
+                 <number>-6</number>
+                </property>
+                <property name="indent">
+                 <number>0</number>
+                </property>
+                <property name="rules" stdset="0">
+                 <string>[
+    {
+        &quot;channels&quot;: [
+            {
+                &quot;url&quot;: &quot;status:rapidrate&quot;,
+                &quot;trigger&quot;: true,
+                &quot;type&quot;: &quot;float&quot;
+            }
+        ],
+        &quot;expression&quot;: &quot;'{:.0%}'.format(ch[0])&quot;,
+        &quot;name&quot;: &quot;New Rule&quot;,
+        &quot;property&quot;: &quot;Text&quot;
+    }
+]</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="ActionButton" name="actionbutton_35">
+                <property name="minimumSize">
+                 <size>
+                  <width>65</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>65</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::NoFocus</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>R 100%</string>
+                </property>
+                <property name="actionName" stdset="0">
+                 <string>machine.rapid-override.reset</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
                <widget class="ActionSlider" name="actionslider_5">
                 <property name="minimumSize">
                  <size>
@@ -3712,154 +3906,6 @@ border-radius: 4px;
                 </property>
                </widget>
               </item>
-              <item row="4" column="1">
-               <widget class="StatusLabel" name="statuslabel_8">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>55</width>
-                  <height>36</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>55</width>
-                  <height>36</height>
-                 </size>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">QLabel {
-    border-style: transparent;
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: rgb(235, 235, 235);
-	font: 75 14pt &quot;Bebas Kai&quot;;
-}</string>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="margin">
-                 <number>-6</number>
-                </property>
-                <property name="indent">
-                 <number>0</number>
-                </property>
-                <property name="rules" stdset="0">
-                 <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:spindle.0.override&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'{:.0%}'.format(ch[0])&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
-                </property>
-               </widget>
-              </item>
-              <item row="5" column="1">
-               <widget class="StatusLabel" name="statuslabel_11">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>55</width>
-                  <height>36</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>55</width>
-                  <height>36</height>
-                 </size>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">QLabel {
-    border-style: transparent;
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: rgb(235, 235, 235);
-	font: 75 14pt &quot;Bebas Kai&quot;;
-}</string>
-                </property>
-                <property name="lineWidth">
-                 <number>0</number>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="margin">
-                 <number>-6</number>
-                </property>
-                <property name="indent">
-                 <number>0</number>
-                </property>
-                <property name="rules" stdset="0">
-                 <string>[
-    {
-        &quot;channels&quot;: [
-            {
-                &quot;url&quot;: &quot;status:rapidrate&quot;,
-                &quot;trigger&quot;: true,
-                &quot;type&quot;: &quot;float&quot;
-            }
-        ],
-        &quot;expression&quot;: &quot;'{:.0%}'.format(ch[0])&quot;,
-        &quot;name&quot;: &quot;New Rule&quot;,
-        &quot;property&quot;: &quot;Text&quot;
-    }
-]</string>
-                </property>
-               </widget>
-              </item>
-              <item row="0" column="0" colspan="2">
-               <widget class="HalBarIndicator" name="spindle_load_indicator_2">
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <family>Bebas Kai</family>
-                  <pointsize>14</pointsize>
-                 </font>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true"/>
-                </property>
-                <property name="value" stdset="0">
-                 <double>100.000000000000000</double>
-                </property>
-                <property name="maximum" stdset="0">
-                 <double>150.000000000000000</double>
-                </property>
-                <property name="barGradient" stdset="0">
-                 <stringlist>
-                  <string>0.0, 170, 170, 236</string>
-                  <string>0.63, 85, 85, 238</string>
-                  <string>0.65, 171, 171, 158</string>
-                  <string>0.79, 227, 237, 106</string>
-                  <string>0.84, 219, 124, 55</string>
-                  <string>1.0, 209, 0, 0</string>
-                 </stringlist>
-                </property>
-               </widget>
-              </item>
               <item row="1" column="1">
                <widget class="StatusLabel" name="max_vel_slider_2">
                 <property name="sizePolicy">
@@ -3920,8 +3966,8 @@ border-radius: 4px;
                 </property>
                </widget>
               </item>
-              <item row="4" column="0">
-               <widget class="ActionSlider" name="actionslider_6">
+              <item row="1" column="0">
+               <widget class="ActionSlider" name="actionslider_8">
                 <property name="minimumSize">
                  <size>
                   <width>0</width>
@@ -3993,37 +4039,7 @@ border-radius: 4px;
                  <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="actionName" stdset="0">
-                 <string>spindle.override</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="2">
-               <widget class="ActionButton" name="actionbutton_32">
-                <property name="minimumSize">
-                 <size>
-                  <width>65</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>65</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="focusPolicy">
-                 <enum>Qt::NoFocus</enum>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">QPushButton {
-   	font: 14pt &quot;Bebas Kai&quot;;
-}</string>
-                </property>
-                <property name="text">
-                 <string>S 100%</string>
-                </property>
-                <property name="actionName" stdset="0">
-                 <string>spindle.override.reset</string>
+                 <string>machine.max-velocity.set</string>
                 </property>
                </widget>
               </item>
@@ -4107,83 +4123,6 @@ border-radius: 4px;
                 </property>
                </widget>
               </item>
-              <item row="1" column="0">
-               <widget class="ActionSlider" name="actionslider_8">
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>50</height>
-                 </size>
-                </property>
-                <property name="focusPolicy">
-                 <enum>Qt::NoFocus</enum>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">QSlider::groove:horizontal {
-border: 1px solid #bbb;
-background: white;
-height: 20px;
-border-radius: 3px;
-}
-
-QSlider::sub-page:horizontal {
-background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
-    stop: 0 #66e, stop: 1 #bbf);
-background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
-    stop: 0 #bbf, stop: 1 #55f);
-border: 1px solid #777;
-height: 20px;
-border-radius: 3px;
-}
-
-QSlider::add-page:horizontal {
-background: rgb(235, 235, 235);
-border: 1px solid #777;
-height: 20px;
-border-radius: 3px;
-}
-
-QSlider::handle:horizontal {
-background: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(60, 60, 60, 255), stop:0.21 rgba(60, 60, 60, 255), stop:0.25 rgba(255, 255, 255, 255), stop:0.29 rgba(60, 60, 60, 255), stop:0.46 rgba(60, 60, 60, 255), stop:0.5 rgba(255, 255, 255, 255), stop:0.54 rgba(60, 60, 60, 255), stop:0.71 rgba(60, 60, 60, 255), stop:0.75 rgba(255, 255, 255, 255), stop:0.79 rgba(60, 60, 60, 255), stop:0.9 rgba(60, 60, 60, 255), stop:1 rgba(255, 255, 255, 255));
-border: 1px solid #777;
-border-color: rgba(40, 40, 40, 255);
-width: 40px;
-margin-top: -13px;
-margin-bottom: -13px;
-border-radius: 4px;
-}
-
-QSlider::handle:horizontal:hover {
-background: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(60, 60, 60, 255), stop:0.21 rgba(60, 60, 60, 255), stop:0.25 rgba(255, 255, 255, 255), stop:0.29 rgba(60, 60, 60, 255), stop:0.46 rgba(60, 60, 60, 255), stop:0.5 rgba(255, 255, 255, 255), stop:0.54 rgba(60, 60, 60, 255), stop:0.71 rgba(60, 60, 60, 255), stop:0.75 rgba(255, 255, 255, 255), stop:0.79 rgba(60, 60, 60, 255), stop:0.9 rgba(60, 60, 60, 255), stop:1 rgba(255, 255, 255, 255));
-border: 1px solid #444;
-border-color: rgb(241, 239, 237);
-border-radius: 4px;
-}
-
-QSlider::sub-page:horizontal:disabled {
-background: #bbb;
-border-color: #999;
-}
-
-QSlider::add-page:horizontal:disabled {
-background: #eee;
-border-color: #999;
-}
-
-QSlider::handle:horizontal:disabled {
-background: #eee;
-border: 1px solid #aaa;
-border-radius: 4px;
-}</string>
-                </property>
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="actionName" stdset="0">
-                 <string>machine.max-velocity.set</string>
-                </property>
-               </widget>
-              </item>
               <item row="2" column="2">
                <widget class="ActionButton" name="actionbutton_33">
                 <property name="minimumSize">
@@ -4211,66 +4150,6 @@ border-radius: 4px;
                 </property>
                 <property name="actionName" stdset="0">
                  <string>machine.feed-override.reset</string>
-                </property>
-               </widget>
-              </item>
-              <item row="1" column="2">
-               <widget class="ActionButton" name="actionbutton_34">
-                <property name="minimumSize">
-                 <size>
-                  <width>65</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>65</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="focusPolicy">
-                 <enum>Qt::NoFocus</enum>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">QPushButton {
-   	font: 14pt &quot;Bebas Kai&quot;;
-}</string>
-                </property>
-                <property name="text">
-                 <string>V 100%</string>
-                </property>
-                <property name="actionName" stdset="0">
-                 <string>machine.max-velocity.reset</string>
-                </property>
-               </widget>
-              </item>
-              <item row="5" column="2">
-               <widget class="ActionButton" name="actionbutton_35">
-                <property name="minimumSize">
-                 <size>
-                  <width>65</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>65</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="focusPolicy">
-                 <enum>Qt::NoFocus</enum>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">QPushButton {
-   	font: 14pt &quot;Bebas Kai&quot;;
-}</string>
-                </property>
-                <property name="text">
-                 <string>R 100%</string>
-                </property>
-                <property name="actionName" stdset="0">
-                 <string>machine.rapid-override.reset</string>
                 </property>
                </widget>
               </item>
@@ -5183,7 +5062,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>87</y>
+          <y>69</y>
           <width>125</width>
           <height>125</height>
          </rect>
@@ -5240,7 +5119,7 @@ image: url(/home/cnc/.iMG/CNC_Home_pressed.png);
         <property name="geometry">
          <rect>
           <x>949</x>
-          <y>211</y>
+          <y>193</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5332,7 +5211,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>949</x>
-          <y>395</y>
+          <y>377</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5412,7 +5291,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>490</y>
+          <y>472</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5495,7 +5374,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>947</x>
-          <y>580</y>
+          <y>562</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -5583,7 +5462,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
        <widget class="ActionButton" name="x_plus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>90</x>
+          <x>610</x>
           <y>1700</y>
           <width>60</width>
           <height>60</height>
@@ -5635,7 +5514,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="z_minus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>30</x>
+          <x>550</x>
           <y>1760</y>
           <width>60</width>
           <height>60</height>
@@ -5686,7 +5565,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="x_minus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>90</x>
+          <x>610</x>
           <y>1820</y>
           <width>60</width>
           <height>60</height>
@@ -5738,7 +5617,7 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="ActionButton" name="z_plus_jogbutton">
         <property name="geometry">
          <rect>
-          <x>150</x>
+          <x>670</x>
           <y>1760</y>
           <width>60</width>
           <height>60</height>
@@ -5784,22 +5663,22 @@ image: url(/home/cnc/.iMG/btn_jog.png);
        <widget class="QPushButton" name="exitAppBtn">
         <property name="geometry">
          <rect>
-          <x>921</x>
-          <y>1830</y>
+          <x>918</x>
+          <y>1646</y>
           <width>125</width>
-          <height>60</height>
+          <height>80</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>125</width>
-          <height>60</height>
+          <height>80</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>125</width>
-          <height>60</height>
+          <height>80</height>
          </size>
         </property>
         <property name="baseSize">
@@ -5819,7 +5698,7 @@ background: none;
 border:none;
 	color: rgb(222, 221, 218);
 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_5_Up.png);
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/BTN_6_Up.png);
 
 
 
@@ -5831,14 +5710,14 @@ image: url(/home/cnc/.iMG/BTN_5_Down.png);
 }</string>
         </property>
         <property name="text">
-         <string>E X I T</string>
+         <string/>
         </property>
        </widget>
        <widget class="ActionButton" name="Feed">
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1400</y>
+          <y>1420</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5895,7 +5774,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Feed_on.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1296</y>
+          <y>1280</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -5926,7 +5805,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
         <property name="geometry">
          <rect>
           <x>900</x>
-          <y>1650</y>
+          <y>1740</y>
           <width>160</width>
           <height>160</height>
          </rect>
@@ -6222,7 +6101,7 @@ image: url(/home/cnc/.iMG/CNC_Mode_Auto_Sprite.png);
         <widget class="StatusLabel" name="statuslabel_2">
          <property name="geometry">
           <rect>
-           <x>570</x>
+           <x>560</x>
            <y>23</y>
            <width>301</width>
            <height>21</height>
@@ -6266,14 +6145,14 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="StatusLED" name="statusled">
         <property name="geometry">
          <rect>
-          <x>122</x>
-          <y>1593</y>
-          <width>20</width>
-          <height>20</height>
+          <x>110</x>
+          <y>1542</y>
+          <width>15</width>
+          <height>15</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>20</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -6292,7 +6171,7 @@ background-color: rgb(136, 138, 133,0);</string>
        <widget class="ActionButton" name="mode_mdi">
         <property name="geometry">
          <rect>
-          <x>155</x>
+          <x>136</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -6335,7 +6214,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_MDI_pressed.png);
        <widget class="ActionButton" name="mode_auto">
         <property name="geometry">
          <rect>
-          <x>60</x>
+          <x>43</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -6375,14 +6254,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_2">
         <property name="geometry">
          <rect>
-          <x>219</x>
-          <y>1593</y>
-          <width>20</width>
-          <height>20</height>
+          <x>202</x>
+          <y>1542</y>
+          <width>15</width>
+          <height>15</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>20</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -6401,14 +6280,14 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="StatusLED" name="statusled_3">
         <property name="geometry">
          <rect>
-          <x>314</x>
-          <y>1593</y>
-          <width>20</width>
-          <height>20</height>
+          <x>298</x>
+          <y>1542</y>
+          <width>15</width>
+          <height>15</height>
          </rect>
         </property>
         <property name="diameter">
-         <number>20</number>
+         <number>15</number>
         </property>
         <property name="color">
          <color>
@@ -6427,7 +6306,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Auto_pressed.png);
        <widget class="ActionButton" name="mode_manual">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>230</x>
           <y>1533</y>
           <width>87</width>
           <height>87</height>
@@ -6468,7 +6347,7 @@ image: url(/home/cnc/Downloads/CNC_Mode_Manual_pressed.png);
         <property name="geometry">
          <rect>
           <x>895</x>
-          <y>1646</y>
+          <y>1736</y>
           <width>170</width>
           <height>170</height>
          </rect>
@@ -6639,6 +6518,16 @@ background-color: rgb(136, 138, 133,0);
          <string>Z</string>
         </property>
        </widget>
+       <widget class="HalCheckBox" name="halcheckbox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>1590</y>
+          <width>0</width>
+          <height>0</height>
+         </rect>
+        </property>
+       </widget>
        <widget class="MDIButton" name="zero_y_button">
         <property name="enabled">
          <bool>false</bool>
@@ -6646,7 +6535,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>949</x>
-          <y>301</y>
+          <y>283</y>
           <width>125</width>
           <height>95</height>
          </rect>
@@ -6735,7 +6624,7 @@ image: url(/home/cnc/.iMG/CNC_Zero_pressed.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>736</y>
+          <y>718</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6796,7 +6685,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>792</y>
+          <y>774</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6857,7 +6746,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>848</y>
+          <y>830</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6917,7 +6806,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>904</y>
+          <y>886</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -6977,7 +6866,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1240</y>
+          <y>1222</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7040,7 +6929,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1072</y>
+          <y>1054</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7100,7 +6989,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>960</y>
+          <y>942</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7160,7 +7049,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1016</y>
+          <y>998</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7220,7 +7109,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1128</y>
+          <y>1110</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7280,7 +7169,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>1184</y>
+          <y>1166</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7664,7 +7553,7 @@ image: url(/home/cnc/.iMG/btn_42x42_pressed.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>210</y>
+          <y>192</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7704,7 +7593,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>301</y>
+          <y>283</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7741,7 +7630,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>394</y>
+          <y>376</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7778,7 +7667,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>490</y>
+          <y>472</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7814,7 +7703,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>580</y>
+          <y>562</y>
           <width>41</width>
           <height>31</height>
          </rect>
@@ -7849,7 +7738,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>948</x>
-          <y>680</y>
+          <y>662</y>
           <width>125</width>
           <height>55</height>
          </rect>
@@ -7912,9 +7801,9 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>360</x>
+          <x>510</x>
           <y>1533</y>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </rect>
         </property>
@@ -7926,7 +7815,7 @@ image: url(/home/cnc/.iMG/BTN_3_Down.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </size>
         </property>
@@ -7994,9 +7883,9 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>480</x>
+          <x>620</x>
           <y>1533</y>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </rect>
         </property>
@@ -8008,7 +7897,7 @@ image: url(/home/cnc/.iMG/Go_Down_Front.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </size>
         </property>
@@ -8077,9 +7966,9 @@ image: url(/home/cnc/.iMG/Go_Down_Back.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>730</x>
           <y>1533</y>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </rect>
         </property>
@@ -8091,7 +7980,7 @@ image: url(/home/cnc/.iMG/Go_Down_Back.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </size>
         </property>
@@ -8160,9 +8049,9 @@ image: url(/home/cnc/.iMG/Go_Down_XY.png);
         </property>
         <property name="geometry">
          <rect>
-          <x>720</x>
+          <x>840</x>
           <y>1533</y>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </rect>
         </property>
@@ -8174,7 +8063,7 @@ image: url(/home/cnc/.iMG/Go_Down_XY.png);
         </property>
         <property name="minimumSize">
          <size>
-          <width>125</width>
+          <width>110</width>
           <height>87</height>
          </size>
         </property>
@@ -8241,7 +8130,7 @@ image: url(/home/cnc/.iMG/Go_Down_XYZ.png);
         <property name="geometry">
          <rect>
           <x>960</x>
-          <y>1504</y>
+          <y>1520</y>
           <width>100</width>
           <height>100</height>
          </rect>
@@ -8294,23 +8183,10 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Stop_on.png);
          <string>program.abort</string>
         </property>
        </widget>
-       <widget class="Line" name="line_5">
-        <property name="geometry">
-         <rect>
-          <x>342</x>
-          <y>1541</y>
-          <width>20</width>
-          <height>71</height>
-         </rect>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
        <widget class="StatusLabel" name="Modee_label_2">
         <property name="geometry">
          <rect>
-          <x>170</x>
+          <x>172</x>
           <y>1635</y>
           <width>171</width>
           <height>31</height>
@@ -8319,7 +8195,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Stop_on.png);
         <property name="font">
          <font>
           <family>BebasKai</family>
-          <pointsize>20</pointsize>
+          <pointsize>17</pointsize>
           <weight>50</weight>
           <italic>false</italic>
           <bold>false</bold>
@@ -8338,7 +8214,7 @@ background-color: rgb(136, 138, 133,0);
  
 	color: rgb(246, 211, 45);
 
-    font: 20pt &quot;BebasKai&quot;;
+    font: 17pt &quot;BebasKai&quot;;
 
 }
 
@@ -8387,58 +8263,725 @@ background-color: rgb(136, 138, 133,0);
          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;ch[0] == 'Paused'&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
         </property>
        </widget>
-       <widget class="ActionButton" name="Start_2">
+       <widget class="ActionButton" name="Step">
         <property name="geometry">
          <rect>
-          <x>843</x>
-          <y>1532</y>
-          <width>87</width>
-          <height>87</height>
+          <x>958</x>
+          <y>1384</y>
+          <width>104</width>
+          <height>30</height>
          </rect>
         </property>
+        <property name="minimumSize">
+         <size>
+          <width>87</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="styleSheet">
-         <string notr="true">#Start_2 {
+         <string notr="true">#Step{
 background-color: transparent;
 background: none;
 border:none;
- 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Single_Block_Up.png);
-
-
-
-
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Up.png);
 }
 
-#Start_2:pressed {
- 
-image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
+#Step:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Step_Down.png);
 }</string>
         </property>
         <property name="actionName" stdset="0">
          <string>program.step</string>
         </property>
        </widget>
-       <widget class="Line" name="line_6">
+       <widget class="ActionButton" name="Coolant">
         <property name="geometry">
          <rect>
-          <x>930</x>
-          <y>1541</y>
-          <width>20</width>
-          <height>71</height>
+          <x>325</x>
+          <y>1534</y>
+          <width>87</width>
+          <height>87</height>
          </rect>
         </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
+        <property name="minimumSize">
+         <size>
+          <width>87</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Coolant {
+font: 40pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Up.png);
+}
+
+#Coolant:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>coolant.flood.toggle</string>
         </property>
        </widget>
-       <widget class="HalCheckBox" name="halcheckbox">
+       <widget class="ActionButton" name="Mist">
         <property name="geometry">
          <rect>
-          <x>350</x>
-          <y>1690</y>
-          <width>151</width>
-          <height>61</height>
+          <x>418</x>
+          <y>1534</y>
+          <width>87</width>
+          <height>87</height>
          </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>87</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Mist {
+font: 40pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Up.png);
+}
+
+#Mist:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Mist_Down.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>coolant.mist.toggle</string>
+        </property>
+       </widget>
+       <widget class="StatusLED" name="statusled_9">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>1542</y>
+          <width>15</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="diameter">
+         <number>15</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:flood&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="StatusLED" name="statusled_10">
+        <property name="geometry">
+         <rect>
+          <x>484</x>
+          <y>1542</y>
+          <width>15</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="diameter">
+         <number>15</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="M01">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>1640</y>
+          <width>90</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>87</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#M01 {
+font: 40pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
+}
+
+#M01:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.optional-stop.toggle</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="BlockDel">
+        <property name="geometry">
+         <rect>
+          <x>776</x>
+          <y>1640</y>
+          <width>90</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>87</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>87</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#BlockDel {
+font: 40pt &quot;Bebas Kai&quot;;
+background-color: transparent;
+background: none;
+border:none;
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/btn_1_Up.png);
+}
+
+#BlockDel:pressed {
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Coolant_Down.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>program.block-delete.toggle</string>
+        </property>
+       </widget>
+       <widget class="StatusLED" name="statusled_11">
+        <property name="geometry">
+         <rect>
+          <x>748</x>
+          <y>1647</y>
+          <width>15</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="diameter">
+         <number>15</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="StatusLED" name="statusled_12">
+        <property name="geometry">
+         <rect>
+          <x>842</x>
+          <y>1647</y>
+          <width>15</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="diameter">
+         <number>15</number>
+        </property>
+        <property name="color">
+         <color>
+          <red>126</red>
+          <green>219</green>
+          <blue>11</blue>
+         </color>
+        </property>
+        <property name="state">
+         <bool>false</bool>
+        </property>
+        <property name="flashRate">
+         <number>500</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:mist&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;On&quot;, &quot;expression&quot;: &quot;bool(ch[0])&quot;, &quot;name&quot;: &quot;Rule_Manual&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="SpnM3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>1678</y>
+          <width>60</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#SpnM3 {
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m3.png);
+
+
+
+
+}
+
+#SpnM3:pressed {
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m3.png);
+}</string>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[]</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.forward</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_76">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>1740</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> 
+ 
+ 
+color: rgb(192, 191, 188);
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>FWD</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="SpnM4">
+        <property name="geometry">
+         <rect>
+          <x>202</x>
+          <y>1678</y>
+          <width>60</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#SpnM4 {
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m4.png);
+
+
+
+
+}
+
+#SpnM4:pressed {
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m4.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.forward</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="SpnM5">
+        <property name="geometry">
+         <rect>
+          <x>112</x>
+          <y>1678</y>
+          <width>60</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#SpnM5 {
+background-color: transparent;
+background: none;
+border:none;
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m5.png);
+
+
+
+
+}
+
+#SpnM5:pressed {
+ 
+image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Spn_m5.png);
+}</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.forward</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_77">
+        <property name="geometry">
+         <rect>
+          <x>121</x>
+          <y>1740</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> 
+ 
+ 
+color: rgb(192, 191, 188);
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>STOP</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_78">
+        <property name="geometry">
+         <rect>
+          <x>214</x>
+          <y>1740</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> 
+ 
+ 
+color: rgb(192, 191, 188);
+
+background-color: rgb(136, 138, 133,0);
+ </string>
+        </property>
+        <property name="text">
+         <string>REV</string>
+        </property>
+       </widget>
+       <widget class="StatusLabel" name="statuslabel_8">
+        <property name="geometry">
+         <rect>
+          <x>165</x>
+          <y>1765</y>
+          <width>100</width>
+          <height>36</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Digital Display</family>
+          <pointsize>37</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+#statuslabel_8 {
+
+text-transform: uppercase ;
+
+
+background-color: rgb(136, 138, 133,0);
+
+ 
+	color: rgb(246, 211, 45);
+
+
+
+}</string>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="margin">
+         <number>-6</number>
+        </property>
+        <property name="indent">
+         <number>0</number>
+        </property>
+        <property name="rules" stdset="0">
+         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:spindle.0.override&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'{:.0%}'.format(ch[0])&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+        </property>
+       </widget>
+       <widget class="ActionButton" name="actionbutton_32">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>1820</y>
+          <width>65</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>65</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>65</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>S 100%</string>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.override.reset</string>
+        </property>
+       </widget>
+       <widget class="ActionSlider" name="actionslider">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>1870</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>10</number>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="value">
+         <number>100</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="actionName" stdset="0">
+         <string>spindle.override</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>1770</y>
+          <width>81</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>LCDMono</family>
+          <pointsize>55</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(56, 54, 57);
+background-color: rgb(136, 138, 133,0);
+ 
+ 
+ </string>
+        </property>
+        <property name="text">
+         <string>S:</string>
         </property>
        </widget>
        <zorder>statusled_8</zorder>
@@ -8471,6 +9014,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
        <zorder>label_27</zorder>
        <zorder>Ref_z_LED_3</zorder>
        <zorder>label_57</zorder>
+       <zorder>halcheckbox</zorder>
        <zorder>zero_y_button</zorder>
        <zorder>iso_view_button</zorder>
        <zorder>x_view_button</zorder>
@@ -8499,12 +9043,27 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
        <zorder>XY_Zero_3</zorder>
        <zorder>XY_Zero_4</zorder>
        <zorder>Feed_2</zorder>
-       <zorder>line_5</zorder>
        <zorder>Modee_label_2</zorder>
        <zorder>statusled_4</zorder>
-       <zorder>Start_2</zorder>
-       <zorder>line_6</zorder>
-       <zorder>halcheckbox</zorder>
+       <zorder>Step</zorder>
+       <zorder>Coolant</zorder>
+       <zorder>Mist</zorder>
+       <zorder>statusled_9</zorder>
+       <zorder>statusled_10</zorder>
+       <zorder>M01</zorder>
+       <zorder>BlockDel</zorder>
+       <zorder>statusled_11</zorder>
+       <zorder>statusled_12</zorder>
+       <zorder>SpnM3</zorder>
+       <zorder>label_76</zorder>
+       <zorder>SpnM4</zorder>
+       <zorder>SpnM5</zorder>
+       <zorder>label_77</zorder>
+       <zorder>label_78</zorder>
+       <zorder>statuslabel_8</zorder>
+       <zorder>actionbutton_32</zorder>
+       <zorder>actionslider</zorder>
+       <zorder>label_19</zorder>
       </widget>
      </widget>
     </item>
@@ -8702,6 +9261,22 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
     <hint type="destinationlabel">
      <x>488</x>
      <y>188</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>halcheckbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>vtkbackplot_2</receiver>
+   <slot>setViewMachine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>747</y>
     </hint>
    </hints>
   </connection>
