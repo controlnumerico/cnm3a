@@ -8434,7 +8434,7 @@ image: url(/home/cnc/cnm3a/src/cnm3a/ui/rs/Cycle_start_on.png);
        <widget class="HalCheckBox" name="halcheckbox">
         <property name="geometry">
          <rect>
-          <x>330</x>
+          <x>350</x>
           <y>1690</y>
           <width>151</width>
           <height>61</height>
