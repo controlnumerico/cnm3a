@@ -8895,7 +8895,7 @@ background-color: rgb(136, 138, 133,0);
         <property name="geometry">
          <rect>
           <x>280</x>
-          <y>1820</y>
+          <y>1800</y>
           <width>65</width>
           <height>40</height>
          </rect>
